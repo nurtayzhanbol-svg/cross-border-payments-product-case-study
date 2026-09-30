@@ -1,0 +1,40 @@
+sheet,column,python_type,rows,n_periods,periods
+Dataset (from Q2 2016),id,int,191181,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),id,str,13288,3,"2020_2Q, 2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc1 lcu amount,int,191178,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 lcu amount,str,13291,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc1 denomination amount,int,191178,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 denomination amount,str,13291,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc1 lcu fee,float,85272,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 lcu fee,int,105890,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 lcu fee,str,13285,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc1 lcu fx rate,float,160756,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 lcu fx rate,int,30407,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 lcu fx rate,str,13284,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc1 fx margin,float,161503,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 fx margin,int,29664,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 fx margin,str,13284,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc1 total cost %,float,181592,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 total cost %,int,9575,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc1 total cost %,str,13284,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc2 lcu amount,int,191178,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 lcu amount,str,13291,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc2 denomination amount,int,191178,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 denomination amount,str,13291,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc2 lcu fee,float,81400,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 lcu fee,int,108785,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 lcu fee,str,13212,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc2 lcu fx rate,float,159929,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 lcu fx rate,int,30255,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 lcu fx rate,str,13213,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc2 fx margin,float,160681,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 fx margin,int,29504,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 fx margin,str,13213,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),cc2 total cost %,float,182927,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 total cost %,int,7258,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),cc2 total cost %,str,13212,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),inter lcu bank fx,float,165922,36,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),inter lcu bank fx,int,25260,35,2016_2Q .. 2025_3Q
+Dataset (from Q2 2016),inter lcu bank fx,str,13287,2,"2024_3Q, 2024_4Q"
+Dataset (from Q2 2016),date,datetime,13117,2,"2025_1Q, 2025_3Q"
+Dataset (from Q2 2016),date,str,191352,35,2016_2Q .. 2024_4Q

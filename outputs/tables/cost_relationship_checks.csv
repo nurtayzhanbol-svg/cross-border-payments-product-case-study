@@ -1,0 +1,9 @@
+sheet,amount,relationship,rows_testable,rows_with_zero_denominator,within_0.01pp,within_0.1pp,within_1pp,rows_off_by_more_than_1pp,max_abs_diff_pp
+Dataset (up to Q1 2016),cc1,total = fee/amount*100 + margin,49381,0,99.57,99.58,99.8,100,26.471
+Dataset (up to Q1 2016),cc1,margin = (1 - fx/inter)*100,49490,0,96.02,97.93,99.91,43,95.855
+Dataset (up to Q1 2016),cc2,total = fee/amount*100 + margin,49178,103,99.64,99.66,99.94,30,12.095
+Dataset (up to Q1 2016),cc2,margin = (1 - fx/inter)*100,49191,0,95.99,97.91,99.91,45,6787.13
+Dataset (from Q2 2016),cc1,total = fee/amount*100 + margin,204445,0,99.96,99.98,99.99,29,23.32
+Dataset (from Q2 2016),cc1,margin = (1 - fx/inter)*100,204446,1,94.83,97.81,99.79,426,370469.639
+Dataset (from Q2 2016),cc2,total = fee/amount*100 + margin,203396,0,99.97,99.98,99.99,25,7.143
+Dataset (from Q2 2016),cc2,margin = (1 - fx/inter)*100,203395,1,95.16,98.04,99.84,326,370469.639

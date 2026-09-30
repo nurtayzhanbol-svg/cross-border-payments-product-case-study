@@ -44,3 +44,25 @@ Verify integrity with: `sha256sum data/raw/rpw_dataset_2011_2025_q3.xlsx`
 - Must not claim or imply World Bank endorsement or use World Bank logos/trademarks.
 - Some data may be subject to third-party restrictions ("Terms of use: Restricted Data" list).
 - Links in the workbook: http://go.worldbank.org/C09SUA7BK0, http://go.worldbank.org/OJC02YMLA0, http://go.worldbank.org/R6942GMMH0
+
+## Licensing and the "Restricted Data" clause (checked in Phase 3, 2026-09-30)
+
+**Question.** The workbook's Terms of Use say that some data may be restricted by third parties, as listed on a separate "Terms of use: Restricted Data" page. Does any restriction apply to the data in `rpw_dataset_2011_2025_q3.xlsx`?
+
+**Official sources checked**
+
+| Source | What it says |
+|---|---|
+| Workbook hyperlinks (`http://go.worldbank.org/C09SUA7BK0`, `.../OJC02YMLA0`, `.../R6942GMMH0`) | These legacy short links did not resolve from this environment (DNS/connection failure), so they could not be followed directly. |
+| RPW data-download page, https://remittanceprices.worldbank.org/data-download | Repeats the same Terms of Use summary as the workbook: data may be copied, distributed, adapted, displayed or included in other products, commercially or not, subject to attribution, no implied endorsement, and the Restricted Data check. It names no RPW-specific restriction. |
+| World Bank "Restricted Data" page, https://data.worldbank.org/restricted-data | "Some datasets and indicators are provided by third parties … Where applicable, these conditions are included in the dataset or indicator metadata, and as such the conditions are no longer presented on this page. This page is provided for legacy purposes only." The page no longer contains a list. |
+| World Bank Data Catalog entry for RPW, https://datacatalog.worldbank.org/search/dataset/0037898/remittance-prices-worldwide | "Data Access and Licensing: This dataset is classified as **Public** under the Access to Information Classification Policy. Users inside and outside the Bank can access this dataset." No third-party restriction or separate licence condition is shown in the retrieved metadata. |
+
+**Conclusion (with its limits).**
+- The official "Restricted Data" list no longer exists. The World Bank now puts third-party conditions in each dataset's metadata.
+- The RPW metadata reviewed classifies the dataset as Public and shows **no third-party restriction**.
+- The RPW Terms of Use (attribution, no implied endorsement, no warranty) apply.
+- On this evidence, no specific restriction was found for the RPW data in this workbook, and committing and redistributing it with attribution is consistent with the stated terms.
+- This is not a legal opinion. The individual metadata pages for the four RPW sub-resources in the Data Catalog, and the legacy short-link targets, could not be fully retrieved. If certainty is needed (e.g. for commercial reuse), confirm with the contact named in the workbook, paymentsystems@worldbank.org, or data@worldbank.org (named in the Data Catalog).
+
+**Note on data vintage.** The download page says data "from 2011 to Q1 2025" are available in Excel. The provided file contains periods up to `2025_3Q`. So the provided file is newer than the vintage that page describes, or the page text is out of date. The file's provenance cannot be confirmed beyond what the file itself contains.

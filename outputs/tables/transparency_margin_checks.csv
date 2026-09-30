@@ -1,0 +1,9 @@
+sheet,amount,transparent,rows,margin_eq_0,margin_lt_0,fx_rate_eq_inter_rate,fx_rate_eq_1,note_says_not_transparent
+Dataset (up to Q1 2016),cc1,no,4057,4036,1,4037,4033,3962
+Dataset (up to Q1 2016),cc1,yes,45434,8866,1800,8507,6782,6
+Dataset (up to Q1 2016),cc2,no,4057,3983,2,3990,3986,3962
+Dataset (up to Q1 2016),cc2,yes,45434,8817,1806,8557,6733,6
+Dataset (from Q2 2016),cc1,no,3361,3351,0,3352,3352,3315
+Dataset (from Q2 2016),cc1,yes,201108,25885,9169,25261,21169,282
+Dataset (from Q2 2016),cc2,no,3361,3349,0,3350,3350,3315
+Dataset (from Q2 2016),cc2,yes,201108,25739,9129,25121,21037,282

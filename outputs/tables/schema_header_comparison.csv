@@ -1,0 +1,48 @@
+column,pre_position,post_position,in_pre,in_post,status
+id,0.0,0.0,True,True,both
+period,1.0,1.0,True,True,both
+source_code,2.0,2.0,True,True,both
+source_name,3.0,3.0,True,True,both
+source_region,4.0,4.0,True,True,both
+source_income,5.0,5.0,True,True,both
+source_lending,6.0,6.0,True,True,both
+source_G8G20,7.0,7.0,True,True,both
+destination_code,8.0,8.0,True,True,both
+destination_name,9.0,9.0,True,True,both
+destination_region,10.0,10.0,True,True,both
+destination_income,11.0,11.0,True,True,both
+destination_lending,12.0,12.0,True,True,both
+destination_G8G20,13.0,13.0,True,True,both
+firm,14.0,14.0,True,True,both
+firm_type,15.0,15.0,True,True,both
+product,16.0,,True,False,pre only
+sending location,17.0,,True,False,pre only
+speed actual,18.0,18.0,True,True,both
+cc1 lcu amount,19.0,19.0,True,True,both
+cc1 denomination amount,20.0,20.0,True,True,both
+cc1 lcu code,21.0,21.0,True,True,both
+cc1 lcu fee,22.0,22.0,True,True,both
+cc1 lcu fx rate,23.0,23.0,True,True,both
+cc1 fx margin,24.0,24.0,True,True,both
+cc1 total cost %,25.0,25.0,True,True,both
+cc2 lcu amount,26.0,26.0,True,True,both
+cc2 denomination amount,27.0,27.0,True,True,both
+cc2 lcu code,28.0,28.0,True,True,both
+cc2 lcu fee,29.0,29.0,True,True,both
+cc2 lcu fx rate,30.0,30.0,True,True,both
+cc2 fx margin,31.0,31.0,True,True,both
+cc2 total cost %,32.0,32.0,True,True,both
+inter lcu bank fx,33.0,33.0,True,True,both
+transparent,34.0,34.0,True,True,both
+note1,35.0,,True,False,pre only
+note2,36.0,36.0,True,True,both
+coverage,37.0,,True,False,pre only
+pick-up method,38.0,,True,False,pre only
+date,39.0,40.0,True,True,both
+corridor,40.0,41.0,True,True,both
+payment instrument,,16.0,False,True,post only
+access point,,17.0,False,True,post only
+Standard Note,,35.0,False,True,post only
+receiving network coverage,,37.0,False,True,post only
+pickup location,,38.0,False,True,post only
+pickup method,,39.0,False,True,post only

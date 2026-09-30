@@ -1,0 +1,20 @@
+sheet,columns,n_cols,rows,distinct_keys,rows_in_duplicate_groups,unique
+Dataset (up to Q1 2016),id,1,49491,49486,10,False
+Dataset (up to Q1 2016),period + id,2,49491,49491,0,True
+Dataset (up to Q1 2016),period + source_code + destination_code + firm,4,49491,34386,25225,False
+Dataset (up to Q1 2016),period + source_code + destination_code + firm + product,5,49491,43836,10634,False
+Dataset (up to Q1 2016),period + source_code + destination_code + firm + product + sending location,6,49491,44926,8475,False
+Dataset (up to Q1 2016),period + source_code + destination_code + firm + product + sending location + speed actual,7,49491,47011,4591,False
+Dataset (up to Q1 2016),period + source_code + destination_code + firm + product + sending location + speed actual + pick-up method + coverage,9,49491,47304,4016,False
+Dataset (up to Q1 2016),period + source_code + destination_code + firm + product + sending location + speed actual + pick-up method + coverage + cc1 lcu fee + cc1 total cost %,11,49491,49296,390,False
+Dataset (up to Q1 2016),ALL columns except id,40,49491,49358,266,False
+Dataset (from Q2 2016),id,1,204469,204469,0,True
+Dataset (from Q2 2016),period + id,2,204469,204469,0,True
+Dataset (from Q2 2016),period + source_code + destination_code + firm,4,204469,111555,139945,False
+Dataset (from Q2 2016),period + source_code + destination_code + firm + payment instrument,5,204469,162191,76661,False
+Dataset (from Q2 2016),period + source_code + destination_code + firm + payment instrument + access point,6,204469,173461,57700,False
+Dataset (from Q2 2016),period + source_code + destination_code + firm + payment instrument + access point + pickup method,7,204469,196316,15598,False
+Dataset (from Q2 2016),period + source_code + destination_code + firm + payment instrument + access point + pickup method + speed actual,8,204469,198086,12341,False
+Dataset (from Q2 2016),period + source_code + destination_code + firm + payment instrument + access point + pickup method + speed actual + pickup location + receiving network coverage,10,204469,198344,11859,False
+Dataset (from Q2 2016),period + source_code + destination_code + firm + payment instrument + access point + pickup method + speed actual + pickup location + receiving network coverage + cc1 lcu fee + cc1 total cost %,12,204469,204184,563,False
+Dataset (from Q2 2016),ALL columns except id,46,204469,204280,372,False
