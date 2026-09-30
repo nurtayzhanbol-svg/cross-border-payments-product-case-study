@@ -1,0 +1,35 @@
+sheet,column,variants,rows
+Dataset (up to Q1 2016),firm,Azimo | azimo,485
+Dataset (up to Q1 2016),pick-up method,"ATM, Bank Account | ATM, Bank account",426
+Dataset (up to Q1 2016),pick-up method,Bank Account | Bank account | bank Account,13220
+Dataset (up to Q1 2016),pick-up method,"Bank Account, Home Delivery | Bank account, Home delivery",67
+Dataset (up to Q1 2016),pick-up method,"Cash, Bank Account | Cash, Bank account",1035
+Dataset (up to Q1 2016),pick-up method,"Cash, Bank Account, Home Delivery | Cash, Bank account, Home delivery",22
+Dataset (up to Q1 2016),pick-up method,"Door to Door, Bank Account | Door to door, Bank account",5
+Dataset (up to Q1 2016),pick-up method,Home Delivery | Home delivery,936
+Dataset (up to Q1 2016),pick-up method,Own/Partner bank account | Own/partner Bank Account | own/partner Bank Account,1471
+Dataset (from Q2 2016),firm,ACE Money Transfer | Ace Money Transfer,447
+Dataset (from Q2 2016),firm,AisRemesasCuba.com | AisRemesasCuba.com ,16
+Dataset (from Q2 2016),firm,Al Muzaini Exchange | Al Muzaini Exchange ,296
+Dataset (from Q2 2016),firm,Al Salam Exchange | Al Salam Exchange ,105
+Dataset (from Q2 2016),firm,BPR Bank Rwanda PLC | BPR Bank Rwanda Plc,30
+Dataset (from Q2 2016),firm,Casa de Cambio Delgado | Casa de cambio Delgado,125
+Dataset (from Q2 2016),firm,Ecobank RapidCash | Ecobank Rapidcash,130
+Dataset (from Q2 2016),firm,Habib Express | Habib Express ,9
+Dataset (from Q2 2016),firm,Musharbash Exchange | Musharbash Exchange ,102
+Dataset (from Q2 2016),firm,Palestine Office for Exchange | Palestine Office for Exchange ,36
+Dataset (from Q2 2016),firm,Sahloul Exchange | Sahloul Exchange ,36
+Dataset (from Q2 2016),firm,SBI Remit | SBI remit,296
+Dataset (from Q2 2016),firm,TapTap Send | Taptap Send,203
+Dataset (from Q2 2016),firm,ValYou | Valyou,277
+Dataset (from Q2 2016),firm_type,Money Transfer Operator / Post Office | Money Transfer Operator / Post office,1996
+Dataset (from Q2 2016),firm_type,Post Office | Post office,1723
+Dataset (from Q2 2016),payment instrument,Credit Card | Credit card,19085
+Dataset (from Q2 2016),speed actual,Less than one hour | less than one hour,101911
+Dataset (from Q2 2016),speed actual,Next Day | Next day,23468
+Dataset (from Q2 2016),transparent,Yes | yes,201108
+Dataset (from Q2 2016),receiving network coverage,Low | low,12102
+Dataset (from Q2 2016),pickup method,Own/partner Bank account | Own/partner bank account,2506
+Dataset (from Q2 2016),pickup location,Agent | Agent ,84959
+Dataset (from Q2 2016),pickup location,ATM Network | ATM network,413
+Dataset (from Q2 2016),pickup location,Home Delivery | Home delivery,1198

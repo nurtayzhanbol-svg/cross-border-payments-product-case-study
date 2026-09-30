@@ -1,0 +1,89 @@
+sheet,column,rows,blank_or_null,whitespace_only,'..','n/a','N/A','NA','-','Not available','none','None'
+Dataset (up to Q1 2016),id,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),period,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),source_code,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),source_name,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),source_region,49491,0,0,45452,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),source_income,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),source_lending,49491,0,0,42712,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),source_G8G20,49491,0,0,13748,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),destination_code,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),destination_name,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),destination_region,49491,0,0,1656,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),destination_income,49491,0,0,121,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),destination_lending,49491,0,0,784,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),destination_G8G20,49491,0,0,39216,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),firm,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),firm_type,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),product,49491,0,0,0,0,214,0,0,0,0,0
+Dataset (up to Q1 2016),sending location,49491,0,0,0,0,0,0,0,16559,0,0
+Dataset (up to Q1 2016),speed actual,49491,0,0,0,0,10,0,0,0,0,0
+Dataset (up to Q1 2016),cc1 lcu amount,49491,103,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc1 denomination amount,49491,80,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc1 lcu code,49491,1,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc1 lcu fee,49491,6,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc1 lcu fx rate,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc1 fx margin,49491,1,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc1 total cost %,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc2 lcu amount,49491,1,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc2 denomination amount,49491,78,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc2 lcu code,49491,4,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc2 lcu fee,49491,208,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc2 lcu fx rate,49491,294,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc2 fx margin,49491,186,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),cc2 total cost %,49491,187,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),inter lcu bank fx,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),transparent,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),note1,49491,31495,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),note2,49491,43768,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),coverage,49491,18,0,0,0,2,0,0,0,0,0
+Dataset (up to Q1 2016),pick-up method,49491,9388,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),date,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (up to Q1 2016),corridor,49491,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),id,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),period,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),source_code,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),source_name,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),source_region,204469,0,0,178796,0,0,0,0,0,0,0
+Dataset (from Q2 2016),source_income,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),source_lending,204469,0,0,175978,0,0,0,0,0,0,0
+Dataset (from Q2 2016),source_G8G20,204469,0,0,71450,0,0,0,0,0,0,0
+Dataset (from Q2 2016),destination_code,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),destination_name,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),destination_region,204469,0,0,3872,0,0,0,0,0,0,0
+Dataset (from Q2 2016),destination_income,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),destination_lending,204469,0,0,3136,0,0,0,0,0,0,0
+Dataset (from Q2 2016),destination_G8G20,204469,0,0,164393,0,0,0,0,0,0,0
+Dataset (from Q2 2016),firm,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),firm_type,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),payment instrument,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),access point,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),speed actual,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc1 lcu amount,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc1 denomination amount,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc1 lcu code,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc1 lcu fee,204469,22,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc1 lcu fx rate,204469,22,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc1 fx margin,204469,18,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc1 total cost %,204469,18,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc2 lcu amount,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc2 denomination amount,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc2 lcu code,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc2 lcu fee,204469,1072,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc2 lcu fx rate,204469,1072,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc2 fx margin,204469,1071,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),cc2 total cost %,204469,1072,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),inter lcu bank fx,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),transparent,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),Standard Note,204469,155892,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),note2,204469,204181,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),receiving network coverage,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),pickup location,204469,115614,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),pickup method,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),date,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),corridor,204469,0,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),Unnamed: 42,204469,197999,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),Unnamed: 43,204469,197999,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),Unnamed: 44,204469,197999,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),Unnamed: 45,204469,197999,0,0,0,0,0,0,0,0,0
+Dataset (from Q2 2016),Unnamed: 46,204469,197999,0,0,0,0,0,0,0,0,0

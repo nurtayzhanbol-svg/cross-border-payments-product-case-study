@@ -1,0 +1,37 @@
+term,definition
+Legend,
+id,id number applied to each service
+period,data collection period
+source,country where money is sent from
+destination,country where money is sent to
+_code,ISO 3166-1 alpha-3 country code
+_name,country name
+_region,country's World Bank region
+_income,country's income group
+_lending,country's lending category
+_G8G20,country's membership of G8 and/or G20 group
+firm,remittance service provider offering the service
+firm type,type of remittance service provider offering the service
+product,type(s) of product offered
+speed actual,time it takes for the money to be available for the receiver
+sending location,type of location where the service is available
+cc(X) denomination amount,surveyed amount sent in USD
+cc(X) lcu amount,surveyed amount sent in local currency of the sending country
+cc(X) lcu code,local currency of the sending country
+cc(X) lcu fee,fee in local currency
+cc(X) lcu fx rate,foreign currency exchange rate applied to the transaction by the remittance service provider
+cc(X) fx margin,percentage difference between the foreign currency exchange rate applied to the transaction by the remittance service provider and the interbank exchange rate
+cc(X) total cost %,total cost of the transaction in percentage
+inter lcu bank fx,interbank exchange rate
+transparent,"if yes, indicates that the RSP provided the researcher with the exchange rate applied to the transaction; if no, indicates that this information was not provided"
+standard note,provides additional information on the service
+standard note 2,provides additional information on the service
+coverage,ranks the extensiveness of the network in the receiving country
+pickup method,indicates how the money can be picked up in the receiving country
+date,day when the information was collected
+"NOTE: as of Q2 2016, categories changed as follows",
+product,dropped
+sending location,"renamed ""access point"""
+coverage,"renamed ""receiving network coverage"""
+payment instrument,NEW: instrument used by the sender to pay for the transaction
+sending network coverage,NEW: ranks the extensiveness of the network of the firm in the sending country

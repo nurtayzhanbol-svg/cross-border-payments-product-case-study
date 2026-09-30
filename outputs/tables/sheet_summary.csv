@@ -1,0 +1,16 @@
+,Dataset (up to Q1 2016),Dataset (from Q2 2016)
+rows,49491,204469
+columns_read,41,47
+meaningful_columns,41,42
+first_period,2011_1Q,2016_2Q
+last_period,2016_1Q,2025_3Q
+n_periods,17,37
+unique_source_countries,35,49
+unique_destination_countries,105,105
+unique_corridors,310,372
+unique_source_dest_pairs,310,368
+unique_firms,637,713
+unique_firm_types,10,11
+unique_ids,49486,204469
+duplicate_rows_full,0,0
+duplicate_rows_excluding_id,133,189
