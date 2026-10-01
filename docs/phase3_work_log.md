@@ -133,7 +133,7 @@ Phase 3 aimed to understand exactly what the World Bank RPW workbook contains. T
 - **Phase 4 strategy.** Proposed in `docs/dataset_quality_report.md` §8.
 
 ### Step 12 — Verification and delivery
-- **Notebook run.** Executed end-to-end with `jupyter nbconvert --execute` (about 2 minutes) and validated with `nbformat`.
+- **Notebook run.** Executed end-to-end with `jupyter nbconvert --execute` (takes a few minutes) and validated with `nbformat`.
 - **Raw-file check.** Confirmed the raw file hash is unchanged, and that `git status` shows no change under `data/raw/`.
 - **PR.** Committed on a feature branch and opened PR #1. It has since been merged.
 
