@@ -53,6 +53,7 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/01_dataset_underst
 - [`docs/data_dictionary.md`](docs/data_dictionary.md) — field definitions and unit of observation
 - [`docs/schema_comparison.md`](docs/schema_comparison.md) — pre- vs post-Q2-2016 schema
 - [`docs/dataset_quality_report.md`](docs/dataset_quality_report.md) — structural profile, workbook issues, cost-field validation, harmonization plan
+- [`docs/phase3_work_log.md`](docs/phase3_work_log.md) — step-by-step log of the Phase 3 work and decisions
 
 ## Disclaimer
 This is an independent portfolio project using publicly available data. It is not affiliated with, endorsed by, or based on internal data from Wise or the World Bank.
