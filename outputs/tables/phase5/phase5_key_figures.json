@@ -1,0 +1,240 @@
+{
+  "window": [
+    "2024_3Q",
+    "2024_4Q",
+    "2025_1Q",
+    "2025_3Q"
+  ],
+  "notes": "Unweighted survey statistics; quote counts are not volumes.",
+  "wise": {
+    "provider_names_mapped": [
+      "Wise",
+      "TransferWise"
+    ],
+    "latest_window_quotes": 1958,
+    "latest_window_records": 979,
+    "corridors_with_wise": 127,
+    "corridors_total": 348,
+    "sending_markets_with_wise": 23,
+    "payout_groups": {
+      "bank account": 976,
+      "mobile wallet": 3
+    },
+    "by_amount": {
+      "usd200": {
+        "corridors": 127,
+        "median_wise_total": 2.65,
+        "median_wise_fee_pct": 2.54,
+        "median_wise_fx": 0.01,
+        "median_share_cheaper_all": 23.6,
+        "median_share_cheaper_lfl": 45.0,
+        "median_gap_vs_median_pp": -1.21,
+        "median_gap_vs_p10_pp": 0.49,
+        "median_gap_vs_min_pp": 1.13,
+        "share_corridors_top_decile": 30.7,
+        "share_corridors_below_median": 73.2,
+        "share_corridors_above_median": 26.8,
+        "share_corridors_wise_above_3pct": 42.5
+      },
+      "usd500": {
+        "corridors": 127,
+        "median_wise_total": 1.92,
+        "median_wise_fee_pct": 1.8,
+        "median_wise_fx": 0.01,
+        "median_share_cheaper_all": 23.5,
+        "median_share_cheaper_lfl": 34.4,
+        "median_gap_vs_median_pp": -0.93,
+        "median_gap_vs_p10_pp": 0.48,
+        "median_gap_vs_min_pp": 0.85,
+        "share_corridors_top_decile": 29.9,
+        "share_corridors_below_median": 79.5,
+        "share_corridors_above_median": 20.5,
+        "share_corridors_wise_above_3pct": 23.6
+      }
+    },
+    "implied_variable_fee_pct_median": 1.29,
+    "implied_fixed_fee_usd_median": 2.23,
+    "fx_margin_le_0_5_share": 89.8,
+    "cheaper_alternatives_usd200": {
+      "quotes": 3195,
+      "provider_type_share": {
+        "Money transfer operator": 91.2,
+        "Bank": 6.6,
+        "Mixed / multiple types": 1.8,
+        "Post office": 0.3
+      },
+      "payout_share": {
+        "bank account": 45.8,
+        "cash": 42.7,
+        "mobile wallet": 11.2,
+        "card": 0.3
+      },
+      "zero_fee_share": 27.5,
+      "median_fx_margin": 1.12,
+      "median_fee_pct": 1.42
+    }
+  },
+  "zero_fee": {
+    "usd200": {
+      "zero_fee_share": 9.4,
+      "zero_fee_median_total": 1.5,
+      "fee_bearing_median_total": 4.86,
+      "zero_fee_mean_total": 1.85,
+      "fee_bearing_mean_total": 6.91,
+      "zero_fee_median_fx": 1.5,
+      "fee_bearing_median_fx": 1.36,
+      "zero_fee_mean_fx": 1.85,
+      "fee_bearing_mean_fx": 2.04,
+      "within_corridor": {
+        "corridors_with_both": 205,
+        "share_zero_fee_cheaper": 95.1,
+        "median_gap_pp": -3.15
+      }
+    },
+    "usd500": {
+      "zero_fee_share": 9.8,
+      "zero_fee_median_total": 1.46,
+      "fee_bearing_median_total": 3.33,
+      "zero_fee_mean_total": 1.83,
+      "fee_bearing_mean_total": 4.49,
+      "zero_fee_median_fx": 1.46,
+      "fee_bearing_median_fx": 1.34,
+      "zero_fee_mean_fx": 1.83,
+      "fee_bearing_mean_fx": 2.04,
+      "within_corridor": {
+        "corridors_with_both": 203,
+        "share_zero_fee_cheaper": 90.6,
+        "median_gap_pp": -1.67
+      }
+    }
+  },
+  "panel": {
+    "unit": "median USD 200 total cost per corridor \u00d7 canonical provider \u00d7 period",
+    "cross_section_median_start": 6.0,
+    "cross_section_median_end": 4.13,
+    "pairs_start": 2813,
+    "pairs_end": 2720,
+    "pairs_both": 1679,
+    "survival_share_pct": 59.7,
+    "survivors_start_median": 6.48,
+    "exiters_start_median": 5.17,
+    "entrants_end_median": 4.12,
+    "survivors_end_median": 4.54,
+    "pair_change_median_pp": -1.15,
+    "pair_change_mean_pp": -0.45,
+    "share_pairs_fell_pct": 66.3,
+    "share_pairs_rose_pct": 32.5,
+    "pair_level_median_start": 6.48,
+    "pair_level_median_end": 4.54
+  },
+  "sensitivity": {
+    "specifications": {
+      "baseline_keep_negatives": {
+        "quotes": 26403,
+        "corridors": 348,
+        "median_of_corridor_medians": 4.5,
+        "median_gap_median_minus_p10_pp": 2.22,
+        "share_corridors_min_le_3_pooled": 87.6,
+        "share_corridor_quarters_min_le_3": 76.5,
+        "share_corridors_p10_le_3": 70.7,
+        "fx_share_of_mean_cost_pct": 31.4,
+        "share_fx_gt_fee_pct": 33.5,
+        "zero_fee_median_total": 1.5,
+        "fee_bearing_median_total": 4.86
+      },
+      "drop_negative_total": {
+        "quotes": 26059,
+        "corridors": 348,
+        "median_of_corridor_medians": 4.58,
+        "median_gap_median_minus_p10_pp": 2.15,
+        "share_corridors_min_le_3_pooled": 87.6,
+        "share_corridor_quarters_min_le_3": 76.5,
+        "share_corridors_p10_le_3": 69.5,
+        "fx_share_of_mean_cost_pct": 32.2,
+        "share_fx_gt_fee_pct": 34.0,
+        "zero_fee_median_total": 1.66,
+        "fee_bearing_median_total": 4.89
+      },
+      "drop_negative_total_or_fx": {
+        "quotes": 24891,
+        "corridors": 348,
+        "median_of_corridor_medians": 4.72,
+        "median_gap_median_minus_p10_pp": 2.09,
+        "share_corridors_min_le_3_pooled": 85.3,
+        "share_corridor_quarters_min_le_3": 73.3,
+        "share_corridors_p10_le_3": 65.8,
+        "fx_share_of_mean_cost_pct": 33.7,
+        "share_fx_gt_fee_pct": 35.6,
+        "zero_fee_median_total": 1.66,
+        "fee_bearing_median_total": 5.0
+      },
+      "drop_zero_margin_non_wise_post_2021Q3": {
+        "quotes": 23798,
+        "corridors": 332,
+        "median_of_corridor_medians": 4.57,
+        "median_gap_median_minus_p10_pp": 2.14,
+        "share_corridors_min_le_3_pooled": 84.6,
+        "share_corridor_quarters_min_le_3": 72.1,
+        "share_corridors_p10_le_3": 67.5,
+        "fx_share_of_mean_cost_pct": 35.2,
+        "share_fx_gt_fee_pct": 37.2,
+        "zero_fee_median_total": 1.57,
+        "fee_bearing_median_total": 4.87
+      }
+    },
+    "corridors_ge_20_quotes": 329,
+    "share_min_le_3_ge20": 89.7,
+    "share_p10_le_3_ge20": 72.0,
+    "zero_margin_share_yes_by_year": {
+      "2016": 16.9,
+      "2017": 16.1,
+      "2018": 15.4,
+      "2019": 14.1,
+      "2020": 13.8,
+      "2021": 11.6,
+      "2022": 11.3,
+      "2023": 11.7,
+      "2024": 11.0,
+      "2025": 11.1
+    },
+    "zero_margin_share_yes_by_year_excl_wise": {
+      "2016": 17.1,
+      "2017": 16.2,
+      "2018": 15.5,
+      "2019": 14.1,
+      "2020": 13.9,
+      "2021": 10.8,
+      "2022": 10.4,
+      "2023": 10.7,
+      "2024": 10.4,
+      "2025": 10.4
+    }
+  },
+  "opportunity_screens": {
+    "corridors": 348,
+    "wise_surveyed": 127,
+    "corridors_from_wise_sending_markets_without_wise_quote": 132,
+    "median_total_without_wise_from_wise_markets": 4.92,
+    "median_cash_share_without_wise": 70.7,
+    "median_cash_share_with_wise": 48.5,
+    "median_wallet_share_without_wise": 0.0,
+    "payout_method_medians": {
+      "bank account": {
+        "quotes": 9958,
+        "median": 4.15
+      },
+      "card": {
+        "quotes": 89,
+        "median": 3.52
+      },
+      "cash": {
+        "quotes": 14467,
+        "median": 4.94
+      },
+      "mobile wallet": {
+        "quotes": 1889,
+        "median": 3.61
+      }
+    }
+  }
+}

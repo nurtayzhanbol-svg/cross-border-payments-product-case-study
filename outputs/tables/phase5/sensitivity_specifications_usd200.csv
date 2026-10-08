@@ -1,0 +1,5 @@
+specification,quotes,corridors,median_of_corridor_medians,median_gap_median_minus_p10_pp,share_corridors_min_le_3_pooled,share_corridor_quarters_min_le_3,share_corridors_p10_le_3,fx_share_of_mean_cost_pct,share_fx_gt_fee_pct,zero_fee_median_total,fee_bearing_median_total
+baseline_keep_negatives,26403,348,4.5,2.22,87.6,76.5,70.7,31.4,33.5,1.5,4.86
+drop_negative_total,26059,348,4.58,2.15,87.6,76.5,69.5,32.2,34.0,1.66,4.89
+drop_negative_total_or_fx,24891,348,4.72,2.09,85.3,73.3,65.8,33.7,35.6,1.66,5.0
+drop_zero_margin_non_wise_post_2021Q3,23798,332,4.57,2.14,84.6,72.1,67.5,35.2,37.2,1.57,4.87
