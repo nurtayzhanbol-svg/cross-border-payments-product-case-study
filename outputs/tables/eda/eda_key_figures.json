@@ -1,0 +1,204 @@
+{
+  "population": {
+    "quotes_total": 507920,
+    "complete_cost_eligible_cc1": 245469,
+    "latest_window": [
+      "2024_3Q",
+      "2024_4Q",
+      "2025_1Q",
+      "2025_3Q"
+    ]
+  },
+  "trend": {
+    "first_period": "2011_1Q",
+    "first_mean": 8.76,
+    "mean_2016_2Q": 7.44,
+    "mean_2025_3Q": 6.36,
+    "median_2016_2Q": 6.0,
+    "median_2025_3Q": 4.13,
+    "panel_pairs": 1679,
+    "panel_median_2016_2Q": 6.5,
+    "panel_median_2025_3Q": 4.33
+  },
+  "corridors": {
+    "n_corridors": 348,
+    "median_of_corridor_medians": 4.5,
+    "share_corridor_median_gt_5": 43.4,
+    "share_corridor_median_le_3": 15.5,
+    "share_cheapest_le_3": 87.6,
+    "median_spread_p10_pp": 2.22
+  },
+  "amounts": {
+    "paired": 26245,
+    "median_total_200": 4.5,
+    "mean_total_200": 6.45,
+    "mean_fee_pct_200": 4.42,
+    "mean_fx_margin_200": 2.03,
+    "median_total_500": 3.13,
+    "mean_total_500": 4.23,
+    "mean_fee_pct_500": 2.21,
+    "mean_fx_margin_500": 2.02,
+    "share_500_cheaper_pct": 86.4
+  },
+  "composition": {
+    "latest_mean_fee_pct": 4.41,
+    "latest_mean_fx": 2.02,
+    "latest_fx_share_pct": 31.4,
+    "latest_median_fee_pct": 2.74,
+    "latest_median_fx": 1.38,
+    "share_quotes_fx_gt_fee_pct": 33.5,
+    "share_zero_fee_quotes": 9.4,
+    "zero_fee_mean_fx": 1.85,
+    "fee_bearing_mean_fx": 2.04,
+    "zero_fee_median_total": 1.5,
+    "fee_bearing_median_total": 4.86,
+    "by_provider_type": {
+      "Money transfer operator": {
+        "quotes": 21807,
+        "median_total": 4.24,
+        "median_fee_pct": 2.5,
+        "median_fx_margin": 1.39,
+        "mean_fee_pct": 3.07,
+        "mean_fx_margin": 1.98
+      },
+      "Bank": {
+        "quotes": 3882,
+        "median_total": 9.65,
+        "median_fee_pct": 6.67,
+        "median_fx_margin": 1.41,
+        "mean_fee_pct": 11.8,
+        "mean_fx_margin": 2.26
+      },
+      "Mixed / multiple types": {
+        "quotes": 525,
+        "median_total": 5.06,
+        "median_fee_pct": 3.56,
+        "median_fx_margin": 0.95,
+        "mean_fee_pct": 5.09,
+        "mean_fx_margin": 1.97
+      },
+      "Mobile operator": {
+        "quotes": 92,
+        "median_total": 2.66,
+        "median_fee_pct": 1.84,
+        "median_fx_margin": 0.39,
+        "mean_fee_pct": 2.15,
+        "mean_fx_margin": 1.27
+      },
+      "Post office": {
+        "quotes": 85,
+        "median_total": 7.14,
+        "median_fee_pct": 7.14,
+        "median_fx_margin": 0.13,
+        "mean_fee_pct": 5.73,
+        "mean_fx_margin": 0.81
+      },
+      "Non-bank financial institution": {
+        "quotes": 12,
+        "median_total": 71.24,
+        "median_fee_pct": 50.11,
+        "median_fx_margin": 20.9,
+        "mean_fee_pct": 35.23,
+        "mean_fx_margin": 15.16
+      }
+    }
+  },
+  "channel": {
+    "Digital only": {
+      "quotes": 16273,
+      "median_total": 4.05,
+      "mean_fee": 2.91,
+      "mean_fx": 2.05
+    },
+    "Physical only": {
+      "quotes": 10130,
+      "median_total": 5.88,
+      "mean_fee": 6.83,
+      "mean_fx": 1.98
+    }
+  },
+  "channel_within_corridor": {
+    "corridors_with_both": 326,
+    "median_gap_pp": 1.89,
+    "share_digital_cheaper_pct": 81.0
+  },
+  "transparency": {
+    "pre_share_undisclosed": 8.2,
+    "post_share_undisclosed": 1.8,
+    "complete_eligible_pct": 96.7
+  },
+  "markets": {
+    "n_sending": 46,
+    "cheapest_sending": [
+      "C\u00f4te d'Ivoire",
+      "Kuwait",
+      "Costa Rica"
+    ],
+    "dearest_sending": [
+      "Tanzania",
+      "T\u00fcrkiye",
+      "Senegal"
+    ],
+    "region": {
+      "..": 3.41,
+      "South Asia": 3.45,
+      "Middle East, North Africa, Afghanistan & Pakistan": 3.62,
+      "Europe & Central Asia": 4.32,
+      "East Asia & Pacific": 4.38,
+      "Middle East & North Africa": 4.55,
+      "Latin America & Caribbean": 4.92,
+      "Sub-Saharan Africa": 5.74
+    }
+  },
+  "underserved": {
+    "corridors": 348,
+    "no_quote_le_3": 43,
+    "no_quote_le_5": 12,
+    "no_digital_quote": 19,
+    "top_no_quote_le_5": [
+      [
+        "TURBGR",
+        11.84
+      ],
+      [
+        "ISRMAR",
+        8.93
+      ],
+      [
+        "SAUSYR",
+        8.88
+      ],
+      [
+        "GBRGMB",
+        7.21
+      ],
+      [
+        "USAAFG",
+        6.87
+      ],
+      [
+        "ZAFAGO",
+        6.12
+      ],
+      [
+        "TZARWA",
+        6.01
+      ],
+      [
+        "DOMHTI",
+        5.76
+      ],
+      [
+        "GBRAFG",
+        5.69
+      ],
+      [
+        "AGONAM",
+        5.61
+      ]
+    ],
+    "share_corridors_gap_ge_2pp": 57.5,
+    "median_gap_median_to_p10_pp": 2.22,
+    "negative_total_quotes_excluded_from_cheapest": 344
+  }
+}

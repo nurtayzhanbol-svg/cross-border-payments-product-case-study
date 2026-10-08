@@ -1,0 +1,7 @@
+provider_type,quotes,mean_fee_pct,mean_fx_margin,median_total,median_fee_pct,median_fx_margin,share_zero_fee,fx_share_of_cost
+Money transfer operator,21807,3.068,1.982,4.24,2.495,1.39,0.096,0.392
+Bank,3882,11.8,2.257,9.655,6.667,1.41,0.094,0.161
+Mixed / multiple types,525,5.088,1.97,5.06,3.564,0.95,0.019,0.279
+Mobile operator,92,2.147,1.273,2.66,1.838,0.39,0.011,0.372
+Post office,85,5.731,0.806,7.14,7.143,0.13,0.188,0.123
+Non-bank financial institution,12,35.231,15.155,71.245,50.108,20.905,0.0,0.301

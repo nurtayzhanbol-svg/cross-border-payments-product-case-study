@@ -1,0 +1,349 @@
+corridor_key,source_name,destination_name,destination_region,providers,quotes,min_total,p10,median_total,digital_quotes,min_digital_total,no_quote_le_3pct,no_quote_le_5pct,savings_median_to_p10_pp
+TURBGR,Türkiye,Bulgaria,Europe & Central Asia,10,48,11.84,12.79,67.2,21,18.52,True,True,54.41
+ISRMAR,Israel,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",3,12,8.93,9.225,13.785,0,,True,True,4.56
+SAUSYR,Saudi Arabia,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",1,4,8.88,10.236,13.51,0,,True,True,3.274
+GBRGMB,United Kingdom,"Gambia, The",Sub-Saharan Africa,10,91,7.21,9.38,11.16,75,7.21,True,True,1.78
+USAAFG,United States,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",3,24,6.87,7.576,9.71,13,6.87,True,True,2.134
+ZAFAGO,South Africa,Angola,Sub-Saharan Africa,9,60,6.12,8.063,16.55,23,6.12,True,True,8.487
+TZARWA,Tanzania,Rwanda,Sub-Saharan Africa,6,24,6.01,8.014,43.885,4,6.01,True,True,35.871
+DOMHTI,Dominican Republic,Haiti,Latin America & Caribbean,3,12,5.76,6.312,7.62,0,,True,True,1.308
+GBRAFG,United Kingdom,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",2,21,5.69,8.05,10.96,8,7.54,True,True,2.91
+AGONAM,Angola,Namibia,Sub-Saharan Africa,2,7,5.61,8.208,12.88,0,,True,True,4.672
+SWESOM,Sweden,Somalia,Sub-Saharan Africa,3,39,5.56,5.708,7.27,36,5.56,True,True,1.562
+SAULBN,Saudi Arabia,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",2,8,5.07,5.077,5.455,4,5.4,True,True,0.378
+ZAFZWE,South Africa,Zimbabwe,Sub-Saharan Africa,14,156,4.97,5.36,10.54,72,4.97,True,False,5.18
+ZAFTZA,South Africa,Tanzania,Sub-Saharan Africa,7,62,4.91,6.619,15.24,26,6.13,True,False,8.621
+GBRSSD,United Kingdom,South Sudan,Sub-Saharan Africa,4,34,4.75,5.89,8.32,19,4.75,True,False,2.43
+ZAFZMB,South Africa,Zambia,Sub-Saharan Africa,13,145,4.73,5.96,11.16,55,4.87,True,False,5.2
+USAERI,United States,Eritrea,Sub-Saharan Africa,3,31,4.5,4.5,6.82,16,6.0,True,False,2.32
+CHEALB,Switzerland,Albania,Europe & Central Asia,4,37,4.41,5.28,8.25,20,4.41,True,False,2.97
+NLDSOM,Netherlands,Somalia,Sub-Saharan Africa,2,36,4.28,4.42,6.85,36,4.28,True,False,2.43
+SAUMMR,Saudi Arabia,Myanmar,East Asia & Pacific,3,12,4.21,4.29,6.075,8,4.21,True,False,1.785
+ZAFBWA,South Africa,Botswana,Sub-Saharan Africa,11,117,4.13,6.546,10.43,39,4.24,True,False,3.884
+AREJOR,United Arab Emirates,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",5,24,4.11,4.484,5.29,4,4.97,True,False,0.806
+SAUAFG,Saudi Arabia,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",2,8,4.09,4.167,5.705,4,6.55,True,False,1.538
+USASOM,United States,Somalia,Sub-Saharan Africa,5,20,4.0,5.125,6.0,0,,True,False,0.875
+CANGUY,Canada,Guyana,Latin America & Caribbean,4,49,3.98,7.456,9.09,36,3.98,True,False,1.634
+GBRSOM,United Kingdom,Somalia,Sub-Saharan Africa,6,67,3.89,4.55,6.37,48,3.89,True,False,1.82
+CMRNGA,Cameroon,Nigeria,Sub-Saharan Africa,2,8,3.87,3.905,4.575,0,,True,False,0.67
+GBRERI,United Kingdom,Eritrea,Sub-Saharan Africa,6,53,3.86,4.378,6.34,30,3.86,True,False,1.962
+AUSVUT,Australia,Vanuatu,East Asia & Pacific,7,53,3.79,6.066,8.31,29,3.79,True,False,2.244
+ZAFCHN,South Africa,China,East Asia & Pacific,6,38,3.76,15.813,19.36,6,3.76,True,False,3.547
+SAUETH,Saudi Arabia,Ethiopia,Sub-Saharan Africa,3,15,3.75,3.768,8.66,8,3.75,True,False,4.892
+FRASRB,France,Serbia,Europe & Central Asia,4,47,3.57,4.78,6.71,32,3.76,True,False,1.93
+JPNCHN,Japan,China,East Asia & Pacific,10,54,3.57,5.054,8.665,32,5.18,True,False,3.611
+SAUBGD,Saudi Arabia,Bangladesh,South Asia,7,36,3.51,4.995,7.48,12,3.51,True,False,2.485
+CHLPER,Chile,Peru,Latin America & Caribbean,7,28,3.49,4.064,5.0,0,,True,False,0.936
+ZAFKEN,South Africa,Kenya,Sub-Saharan Africa,11,141,3.44,4.64,7.63,53,3.44,True,False,2.99
+ZAFIND,South Africa,India,South Asia,8,66,3.41,4.32,7.12,19,3.59,True,False,2.8
+DEUALB,Germany,Albania,Europe & Central Asia,3,27,3.21,3.494,4.42,16,3.21,True,False,0.926
+SAUJOR,Saudi Arabia,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",8,48,3.18,4.171,6.15,8,5.1,True,False,1.979
+CHEKSV,Switzerland,Kosovo,Europe & Central Asia,6,38,3.17,3.307,8.44,22,3.17,True,False,5.133
+GHANGA,Ghana,Nigeria,Sub-Saharan Africa,3,28,3.1,7.501,11.1,4,3.1,True,False,3.599
+DEUCHN,Germany,China,East Asia & Pacific,7,64,3.07,3.83,8.16,42,3.07,True,False,4.33
+KORCHN,"Korea, Rep.",China,East Asia & Pacific,12,89,3.03,3.13,6.36,36,3.03,True,False,3.23
+DEULBN,Germany,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",2,23,3.0,3.598,5.56,16,3.0,False,False,1.962
+USASSD,United States,South Sudan,Sub-Saharan Africa,5,25,3.0,3.0,6.0,14,3.0,False,False,3.0
+SAUSSD,Saudi Arabia,South Sudan,Sub-Saharan Africa,1,4,2.99,3.323,4.105,0,,False,False,0.782
+ARESDN,United Arab Emirates,Sudan,Sub-Saharan Africa,4,16,2.97,-27.375,14.705,0,,False,False,42.08
+AREYEM,United Arab Emirates,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",6,24,2.97,2.97,4.91,0,,False,False,1.94
+SWELBN,Sweden,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",4,43,2.94,3.166,6.24,36,2.94,False,False,3.074
+QATNPL,Qatar,Nepal,South Asia,6,27,2.92,3.068,3.49,4,6.43,False,False,0.422
+SAUSDN,Saudi Arabia,Sudan,Sub-Saharan Africa,2,12,2.92,2.92,4.685,8,-27.03,False,False,1.765
+INDLKA,India,Sri Lanka,South Asia,5,38,2.89,4.29,4.83,22,2.89,False,False,0.54
+ITAKSV,Italy,Kosovo,Europe & Central Asia,5,38,2.85,2.85,3.355,16,2.85,False,False,0.505
+ITASRB,Italy,Serbia,Europe & Central Asia,7,57,2.85,2.85,7.07,24,2.85,False,False,4.22
+SAUIDN,Saudi Arabia,Indonesia,East Asia & Pacific,6,40,2.82,2.988,3.86,12,2.82,False,False,0.872
+CRINIC,Costa Rica,Nicaragua,Latin America & Caribbean,5,36,2.75,2.75,2.75,4,5.0,False,False,0.0
+FRACOM,France,Comoros,Sub-Saharan Africa,5,60,2.75,2.85,5.4,36,2.75,False,False,2.55
+ZAFMOZ,South Africa,Mozambique,Sub-Saharan Africa,12,138,2.72,4.027,5.76,57,3.47,False,False,1.733
+THALAO,Thailand,Lao PDR,East Asia & Pacific,10,66,2.72,3.01,15.49,24,4.25,False,False,12.48
+NLDSUR,Netherlands,Suriname,Latin America & Caribbean,7,43,2.71,4.16,7.14,24,2.71,False,False,2.98
+KENUGA,Kenya,Uganda,Sub-Saharan Africa,12,108,2.68,4.73,11.81,36,4.69,False,False,7.08
+KWTJOR,Kuwait,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",6,88,2.68,2.73,3.505,28,2.73,False,False,0.775
+SAUIND,Saudi Arabia,India,South Asia,8,48,2.68,3.28,3.875,12,2.68,False,False,0.595
+CANLKA,Canada,Sri Lanka,South Asia,5,45,2.65,3.006,5.64,32,2.65,False,False,2.634
+SAUEGY,Saudi Arabia,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",7,48,2.62,2.784,3.44,16,2.63,False,False,0.656
+SWECHN,Sweden,China,East Asia & Pacific,7,64,2.61,2.94,5.16,59,2.61,False,False,2.22
+OMNJOR,Oman,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",3,16,2.57,2.695,2.88,0,,False,False,0.185
+GBRJAM,United Kingdom,Jamaica,Latin America & Caribbean,6,83,2.53,3.96,5.94,59,2.53,False,False,1.98
+NZLVUT,New Zealand,Vanuatu,East Asia & Pacific,6,59,2.53,6.156,9.72,36,2.53,False,False,3.564
+QATEGY,Qatar,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",5,23,2.53,2.638,5.76,7,2.58,False,False,3.122
+USAGUY,United States,Guyana,Latin America & Caribbean,5,93,2.53,6.35,9.78,64,2.53,False,False,3.43
+THACHN,Thailand,China,East Asia & Pacific,10,70,2.51,4.53,17.335,35,2.51,False,False,12.805
+USACUB,United States,Cuba,Latin America & Caribbean,3,32,2.5,5.5,11.99,29,2.5,False,False,6.49
+USALBN,United States,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",7,61,2.5,3.0,7.5,30,2.5,False,False,4.5
+DEUMDA,Germany,Moldova,Europe & Central Asia,5,49,2.49,2.76,3.56,31,2.49,False,False,0.8
+NLDTUR,Netherlands,Türkiye,Europe & Central Asia,9,80,2.49,3.533,5.17,49,2.49,False,False,1.637
+FRATGO,France,Togo,Sub-Saharan Africa,6,66,2.47,2.745,4.29,42,2.47,False,False,1.545
+KENSSD,Kenya,South Sudan,Sub-Saharan Africa,10,96,2.46,4.295,11.96,28,4.69,False,False,7.665
+FRADZA,France,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",2,4,2.45,2.462,2.505,3,2.45,False,False,0.043
+OMNBGD,Oman,Bangladesh,South Asia,7,36,2.45,2.68,6.48,0,,False,False,3.8
+USAPAN,United States,Panama,Latin America & Caribbean,4,56,2.45,2.5,4.0,37,2.45,False,False,1.5
+ITAETH,Italy,Ethiopia,Sub-Saharan Africa,7,82,2.44,4.1,7.12,64,-7.44,False,False,3.02
+SAUNPL,Saudi Arabia,Nepal,South Asia,8,47,2.42,3.08,3.47,12,2.42,False,False,0.39
+AUSLBN,Australia,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",15,123,2.39,3.188,8.05,66,2.39,False,False,4.862
+RWAKEN,Rwanda,Kenya,Sub-Saharan Africa,6,32,2.38,4.606,7.085,12,2.38,False,False,2.479
+FRALBN,France,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",4,47,2.37,2.46,5.1,40,2.37,False,False,2.64
+SAUPHL,Saudi Arabia,Philippines,East Asia & Pacific,6,40,2.37,2.689,3.19,12,2.37,False,False,0.501
+AUSZWE,Australia,Zimbabwe,Sub-Saharan Africa,8,83,2.36,3.904,5.44,68,2.36,False,False,1.536
+BHREGY,Bahrain,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",5,24,2.36,2.586,3.39,8,2.58,False,False,0.804
+FRAHTI,France,Haiti,Latin America & Caribbean,5,36,2.35,3.605,4.99,24,2.35,False,False,1.385
+QATBGD,Qatar,Bangladesh,South Asia,4,16,2.33,2.88,6.54,4,4.75,False,False,3.66
+QATJOR,Qatar,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",4,20,2.32,2.46,4.055,4,2.32,False,False,1.595
+JPNTHA,Japan,Thailand,East Asia & Pacific,9,48,2.3,5.221,6.315,32,2.3,False,False,1.094
+MYSCHN,Malaysia,China,East Asia & Pacific,10,48,2.3,2.437,4.265,31,2.3,False,False,1.828
+THAVNM,Thailand,Vietnam,East Asia & Pacific,11,89,2.3,4.704,14.01,43,2.3,False,False,9.306
+JORSYR,Jordan,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",10,36,2.29,3.8,7.64,0,,False,False,3.84
+OMNLKA,Oman,Sri Lanka,South Asia,7,36,2.26,2.36,3.235,0,,False,False,0.875
+DEUMAR,Germany,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",10,123,2.24,3.46,4.27,91,2.24,False,False,0.81
+THAKHM,Thailand,Cambodia,East Asia & Pacific,11,87,2.23,2.806,5.83,40,2.5,False,False,3.024
+DEUKGZ,Germany,Kyrgyz Republic,Europe & Central Asia,5,29,2.19,2.22,7.14,17,2.19,False,False,4.92
+JPNVNM,Japan,Vietnam,East Asia & Pacific,11,72,2.19,2.532,2.92,24,2.53,False,False,0.388
+QATSDN,Qatar,Sudan,Sub-Saharan Africa,3,14,2.19,-15.751,2.28,4,-24.95,False,False,18.031
+SAULKA,Saudi Arabia,Sri Lanka,South Asia,6,39,2.18,2.71,3.15,12,2.18,False,False,0.44
+JPNBRA,Japan,Brazil,Latin America & Caribbean,8,44,2.16,5.784,7.42,28,2.16,False,False,1.636
+OMNNPL,Oman,Nepal,South Asia,5,20,2.14,2.404,3.035,0,,False,False,0.631
+DEUTHA,Germany,Thailand,East Asia & Pacific,7,79,2.12,2.814,4.45,55,2.12,False,False,1.636
+CANHTI,Canada,Haiti,Latin America & Caribbean,6,61,2.1,4.67,5.53,40,2.1,False,False,0.86
+CANJAM,Canada,Jamaica,Latin America & Caribbean,8,63,2.1,2.788,5.26,50,-1.48,False,False,2.472
+CANLBN,Canada,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",4,38,2.1,4.158,6.965,24,2.1,False,False,2.807
+CANZWE,Canada,Zimbabwe,Sub-Saharan Africa,6,74,2.1,2.673,6.055,60,2.1,False,False,3.382
+KWTEGY,Kuwait,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",7,100,2.08,2.25,2.775,36,-0.17,False,False,0.525
+GBRZAF,United Kingdom,South Africa,Sub-Saharan Africa,9,99,2.07,2.39,5.83,85,2.07,False,False,3.44
+CHELKA,Switzerland,Sri Lanka,South Asia,5,72,2.06,2.8,4.92,59,2.06,False,False,2.12
+JPNPHL,Japan,Philippines,East Asia & Pacific,19,176,2.06,4.05,5.81,54,2.06,False,False,1.76
+AUTSRB,Austria,Serbia,Europe & Central Asia,6,65,2.05,2.37,4.7,54,2.05,False,False,2.33
+GBRETH,United Kingdom,Ethiopia,Sub-Saharan Africa,7,74,2.03,2.59,6.41,58,2.03,False,False,3.82
+KORVNM,"Korea, Rep.",Vietnam,East Asia & Pacific,11,107,2.01,3.03,5.61,53,2.01,False,False,2.58
+USAPER,United States,Peru,Latin America & Caribbean,10,84,2.0,2.503,4.0,46,2.51,False,False,1.497
+USAYEM,United States,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",4,51,2.0,2.5,4.0,25,2.0,False,False,1.5
+GBRLBN,United Kingdom,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",4,63,1.99,3.06,5.19,50,1.99,False,False,2.13
+DEUBIH,Germany,Bosnia and Herzegovina,Europe & Central Asia,6,52,1.96,2.867,4.35,33,1.96,False,False,1.483
+CANRWA,Canada,Rwanda,Sub-Saharan Africa,6,67,1.94,2.332,6.29,51,1.94,False,False,3.958
+JPNIDN,Japan,Indonesia,East Asia & Pacific,14,73,1.91,2.51,5.23,33,1.91,False,False,2.72
+MYSTHA,Malaysia,Thailand,East Asia & Pacific,10,67,1.9,2.752,3.86,34,1.9,False,False,1.108
+AREIDN,United Arab Emirates,Indonesia,East Asia & Pacific,6,30,1.89,2.167,4.915,10,1.89,False,False,2.748
+MYSNPL,Malaysia,Nepal,South Asia,11,74,1.88,2.22,2.825,42,1.92,False,False,0.605
+NLDIDN,Netherlands,Indonesia,East Asia & Pacific,7,58,1.86,2.36,4.82,43,-1.37,False,False,2.46
+NLDDOM,Netherlands,Dominican Republic,Latin America & Caribbean,7,79,1.84,2.06,4.28,56,-0.79,False,False,2.22
+AREBGD,United Arab Emirates,Bangladesh,South Asia,7,34,1.83,4.186,6.375,10,3.07,False,False,2.189
+FRAMDG,France,Madagascar,Sub-Saharan Africa,5,59,1.81,2.826,4.88,48,1.81,False,False,2.054
+USACHN,United States,China,East Asia & Pacific,8,88,1.81,2.609,5.945,64,1.81,False,False,3.336
+ESPMAR,Spain,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",9,93,1.79,2.384,4.17,72,-1.56,False,False,1.786
+OMNIND,Oman,India,South Asia,8,44,1.78,2.34,3.125,0,,False,False,0.785
+GBRALB,United Kingdom,Albania,Europe & Central Asia,6,118,1.77,4.02,6.2,52,1.84,False,False,2.18
+GBRRWA,United Kingdom,Rwanda,Sub-Saharan Africa,7,84,1.76,2.02,5.63,62,1.76,False,False,3.61
+USAEGY,United States,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",5,68,1.75,2.277,5.6,58,1.75,False,False,3.323
+CANGHA,Canada,Ghana,Sub-Saharan Africa,8,89,1.73,1.922,6.17,66,-2.3,False,False,4.248
+USAZAF,United States,South Africa,Sub-Saharan Africa,7,71,1.72,3.3,6.86,59,1.72,False,False,3.56
+ARESSD,United Arab Emirates,South Sudan,Sub-Saharan Africa,2,12,1.7,2.523,2.97,4,1.7,False,False,0.447
+MYSVNM,Malaysia,Vietnam,East Asia & Pacific,8,69,1.66,2.3,2.8,32,2.19,False,False,0.5
+DEUAFG,Germany,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",2,23,1.65,5.238,7.83,16,1.65,False,False,2.592
+GBRZWE,United Kingdom,Zimbabwe,Sub-Saharan Africa,7,101,1.63,3.8,4.67,88,1.63,False,False,0.87
+PRTBRA,Portugal,Brazil,Latin America & Caribbean,4,44,1.61,1.634,5.36,38,-2.33,False,False,3.726
+AUSSOM,Australia,Somalia,Sub-Saharan Africa,5,41,1.59,2.95,3.86,33,2.8,False,False,0.91
+THAIDN,Thailand,Indonesia,East Asia & Pacific,9,68,1.58,3.811,12.185,36,2.45,False,False,8.374
+ITAECU,Italy,Ecuador,Latin America & Caribbean,12,96,1.57,2.5,4.525,59,1.57,False,False,2.025
+DEUHUN,Germany,Hungary,Europe & Central Asia,5,66,1.55,2.91,6.41,55,1.55,False,False,3.5
+AUSWSM,Australia,Samoa,East Asia & Pacific,8,66,1.52,1.755,6.845,44,-2.08,False,False,5.09
+SENMLI,Senegal,Mali,Sub-Saharan Africa,6,23,1.5,1.5,26.88,4,1.5,False,False,25.38
+GBRTHA,United Kingdom,Thailand,East Asia & Pacific,8,112,1.49,3.392,4.265,96,1.49,False,False,0.873
+USABGD,United States,Bangladesh,South Asia,9,87,1.48,4.818,7.47,68,1.48,False,False,2.652
+DEUTGO,Germany,Togo,Sub-Saharan Africa,5,57,1.45,2.58,4.26,38,1.45,False,False,1.68
+AUSTHA,Australia,Thailand,East Asia & Pacific,9,79,1.44,1.58,4.16,64,1.44,False,False,2.58
+JORPSE,Jordan,West Bank and Gaza,"Middle East, North Africa, Afghanistan & Pakistan",13,48,1.43,1.79,2.54,0,,False,False,0.75
+KENRWA,Kenya,Rwanda,Sub-Saharan Africa,6,48,1.43,2.78,6.035,16,2.78,False,False,3.255
+CANCHN,Canada,China,East Asia & Pacific,6,62,1.41,3.59,6.25,40,1.41,False,False,2.66
+BRABOL,Brazil,Bolivia,Latin America & Caribbean,6,20,1.4,1.448,9.545,9,1.4,False,False,8.097
+ZAFNGA,South Africa,Nigeria,Sub-Saharan Africa,9,80,1.35,4.14,12.175,30,-0.4,False,False,8.035
+CIVMLI,Côte d'Ivoire,Mali,Sub-Saharan Africa,6,34,1.34,1.5,2.58,12,1.5,False,False,1.08
+GBRSLE,United Kingdom,Sierra Leone,Sub-Saharan Africa,8,81,1.33,1.37,4.4,64,-0.73,False,False,3.03
+BELCOD,Belgium,"Congo, Dem. Rep.",Sub-Saharan Africa,7,72,1.33,1.97,5.555,42,1.33,False,False,3.585
+GBRBGR,United Kingdom,Bulgaria,Europe & Central Asia,5,89,1.32,2.026,5.99,55,1.32,False,False,3.964
+USAJAM,United States,Jamaica,Latin America & Caribbean,8,79,1.32,2.634,6.43,53,-2.25,False,False,3.796
+BRAPRY,Brazil,Paraguay,Latin America & Caribbean,4,28,1.3,1.984,7.185,12,1.3,False,False,5.201
+TZAUGA,Tanzania,Uganda,Sub-Saharan Africa,7,40,1.3,9.357,73.755,4,56.08,False,False,64.398
+JOREGY,Jordan,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",14,52,1.29,1.516,2.09,0,,False,False,0.574
+CANPAK,Canada,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",7,88,1.28,1.667,4.36,64,1.45,False,False,2.693
+ITAEGY,Italy,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",12,91,1.28,1.92,6.97,55,1.28,False,False,5.05
+KWTIND,Kuwait,India,South Asia,10,120,1.28,1.677,2.13,36,1.41,False,False,0.453
+USAETH,United States,Ethiopia,Sub-Saharan Africa,8,76,1.28,3.0,6.0,37,-9.85,False,False,3.0
+MYSPHL,Malaysia,Philippines,East Asia & Pacific,23,155,1.27,1.794,2.61,77,1.27,False,False,0.816
+DEUVNM,Germany,Vietnam,East Asia & Pacific,7,122,1.26,2.083,2.68,112,1.26,False,False,0.597
+ESPPHL,Spain,Philippines,East Asia & Pacific,7,104,1.26,1.97,3.02,91,-0.92,False,False,1.05
+KWTPHL,Kuwait,Philippines,East Asia & Pacific,8,120,1.26,2.22,2.75,36,1.26,False,False,0.53
+AUTBIH,Austria,Bosnia and Herzegovina,Europe & Central Asia,7,59,1.25,2.678,6.09,48,1.25,False,False,3.412
+GBRZMB,United Kingdom,Zambia,Sub-Saharan Africa,7,103,1.25,2.32,4.93,83,1.25,False,False,2.61
+ITATUN,Italy,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",14,88,1.24,2.45,5.71,62,-0.12,False,False,3.26
+MYSBGD,Malaysia,Bangladesh,South Asia,21,131,1.24,3.81,5.96,75,1.24,False,False,2.15
+CZEVNM,Czechia,Vietnam,East Asia & Pacific,7,70,1.23,2.48,5.395,49,1.23,False,False,2.915
+FRAIND,France,India,South Asia,12,106,1.23,1.54,4.225,76,1.23,False,False,2.685
+FRAMLI,France,Mali,Sub-Saharan Africa,7,58,1.23,2.445,4.23,34,1.23,False,False,1.785
+JPNIND,Japan,India,South Asia,13,91,1.22,2.79,5.78,49,-0.11,False,False,2.99
+SGPBGD,Singapore,Bangladesh,South Asia,11,94,1.22,3.109,5.82,43,2.52,False,False,2.711
+MYSIND,Malaysia,India,South Asia,14,82,1.2,1.599,2.16,56,1.52,False,False,0.561
+GBRUGA,United Kingdom,Uganda,Sub-Saharan Africa,11,134,1.19,1.748,4.4,122,1.19,False,False,2.652
+GBRLKA,United Kingdom,Sri Lanka,South Asia,8,109,1.13,1.946,3.42,77,1.13,False,False,1.474
+BELMAR,Belgium,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",11,118,1.11,2.479,3.975,62,-1.32,False,False,1.496
+BRAPER,Brazil,Peru,Latin America & Caribbean,5,22,1.1,1.98,6.755,10,1.1,False,False,4.775
+MYSIDN,Malaysia,Indonesia,East Asia & Pacific,25,165,1.1,2.29,3.88,79,1.29,False,False,1.59
+QATIND,Qatar,India,South Asia,6,30,1.1,1.145,3.115,10,1.1,False,False,1.97
+BELDZA,Belgium,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",2,15,1.09,1.09,2.44,15,1.09,False,False,1.35
+USAUKR,United States,Ukraine,Europe & Central Asia,7,77,1.09,1.552,3.79,59,1.09,False,False,2.238
+GBRTZA,United Kingdom,Tanzania,Sub-Saharan Africa,8,106,1.08,-1.27,3.51,84,-4.8,False,False,4.78
+FRACHN,France,China,East Asia & Pacific,7,78,1.05,3.26,4.275,67,1.05,False,False,1.015
+FRACIV,France,Côte d'Ivoire,Sub-Saharan Africa,8,94,1.03,2.566,4.42,68,1.23,False,False,1.854
+FRAMAR,France,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",19,157,1.02,2.432,3.99,120,1.02,False,False,1.558
+USANIC,United States,Nicaragua,Latin America & Caribbean,8,78,1.01,2.5,4.5,50,1.01,False,False,2.0
+NLDMAR,Netherlands,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",10,101,0.98,1.88,4.32,66,-0.43,False,False,2.44
+NZLVNM,New Zealand,Vietnam,East Asia & Pacific,11,142,0.95,2.912,6.795,79,0.95,False,False,3.883
+FRAVNM,France,Vietnam,East Asia & Pacific,6,72,0.94,2.224,3.03,60,0.94,False,False,0.806
+OMNPAK,Oman,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",4,16,0.94,-0.06,2.57,0,,False,False,2.63
+KWTBGD,Kuwait,Bangladesh,South Asia,8,112,0.93,1.56,5.58,36,0.93,False,False,4.02
+AUSTON,Australia,Tonga,East Asia & Pacific,10,70,0.92,2.495,6.48,48,-2.17,False,False,3.985
+FRASEN,France,Senegal,Sub-Saharan Africa,9,97,0.91,1.406,3.09,73,0.91,False,False,1.684
+ARENPL,United Arab Emirates,Nepal,South Asia,10,66,0.89,1.63,2.965,18,1.53,False,False,1.335
+ESPBGR,Spain,Bulgaria,Europe & Central Asia,5,59,0.89,2.44,4.39,53,0.89,False,False,1.95
+USAGTM,United States,Guatemala,Latin America & Caribbean,11,116,0.88,3.125,4.35,69,-2.12,False,False,1.225
+CANIND,Canada,India,South Asia,13,137,0.86,1.9,3.61,100,0.86,False,False,1.71
+CANKEN,Canada,Kenya,Sub-Saharan Africa,9,102,0.86,2.733,7.175,73,0.86,False,False,4.442
+ITAMAR,Italy,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",16,137,0.86,2.062,4.68,84,-1.12,False,False,2.618
+SGPCHN,Singapore,China,East Asia & Pacific,9,65,0.86,0.978,3.66,36,0.86,False,False,2.682
+GBRBRA,United Kingdom,Brazil,Latin America & Caribbean,11,103,0.85,1.414,3.41,69,0.85,False,False,1.996
+AUTHUN,Austria,Hungary,Europe & Central Asia,8,70,0.83,1.139,3.97,56,0.83,False,False,2.831
+QATPHL,Qatar,Philippines,East Asia & Pacific,6,26,0.81,2.055,3.385,6,1.98,False,False,1.33
+ITACHN,Italy,China,East Asia & Pacific,8,54,0.78,2.659,4.32,42,0.78,False,False,1.661
+AUSLKA,Australia,Sri Lanka,South Asia,12,95,0.77,1.42,3.64,66,-0.76,False,False,2.22
+GBRNPL,United Kingdom,Nepal,South Asia,7,103,0.77,1.58,2.64,82,0.77,False,False,1.06
+SAUYEM,Saudi Arabia,"Yemen, Rep.","Middle East, North Africa, Afghanistan & Pakistan",4,32,0.77,1.53,2.4,16,0.77,False,False,0.87
+DEUGHA,Germany,Ghana,Sub-Saharan Africa,7,134,0.76,1.309,4.18,109,0.76,False,False,2.871
+SGPTHA,Singapore,Thailand,East Asia & Pacific,11,78,0.76,1.157,4.34,51,0.76,False,False,3.183
+USANPL,United States,Nepal,South Asia,10,105,0.76,1.65,5.23,79,-0.76,False,False,3.58
+AREIND,United Arab Emirates,India,South Asia,12,91,0.75,1.59,3.06,23,0.75,False,False,1.47
+CZEUKR,Czechia,Ukraine,Europe & Central Asia,8,63,0.74,1.626,3.85,44,0.74,False,False,2.224
+NZLWSM,New Zealand,Samoa,East Asia & Pacific,13,132,0.74,3.94,7.02,64,0.74,False,False,3.08
+SGPLKA,Singapore,Sri Lanka,South Asia,8,62,0.74,1.595,3.685,43,0.74,False,False,2.09
+AREPHL,United Arab Emirates,Philippines,East Asia & Pacific,9,82,0.73,1.581,3.43,14,0.73,False,False,1.849
+GBRVNM,United Kingdom,Vietnam,East Asia & Pacific,8,105,0.73,1.67,3.79,86,0.73,False,False,2.12
+SGPPHL,Singapore,Philippines,East Asia & Pacific,20,152,0.73,1.393,2.62,81,0.73,False,False,1.227
+USABRA,United States,Brazil,Latin America & Caribbean,12,118,0.73,2.737,5.67,88,1.5,False,False,2.933
+GBRCHN,United Kingdom,China,East Asia & Pacific,6,86,0.72,2.57,4.14,70,0.72,False,False,1.57
+TZAKEN,Tanzania,Kenya,Sub-Saharan Africa,9,42,0.72,8.313,83.17,5,7.25,False,False,74.857
+SWEIND,Sweden,India,South Asia,9,101,0.69,0.8,2.96,81,-0.06,False,False,2.16
+THAIND,Thailand,India,South Asia,12,85,0.67,2.644,12.11,40,0.67,False,False,9.466
+NZLCHN,New Zealand,China,East Asia & Pacific,9,138,0.65,1.811,4.39,89,-1.75,False,False,2.579
+GBRBGD,United Kingdom,Bangladesh,South Asia,10,144,0.64,2.41,5.095,108,0.64,False,False,2.685
+ITAALB,Italy,Albania,Europe & Central Asia,11,86,0.64,2.85,5.16,46,0.64,False,False,2.31
+ITAMDA,Italy,Moldova,Europe & Central Asia,11,75,0.64,2.5,3.56,44,0.64,False,False,1.06
+NORPOL,Norway,Poland,..,11,123,0.64,1.106,3.88,97,-0.01,False,False,2.774
+SGPPAK,Singapore,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",4,51,0.63,0.73,1.51,44,0.69,False,False,0.78
+USATHA,United States,Thailand,East Asia & Pacific,11,105,0.62,2.172,6.62,74,0.75,False,False,4.448
+FRATUN,France,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",8,84,0.61,2.49,4.42,52,0.61,False,False,1.93
+GBRLTU,United Kingdom,Lithuania,..,9,114,0.61,1.031,4.41,92,0.61,False,False,3.379
+ITAROU,Italy,Romania,Europe & Central Asia,14,125,0.61,1.3,3.83,67,0.61,False,False,2.53
+SAUPAK,Saudi Arabia,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",8,48,0.61,1.194,3.06,12,0.61,False,False,1.866
+ITALKA,Italy,Sri Lanka,South Asia,12,123,0.6,2.052,3.74,88,0.6,False,False,1.688
+CANPHL,Canada,Philippines,East Asia & Pacific,14,168,0.58,2.191,4.045,114,0.58,False,False,1.854
+USACRI,United States,Costa Rica,Latin America & Caribbean,9,108,0.58,0.58,6.0,85,-3.22,False,False,5.42
+FRACMR,France,Cameroon,Sub-Saharan Africa,9,89,0.55,1.76,4.33,78,0.55,False,False,2.57
+AUTTUR,Austria,Türkiye,Europe & Central Asia,12,121,0.54,2.0,3.92,102,0.54,False,False,1.92
+ITABRA,Italy,Brazil,Latin America & Caribbean,12,88,0.54,2.173,4.76,58,0.54,False,False,2.587
+CHESRB,Switzerland,Serbia,Europe & Central Asia,3,44,0.53,0.66,6.2,28,0.53,False,False,5.54
+NLDGHA,Netherlands,Ghana,Sub-Saharan Africa,8,112,0.52,2.412,5.83,61,0.52,False,False,3.418
+DEUIND,Germany,India,South Asia,11,98,0.51,1.44,2.87,75,0.51,False,False,1.43
+ITAPHL,Italy,Philippines,East Asia & Pacific,13,137,0.51,1.368,2.83,98,-0.95,False,False,1.462
+USAARM,United States,Armenia,Europe & Central Asia,5,49,0.49,3.938,6.79,36,0.49,False,False,2.852
+NZLIND,New Zealand,India,South Asia,13,153,0.47,1.234,3.36,84,0.47,False,False,2.126
+AREEGY,United Arab Emirates,"Egypt, Arab Rep.","Middle East, North Africa, Afghanistan & Pakistan",9,61,0.46,2.38,3.06,14,0.46,False,False,0.68
+KENTZA,Kenya,Tanzania,Sub-Saharan Africa,11,104,0.46,4.69,11.83,36,1.94,False,False,7.14
+PRTCPV,Portugal,Cabo Verde,Sub-Saharan Africa,3,24,0.45,3.24,3.655,18,0.45,False,False,0.415
+USAPAK,United States,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",7,96,0.45,1.535,3.455,78,0.45,False,False,1.92
+AUSMYS,Australia,Malaysia,East Asia & Pacific,9,89,0.45,1.116,3.55,72,-0.4,False,False,2.434
+AUSIDN,Australia,Indonesia,East Asia & Pacific,12,79,0.44,1.21,3.21,66,-1.05,False,False,2.0
+GBRPHL,United Kingdom,Philippines,East Asia & Pacific,10,177,0.44,1.398,3.57,139,0.44,False,False,2.172
+INDNPL,India,Nepal,South Asia,8,90,0.43,0.449,1.65,26,0.43,False,False,1.201
+USAIND,United States,India,South Asia,13,187,0.42,1.198,3.5,139,-0.53,False,False,2.302
+ITASEN,Italy,Senegal,Sub-Saharan Africa,13,107,0.41,1.434,4.25,72,0.41,False,False,2.816
+ITAIND,Italy,India,South Asia,10,86,0.39,0.83,2.89,60,-0.82,False,False,2.06
+USAMEX,United States,Mexico,Latin America & Caribbean,15,184,0.39,2.363,4.61,113,-2.86,False,False,2.247
+ZAFMWI,South Africa,Malawi,Sub-Saharan Africa,14,101,0.39,-35.28,16.74,36,-56.68,False,False,52.02
+BHRBGD,Bahrain,Bangladesh,South Asia,9,53,0.38,2.99,5.39,11,0.38,False,False,2.4
+AUSPHL,Australia,Philippines,East Asia & Pacific,15,130,0.35,0.942,3.34,80,-0.91,False,False,2.398
+NZLPHL,New Zealand,Philippines,East Asia & Pacific,11,134,0.34,1.136,3.52,84,0.34,False,False,2.384
+USACOL,United States,Colombia,Latin America & Caribbean,15,163,0.34,3.19,5.1,105,-2.65,False,False,1.91
+AUSIND,Australia,India,South Asia,23,141,0.33,0.93,3.26,102,-2.38,False,False,2.33
+USACPV,United States,Cabo Verde,Sub-Saharan Africa,4,53,0.32,4.336,8.51,29,4.18,False,False,4.174
+USAGHA,United States,Ghana,Sub-Saharan Africa,8,115,0.32,0.908,4.88,81,-0.13,False,False,3.972
+DEUKSV,Germany,Kosovo,Europe & Central Asia,7,36,0.3,2.49,4.275,21,0.3,False,False,1.785
+QATLKA,Qatar,Sri Lanka,South Asia,5,27,0.29,-1.49,2.84,8,-3.06,False,False,4.33
+USAIDN,United States,Indonesia,East Asia & Pacific,9,99,0.29,3.596,5.64,77,-0.53,False,False,2.044
+ITABGD,Italy,Bangladesh,South Asia,16,139,0.27,2.836,6.21,95,-4.12,False,False,3.374
+USAKEN,United States,Kenya,Sub-Saharan Africa,10,133,0.27,1.66,4.98,109,0.69,False,False,3.32
+SGPIND,Singapore,India,South Asia,16,117,0.26,0.71,2.64,78,0.26,False,False,1.93
+THAMMR,Thailand,Myanmar,East Asia & Pacific,10,59,0.26,0.332,16.3,25,-0.92,False,False,15.968
+ARELKA,United Arab Emirates,Sri Lanka,South Asia,9,70,0.25,1.406,2.5,14,0.25,False,False,1.094
+BHRIND,Bahrain,India,South Asia,7,44,0.24,1.938,2.635,7,0.24,False,False,0.697
+CANVNM,Canada,Vietnam,East Asia & Pacific,10,82,0.24,2.502,5.465,62,0.24,False,False,2.963
+GBRROU,United Kingdom,Romania,Europe & Central Asia,6,99,0.24,1.106,3.11,84,0.24,False,False,2.004
+CANNGA,Canada,Nigeria,Sub-Saharan Africa,5,52,0.22,1.15,3.59,39,0.22,False,False,2.44
+USADOM,United States,Dominican Republic,Latin America & Caribbean,12,108,0.22,1.5,4.675,41,-2.67,False,False,3.175
+DEUNGA,Germany,Nigeria,Sub-Saharan Africa,10,100,0.21,0.73,2.51,78,-0.18,False,False,1.78
+SGPIDN,Singapore,Indonesia,East Asia & Pacific,20,129,0.19,1.356,2.78,54,0.19,False,False,1.424
+AUSFJI,Australia,Fiji,East Asia & Pacific,11,95,0.18,2.126,4.22,77,-3.17,False,False,2.094
+ESPBRA,Spain,Brazil,Latin America & Caribbean,10,75,0.18,2.134,4.26,52,-1.7,False,False,2.126
+ESPCHN,Spain,China,East Asia & Pacific,5,51,0.18,4.03,5.41,48,0.18,False,False,1.38
+AUSVNM,Australia,Vietnam,East Asia & Pacific,11,78,0.17,1.984,3.96,56,-0.53,False,False,1.976
+NZLTON,New Zealand,Tonga,East Asia & Pacific,14,122,0.17,3.945,7.41,64,0.17,False,False,3.465
+ESPNGA,Spain,Nigeria,Sub-Saharan Africa,6,64,0.17,0.598,3.23,51,0.17,False,False,2.632
+CHEHUN,Switzerland,Hungary,Europe & Central Asia,4,58,0.16,0.81,3.975,48,0.16,False,False,3.165
+DEUTUR,Germany,Türkiye,Europe & Central Asia,8,107,0.16,2.524,3.17,86,0.16,False,False,0.646
+ESPCOL,Spain,Colombia,Latin America & Caribbean,10,92,0.15,2.126,4.505,66,-2.0,False,False,2.379
+ESPHND,Spain,Honduras,Latin America & Caribbean,7,66,0.15,2.5,4.57,49,-0.86,False,False,2.07
+GBRIND,United Kingdom,India,South Asia,13,117,0.15,1.21,2.46,87,0.15,False,False,1.25
+ESPBOL,Spain,Bolivia,Latin America & Caribbean,7,52,0.14,-3.82,4.2,35,-45.83,False,False,8.02
+ESPDOM,Spain,Dominican Republic,Latin America & Caribbean,7,57,0.14,1.85,4.65,43,-0.78,False,False,2.8
+ESPECU,Spain,Ecuador,Latin America & Caribbean,9,67,0.14,2.184,4.21,42,-1.5,False,False,2.026
+ESPPER,Spain,Peru,Latin America & Caribbean,7,60,0.13,1.59,3.44,46,0.13,False,False,1.85
+BELTUR,Belgium,Türkiye,Europe & Central Asia,9,100,0.12,2.63,4.28,78,0.12,False,False,1.65
+PRTMOZ,Portugal,Mozambique,Sub-Saharan Africa,4,56,0.12,2.005,3.055,50,0.12,False,False,1.05
+AUSCHN,Australia,China,East Asia & Pacific,10,64,0.11,0.739,3.19,52,-2.26,False,False,2.451
+SGPMYS,Singapore,Malaysia,East Asia & Pacific,20,122,0.11,0.971,3.29,63,0.11,False,False,2.319
+POLUKR,Poland,Ukraine,Europe & Central Asia,7,112,0.1,1.245,3.22,80,0.1,False,False,1.975
+USAHND,United States,Honduras,Latin America & Caribbean,11,125,0.08,2.456,3.83,55,-0.08,False,False,1.374
+GBRKEN,United Kingdom,Kenya,Sub-Saharan Africa,10,127,0.07,1.69,3.36,104,-0.1,False,False,1.67
+NORPAK,Norway,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",12,169,0.07,0.756,1.91,143,-0.28,False,False,1.154
+ITAUKR,Italy,Ukraine,Europe & Central Asia,12,110,0.06,1.883,3.82,72,0.06,False,False,1.937
+NZLFJI,New Zealand,Fiji,East Asia & Pacific,14,131,0.06,2.67,5.15,76,1.19,False,False,2.48
+AUSPAK,Australia,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",9,106,0.05,0.135,1.79,80,-1.53,False,False,1.655
+GBRPAK,United Kingdom,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",8,128,0.05,0.026,1.495,100,-1.12,False,False,1.469
+MYSMMR,Malaysia,Myanmar,East Asia & Pacific,4,37,0.05,0.01,1.22,20,-0.18,False,False,1.21
+QATPAK,Qatar,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",4,23,0.05,-0.5,0.22,4,3.21,False,False,0.72
+NLDNGA,Netherlands,Nigeria,Sub-Saharan Africa,6,91,0.04,0.19,3.48,67,-2.82,False,False,3.29
+AREPAK,United Arab Emirates,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",11,66,0.03,-0.34,0.175,14,0.86,False,False,0.515
+ESPROU,Spain,Romania,Europe & Central Asia,7,73,0.03,1.474,2.72,58,0.03,False,False,1.246
+GBRGHA,United Kingdom,Ghana,Sub-Saharan Africa,13,159,0.01,0.62,2.33,139,-0.98,False,False,1.71
+GBRNGA,United Kingdom,Nigeria,Sub-Saharan Africa,9,88,0.01,0.11,2.12,68,-4.2,False,False,2.01
+GBRPOL,United Kingdom,Poland,..,10,130,0.01,0.326,1.935,96,-0.23,False,False,1.609
+ITANGA,Italy,Nigeria,Sub-Saharan Africa,10,88,0.01,0.01,1.895,64,-2.04,False,False,1.885
+KWTPAK,Kuwait,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",6,84,0.01,-1.49,0.28,28,-3.21,False,False,1.77
+USANGA,United States,Nigeria,Sub-Saharan Africa,6,97,0.01,-0.082,2.8,71,-2.68,False,False,2.882
+AUTHRV,Austria,Croatia,..,8,83,0.0,0.28,2.85,66,0.0,False,False,2.57
+AUTKSV,Austria,Kosovo,Europe & Central Asia,7,77,0.0,0.0,4.45,66,0.0,False,False,4.45
+BHRPAK,Bahrain,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",5,34,0.0,-0.216,0.085,8,0.03,False,False,0.301
+DEUBGR,Germany,Bulgaria,Europe & Central Asia,6,94,0.0,1.66,3.56,76,1.65,False,False,1.9
+DEUHRV,Germany,Croatia,..,8,77,0.0,0.0,3.56,43,0.0,False,False,3.56
+DEUMKD,Germany,North Macedonia,Europe & Central Asia,3,28,0.0,2.49,3.56,16,0.0,False,False,1.07
+DEUROU,Germany,Romania,Europe & Central Asia,14,159,0.0,0.29,2.76,96,0.0,False,False,2.47
+DEUSRB,Germany,Serbia,Europe & Central Asia,7,71,0.0,1.78,3.56,36,0.0,False,False,1.78
+DEUTJK,Germany,Tajikistan,Europe & Central Asia,4,25,0.0,0.56,2.95,25,0.0,False,False,2.39
+DEUUKR,Germany,Ukraine,Europe & Central Asia,7,64,0.0,1.81,2.81,53,0.0,False,False,1.0
+USAECU,United States,Ecuador,Latin America & Caribbean,12,136,0.0,2.625,4.0,64,0.0,False,False,1.375
+USAHTI,United States,Haiti,Latin America & Caribbean,7,58,0.0,0.7,5.5,34,0.0,False,False,4.8
+USAJOR,United States,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",5,83,0.0,3.0,6.0,50,0.0,False,False,3.0
+USALBR,United States,Liberia,Sub-Saharan Africa,6,74,0.0,3.0,6.0,55,0.0,False,False,3.0
+USAPHL,United States,Philippines,East Asia & Pacific,14,229,0.0,2.15,4.5,171,-2.98,False,False,2.35
+USASLV,United States,El Salvador,Latin America & Caribbean,14,191,0.0,2.0,4.0,108,0.0,False,False,2.0
+USAVNM,United States,Vietnam,East Asia & Pacific,9,128,0.0,2.649,5.97,105,0.0,False,False,3.321
+ZAFLSO,South Africa,Lesotho,Sub-Saharan Africa,7,44,0.0,1.931,10.765,20,0.0,False,False,8.834
+ZAFSWZ,South Africa,Eswatini,Sub-Saharan Africa,6,36,0.0,1.82,10.95,12,0.0,False,False,9.13
