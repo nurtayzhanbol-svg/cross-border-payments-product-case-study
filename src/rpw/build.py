@@ -57,5 +57,5 @@ def build(use_cache=True):
 
 
 if __name__ == "__main__":
-    w, l, p, s = build(use_cache="--no-cache" not in sys.argv)
-    print(f"records_wide: {w.shape}, quotes_long: {l.shape}, providers: {p['firm'].nunique()}")
+    w, lng, p, s = build(use_cache="--no-cache" not in sys.argv)
+    print(f"records_wide: {w.shape}, quotes_long: {lng.shape}, providers: {p['firm'].nunique()}")

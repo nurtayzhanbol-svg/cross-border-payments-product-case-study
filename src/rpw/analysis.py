@@ -57,7 +57,7 @@ def trend(q, F):
                                       panel_mean=("total_cost_pct", "mean")).reset_index()
     by = by.merge(pan, on="period", how="left")
     _save(by.round(3), "cost_trend_by_period_cc1")
-    first, last = by.iloc[0], by.iloc[-1]
+    first = by.iloc[0]
     p16, p25 = by.set_index("period").loc["2016_2Q"], by.set_index("period").loc["2025_3Q"]
     F["trend"] = {"first_period": first.period, "first_mean": round(first.mean_total, 2),
                   "mean_2016_2Q": round(p16.mean_total, 2), "mean_2025_3Q": round(p25.mean_total, 2),
@@ -74,8 +74,10 @@ def trend(q, F):
     ax.axhline(config.SDG_TARGET_PCT, color="#333", lw=1, ls=":", label="SDG 10.c target (3%)")
     ax.axvline(by.index[by.period == "2016_2Q"][0] - 0.5, color="#999", lw=1)
     ax.text(by.index[by.period == "2016_2Q"][0], ax.get_ylim()[1] * 0.95, " schema change (2016 Q2)", fontsize=8)
-    ax.set_xticks(x[::4]); ax.set_xticklabels(by.period[::4], rotation=45, ha="right", fontsize=8)
-    ax.set_ylabel("Total cost, % of USD 200"); ax.legend(fontsize=8)
+    ax.set_xticks(x[::4])
+    ax.set_xticklabels(by.period[::4], rotation=45, ha="right", fontsize=8)
+    ax.set_ylabel("Total cost, % of USD 200")
+    ax.legend(fontsize=8)
     ax.set_title("Surveyed cost of sending USD 200 has fallen, but the median quote is still above 3%")
     _fig("01_cost_trend_cc1", fig)
 
@@ -102,8 +104,10 @@ def corridors(q, F):
     ax.hist(cor.median_total.clip(upper=20), bins=40, color=PALETTE[0], alpha=.85, label="Median quote")
     ax.hist(cor.min_total.clip(upper=20), bins=40, color=PALETTE[1], alpha=.6, label="Cheapest quote")
     for v, lbl in [(3, "3% SDG"), (5, "5% G20")]:
-        ax.axvline(v, color="#333", ls=":", lw=1); ax.text(v, ax.get_ylim()[1] * .9, f" {lbl}", fontsize=8)
-    ax.set_xlabel("Total cost, % of USD 200 (clipped at 20%)"); ax.set_ylabel("Corridors")
+        ax.axvline(v, color="#333", ls=":", lw=1)
+        ax.text(v, ax.get_ylim()[1] * .9, f" {lbl}", fontsize=8)
+    ax.set_xlabel("Total cost, % of USD 200 (clipped at 20%)")
+    ax.set_ylabel("Corridors")
     ax.set_title(f"Corridors, latest 4 surveyed quarters: median vs cheapest surveyed quote (n={len(cor)})")
     ax.legend(fontsize=8)
     _fig("02_corridor_cost_distribution", fig)
@@ -154,11 +158,14 @@ def composition(q, F):
     fig, ax = plt.subplots(1, 2, figsize=(11, 4.5))
     ax[0].bar(by.year, by.mean_fee, color=PALETTE[0], label="Fee (% of amount)")
     ax[0].bar(by.year, by.mean_fx, bottom=by.mean_fee, color=PALETTE[1], label="FX margin (%)")
-    ax[0].set_title("Mean cost composition by year, USD 200"); ax[0].legend(fontsize=8); ax[0].set_ylabel("%")
+    ax[0].set_title("Mean cost composition by year, USD 200")
+    ax[0].legend(fontsize=8)
+    ax[0].set_ylabel("%")
     lat2 = lat[lat.quotes >= 200]
     ax[1].barh(lat2.provider_type, lat2.median_fee_pct, color=PALETTE[0], label="Fee")
     ax[1].barh(lat2.provider_type, lat2.median_fx_margin, left=lat2.median_fee_pct, color=PALETTE[1], label="FX margin")
-    ax[1].set_title("Latest 4 quarters, medians by provider type (≥200 quotes)"); ax[1].set_xlabel("% of USD 200")
+    ax[1].set_title("Latest 4 quarters, medians by provider type (≥200 quotes)")
+    ax[1].set_xlabel("% of USD 200")
     fig.suptitle("FX margin is a large part of total cost — and it is the part senders see least clearly", fontsize=11)
     _fig("03_fee_vs_fx_composition", fig)
 
@@ -196,8 +203,10 @@ def transparency(q, F):
     x = np.arange(len(t))
     ax.plot(x, t.flag_no * 100, color=PALETTE[5], lw=2, label="transparent = no")
     ax.plot(x, t.note_not_transparent * 100, color=PALETTE[3], lw=2, ls="--", label="note says 'not transparent'")
-    ax.set_xticks(x[::4]); ax.set_xticklabels(t.period[::4], rotation=45, ha="right", fontsize=8)
-    ax.set_ylabel("% of surveyed records"); ax.legend(fontsize=8)
+    ax.set_xticks(x[::4])
+    ax.set_xticklabels(t.period[::4], rotation=45, ha="right", fontsize=8)
+    ax.set_ylabel("% of surveyed records")
+    ax.legend(fontsize=8)
     ax.set_title("The 'transparent' flag disappears after 2021 while notes still describe non-transparent services")
     _fig("04_transparency_coding", fig)
 
@@ -218,7 +227,8 @@ def markets(q, F):
     fig, ax = plt.subplots(figsize=(9, 4.5))
     d2 = d[d.destination_region != ".."]
     ax.barh(d2.destination_region, d2.median_total, color=PALETTE[0])
-    ax.axvline(3, color="#333", ls=":"); ax.set_xlabel("Median total cost, % of USD 200")
+    ax.axvline(3, color="#333", ls=":")
+    ax.set_xlabel("Median total cost, % of USD 200")
     ax.set_title("Receiving region: median surveyed quote, latest 4 quarters")
     _fig("05_receiving_region_costs", fig)
 
@@ -247,7 +257,8 @@ def underserved(q, F):
     fig, ax = plt.subplots(figsize=(9, 4.5))
     ax.scatter(cor.p10.clip(-1, 25), cor.savings_median_to_p10_pp.clip(upper=25), s=10 + cor.providers * 4,
                alpha=.5, color=PALETTE[0], edgecolor="none")
-    ax.axvline(3, color="#333", ls=":"); ax.axvline(5, color="#333", ls=":")
+    ax.axvline(3, color="#333", ls=":")
+    ax.axvline(5, color="#333", ls=":")
     ax.set_xlabel("10th-percentile quote in corridor, % (clipped to [-1, 25])")
     ax.set_ylabel("Median − 10th percentile, pp (clipped 25)")
     ax.set_title("Price dispersion: in most corridors the typical quote costs well above the low end")
