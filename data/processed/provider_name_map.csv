@@ -1,0 +1,904 @@
+firm_raw,firm_clean,firm_key,firm,firm_changed,n_raw_variants
+1st Contact Forex,1st Contact Forex,1st contact forex,1st Contact Forex,False,1
+A-Express Remit,A-Express Remit,a-express remit,A-Express Remit,False,1
+ABC Bank,ABC Bank,abc bank,ABC Bank,False,1
+ABN AMRO Bank,ABN AMRO Bank,abn amro bank,ABN AMRO Bank,False,1
+ABSA,ABSA,absa,ABSA,False,1
+ABSA via Western Union,ABSA via Western Union,absa via western union,ABSA via Western Union,False,1
+ACE Money Transfer,ACE Money Transfer,ace money transfer,ACE Money Transfer,False,2
+Ace Money Transfer,Ace Money Transfer,ace money transfer,ACE Money Transfer,True,2
+ADCB,ADCB,adcb,ADCB,False,1
+AGR Money Transfer,AGR Money Transfer,agr money transfer,AGR Money Transfer,False,1
+AKbar Money Change,AKbar Money Change,akbar money change,AKbar Money Change,False,1
+AN Express,AN Express,an express,AN Express,False,1
+ANZ Bank,ANZ Bank,anz bank,ANZ Bank,False,1
+ANZ Pacific Money Transfer Card,ANZ Pacific Money Transfer Card,anz pacific money transfer card,ANZ Pacific Money Transfer Card,False,1
+ANZ Pacific Money Transfer Card (BPAY),ANZ Pacific Money Transfer Card (BPAY),anz pacific money transfer card (bpay),ANZ Pacific Money Transfer Card (BPAY),False,1
+ANZ Pacific Money Transfer Card (Online),ANZ Pacific Money Transfer Card (Online),anz pacific money transfer card (online),ANZ Pacific Money Transfer Card (Online),False,1
+ASB Bank,ASB Bank,asb bank,ASB Bank,False,1
+ASB Bank (Fastnet Classic),ASB Bank (Fastnet Classic),asb bank (fastnet classic),ASB Bank (Fastnet Classic),False,1
+ATL Money Transfer,ATL Money Transfer,atl money transfer,ATL Money Transfer,False,1
+Abu Skeikha Exchange,Abu Skeikha Exchange,abu skeikha exchange,Abu Skeikha Exchange,False,1
+Acceso OAS Credit Union,Acceso OAS Credit Union,acceso oas credit union,Acceso OAS Credit Union,False,1
+Accredi,Accredi,accredi,Accredi,False,1
+Afex,Afex,afex,Afex,False,1
+Afritrans,Afritrans,afritrans,Afritrans,False,1
+Agrani Exchange House (Agrani Bank),Agrani Exchange House (Agrani Bank),agrani exchange house (agrani bank),Agrani Exchange House (Agrani Bank),False,1
+Agrani Remittance House,Agrani Remittance House,agrani remittance house,Agrani Remittance House,False,1
+AisRemesasCuba.com,AisRemesasCuba.com,aisremesascuba.com,AisRemesasCuba.com,False,1
+Akbar Money Changer,Akbar Money Changer,akbar money changer,Akbar Money Changer,False,1
+Al Ahalia Exchange,Al Ahalia Exchange,al ahalia exchange,Al Ahalia Exchange,False,1
+Al Aman Office for Exchange,Al Aman Office for Exchange,al aman office for exchange,Al Aman Office for Exchange,False,1
+Al Amoudi Exchange,Al Amoudi Exchange,al amoudi exchange,Al Amoudi Exchange,False,1
+Al Ansari,Al Ansari,al ansari,Al Ansari,False,1
+Al Dar Exchange,Al Dar Exchange,al dar exchange,Al Dar Exchange,False,1
+Al Fardan Exchange,Al Fardan Exchange,al fardan exchange,Al Fardan Exchange,False,1
+Al Halia,Al Halia,al halia,Al Halia,False,1
+Al Hindi and Al Sadat Office for Exchange,Al Hindi and Al Sadat Office for Exchange,al hindi and al sadat office for exchange,Al Hindi and Al Sadat Office for Exchange,False,1
+Al Issra Office for Exchange,Al Issra Office for Exchange,al issra office for exchange,Al Issra Office for Exchange,False,1
+Al Mulla Exchange,Al Mulla Exchange,al mulla exchange,Al Mulla Exchange,False,1
+Al Muzaini Exchange,Al Muzaini Exchange,al muzaini exchange,Al Muzaini Exchange,False,1
+Al Rajhi Bank i-Tahweel,Al Rajhi Bank i-Tahweel,al rajhi bank i-tahweel,Al Rajhi Bank i-Tahweel,False,1
+Al Raya Office for Exchange,Al Raya Office for Exchange,al raya office for exchange,Al Raya Office for Exchange,False,1
+Al Rayan Bank,Al Rayan Bank,al rayan bank,Al Rayan Bank,False,1
+Al Salam Exchange,Al Salam Exchange,al salam exchange,Al Salam Exchange,False,1
+Al Saudi Office for Exchange,Al Saudi Office for Exchange,al saudi office for exchange,Al Saudi Office for Exchange,False,1
+Al Zamil Exchange,Al Zamil Exchange,al zamil exchange,Al Zamil Exchange,False,1
+Al-Mustaqbal Express,Al-Mustaqbal Express,al-mustaqbal express,Al-Mustaqbal Express,False,1
+Al-Nada Exchange,Al-Nada Exchange,al-nada exchange,Al-Nada Exchange,False,1
+Al-Rajhi Bank,Al-Rajhi Bank,al-rajhi bank,Al-Rajhi Bank,False,1
+Alante Financial,Alante Financial,alante financial,Alante Financial,False,1
+Alaweneh Exchange,Alaweneh Exchange,alaweneh exchange,Alaweneh Exchange,False,1
+Alinma Bank via Western Union,Alinma Bank via Western Union,alinma bank via western union,Alinma Bank via Western Union,False,1
+Alior Bank S.A.,Alior Bank S.A.,alior bank s.a.,Alior Bank S.A.,False,1
+All Alami Exchange,All Alami Exchange,all alami exchange,All Alami Exchange,False,1
+All Best Enterprise,All Best Enterprise,all best enterprise,All Best Enterprise,False,1
+All Safe International Pty Ltd,All Safe International Pty Ltd,all safe international pty ltd,All Safe International Pty Ltd,False,1
+Allied Bank,Allied Bank,allied bank,Allied Bank,False,1
+Alpha Transfers,Alpha Transfers,alpha transfers,Alpha Transfers,False,1
+Amaana Express,Amaana Express,amaana express,Amaana Express,False,1
+Amal Express,Amal Express,amal express,Amal Express,False,1
+Aman Exchange,Aman Exchange,aman exchange,Aman Exchange,False,1
+Ameer Tech Remittance,Ameer Tech Remittance,ameer tech remittance,Ameer Tech Remittance,False,1
+Ameer Tech Remittance (MoneyGram),Ameer Tech Remittance (MoneyGram),ameer tech remittance (moneygram),Ameer Tech Remittance (MoneyGram),False,1
+Ample Transfer,Ample Transfer,ample transfer,Ample Transfer,False,1
+Anelik,Anelik,anelik,Anelik,False,1
+Arab Bank,Arab Bank,arab bank,Arab Bank,False,1
+Arabian Exchange Company,Arabian Exchange Company,arabian exchange company,Arabian Exchange Company,False,1
+ArcaPay,ArcaPay,arcapay,ArcaPay,False,1
+Argenper,Argenper,argenper,Argenper,False,1
+Argenta,Argenta,argenta,Argenta,False,1
+Asia Exchange Centre,Asia Exchange Centre,asia exchange centre,Asia Exchange Centre,False,1
+Asia Express Exchange,Asia Express Exchange,asia express exchange,Asia Express Exchange,False,1
+Atena Money Tranfert,Atena Money Tranfert,atena money tranfert,Atena Money Tranfert,False,1
+Atena Money Transfert,Atena Money Transfert,atena money transfert,Atena Money Transfert,False,1
+Attijariwafa Bank,Attijariwafa Bank,attijariwafa bank,Attijariwafa Bank,False,1
+Ausphil Forex,Ausphil Forex,ausphil forex,Ausphil Forex,False,1
+Aussie Forex & Finance,Aussie Forex & Finance,aussie forex & finance,Aussie Forex & Finance,False,1
+Ausspeed,Ausspeed,ausspeed,Ausspeed,False,1
+Ave Pa anga Pau,Ave Pa anga Pau,ave pa anga pau,Ave Pa anga Pau,False,1
+Ave Paanga Pau,Ave Paanga Pau,ave paanga pau,Ave Paanga Pau,False,1
+Axis Remit,Axis Remit,axis remit,Axis Remit,False,1
+Azia Express,Azia Express,azia express,Azia Express,False,1
+Azimo,Azimo,azimo,Azimo,False,2
+azimo,azimo,azimo,Azimo,True,2
+B&T Associados Corretora de Cambio,B&T Associados Corretora de Cambio,b&t associados corretora de cambio,B&T Associados Corretora de Cambio,False,1
+BA Exchange,BA Exchange,ba exchange,BA Exchange,False,1
+BAC San Jose,BAC San Jose,bac san jose,BAC San Jose,False,1
+BBVA,BBVA,bbva,BBVA,False,1
+BBVA Dinero Express,BBVA Dinero Express,bbva dinero express,BBVA Dinero Express,False,1
+BDO (Banco de Oro),BDO (Banco de Oro),bdo (banco de oro),BDO (Banco de Oro),False,1
+BFC Exchange,BFC Exchange,bfc exchange,BFC Exchange,False,1
+BHD Remesas Dominicana,BHD Remesas Dominicana,bhd remesas dominicana,BHD Remesas Dominicana,False,1
+BIIECO,BIIECO,biieco,BIIECO,False,1
+BKK Forex,BKK Forex,bkk forex,BKK Forex,False,1
+BM Express,BM Express,bm express,BM Express,False,1
+BNI (Bank Negara Indonesia),BNI (Bank Negara Indonesia),bni (bank negara indonesia),BNI (Bank Negara Indonesia),False,1
+BNI Tokyo,BNI Tokyo,bni tokyo,BNI Tokyo,False,1
+BNP Paribas,BNP Paribas,bnp paribas,BNP Paribas,False,1
+BOSS Mobile Money,BOSS Mobile Money,boss mobile money,BOSS Mobile Money,False,1
+BPI (Bank of Philippines Island),BPI (Bank of Philippines Island),bpi (bank of philippines island),BPI (Bank of Philippines Island),False,1
+BPR Bank Rwanda PLC,BPR Bank Rwanda PLC,bpr bank rwanda plc,BPR Bank Rwanda PLC,False,2
+BPR Bank Rwanda Plc,BPR Bank Rwanda Plc,bpr bank rwanda plc,BPR Bank Rwanda PLC,True,2
+BRAC Saajan,BRAC Saajan,brac saajan,BRAC Saajan,False,1
+BSN (Bank Simpanan Nasional),BSN (Bank Simpanan Nasional),bsn (bank simpanan nasional),BSN (Bank Simpanan Nasional),False,1
+BTI Money Transfer,BTI Money Transfer,bti money transfer,BTI Money Transfer,False,1
+Bahrain Exchange Company,Bahrain Exchange Company,bahrain exchange company,Bahrain Exchange Company,False,1
+Bahrain Financing Company,Bahrain Financing Company,bahrain financing company,Bahrain Financing Company,False,1
+Bamboo Exchange,Bamboo Exchange,bamboo exchange,Bamboo Exchange,False,1
+Banca Intesa SanPaolo,Banca Intesa SanPaolo,banca intesa sanpaolo,Banca Intesa SanPaolo,False,1
+Banca Intesa SanPaolo via Western Union,Banca Intesa SanPaolo via Western Union,banca intesa sanpaolo via western union,Banca Intesa SanPaolo via Western Union,False,1
+Banca Monte dei Paschi di Siena,Banca Monte dei Paschi di Siena,banca monte dei paschi di siena,Banca Monte dei Paschi di Siena,False,1
+Banca di Credito Cooperativo,Banca di Credito Cooperativo,banca di credito cooperativo,Banca di Credito Cooperativo,False,1
+Banco Agricola,Banco Agricola,banco agricola,Banco Agricola,False,1
+Banco Bradesco,Banco Bradesco,banco bradesco,Banco Bradesco,False,1
+Banco Nacional de Costa Rica,Banco Nacional de Costa Rica,banco nacional de costa rica,Banco Nacional de Costa Rica,False,1
+Banco Rendimento,Banco Rendimento,banco rendimento,Banco Rendimento,False,1
+Banco Rendimento (Remessa Expressa),Banco Rendimento (Remessa Expressa),banco rendimento (remessa expressa),Banco Rendimento (Remessa Expressa),False,1
+Banco Santander,Banco Santander,banco santander,Banco Santander,False,1
+Banco do Brasil,Banco do Brasil,banco do brasil,Banco do Brasil,False,1
+Bancomer Transfer Services,Bancomer Transfer Services,bancomer transfer services,Bancomer Transfer Services,False,1
+Bancomercio,Bancomercio,bancomercio,Bancomercio,False,1
+Bancuscatlan,Bancuscatlan,bancuscatlan,Bancuscatlan,False,1
+Bangkok Bank,Bangkok Bank,bangkok bank,Bangkok Bank,False,1
+Bangkok Bank via Western Union,Bangkok Bank via Western Union,bangkok bank via western union,Bangkok Bank via Western Union,False,1
+Bank Al Habib,Bank Al Habib,bank al habib,Bank Al Habib,False,1
+Bank Albilad,Bank Albilad,bank albilad,Bank Albilad,False,1
+Bank Alfalah,Bank Alfalah,bank alfalah,Bank Alfalah,False,1
+Bank Austria,Bank Austria,bank austria,Bank Austria,False,1
+Bank Hapoalim,Bank Hapoalim,bank hapoalim,Bank Hapoalim,False,1
+Bank Islam,Bank Islam,bank islam,Bank Islam,False,1
+Bank Islami Pakistan Limited,Bank Islami Pakistan Limited,bank islami pakistan limited,Bank Islami Pakistan Limited,False,1
+Bank Itau,Bank Itau,bank itau,Bank Itau,False,1
+Bank Muscat,Bank Muscat,bank muscat,Bank Muscat,False,1
+Bank Pekao,Bank Pekao,bank pekao,Bank Pekao,False,1
+Bank Simpasan National,Bank Simpasan National,bank simpasan national,Bank Simpasan National,False,1
+Bank of Africa Senegal,Bank of Africa Senegal,bank of africa senegal,Bank of Africa Senegal,False,1
+Bank of America,Bank of America,bank of america,Bank of America,False,1
+Bank of Athens,Bank of Athens,bank of athens,Bank of Athens,False,1
+Bank of Baroda,Bank of Baroda,bank of baroda,Bank of Baroda,False,1
+Bank of China,Bank of China,bank of china,Bank of China,False,1
+Bank of Communications,Bank of Communications,bank of communications,Bank of Communications,False,1
+Bank of India,Bank of India,bank of india,Bank of India,False,1
+Bank of Montreal,Bank of Montreal,bank of montreal,Bank of Montreal,False,1
+Bank of New Zealand,Bank of New Zealand,bank of new zealand,Bank of New Zealand,False,1
+Bank of Qatar,Bank of Qatar,bank of qatar,Bank of Qatar,False,1
+Bank of Queensland,Bank of Queensland,bank of queensland,Bank of Queensland,False,1
+Bank of Sydney,Bank of Sydney,bank of sydney,Bank of Sydney,False,1
+BankWest,BankWest,bankwest,BankWest,False,1
+Banque Atlantique,Banque Atlantique,banque atlantique,Banque Atlantique,False,1
+Banque Cantonale de Genève (BCGE),Banque Cantonale de Genève (BCGE),banque cantonale de genève (bcge),Banque Cantonale de Genève (BCGE),False,1
+Banque Chaabi de Maroc,Banque Chaabi de Maroc,banque chaabi de maroc,Banque Chaabi de Maroc,False,1
+Banque Islamique du Senegal,Banque Islamique du Senegal,banque islamique du senegal,Banque Islamique du Senegal,False,1
+Banque Populaire,Banque Populaire,banque populaire,Banque Populaire,False,1
+Banque Populaire via Wise,Banque Populaire via Wise,banque populaire via wise,Banque Populaire via Wise,False,1
+Banrural Corp.,Banrural Corp.,banrural corp.,Banrural Corp.,False,1
+Barclays,Barclays,barclays,Barclays,False,1
+Bayba,Bayba,bayba,Bayba,False,1
+Bendigo Bank,Bendigo Bank,bendigo bank,Bendigo Bank,False,1
+Berliner Volksbank,Berliner Volksbank,berliner volksbank,Berliner Volksbank,False,1
+Bidvest Bank,Bidvest Bank,bidvest bank,Bidvest Bank,False,1
+BigPay,BigPay,bigpay,BigPay,False,1
+Bistraya Pochta (Fast Mail),Bistraya Pochta (Fast Mail),bistraya pochta (fast mail),Bistraya Pochta (Fast Mail),False,1
+Blizko,Blizko,blizko,Blizko,False,1
+Boursorama,Boursorama,boursorama,Boursorama,False,1
+Brastel Remit,Brastel Remit,brastel remit,Brastel Remit,False,1
+Brunphil (MoneyGram),Brunphil (MoneyGram),brunphil (moneygram),Brunphil (MoneyGram),False,1
+Brunphil Express,Brunphil Express,brunphil express,Brunphil Express,False,1
+Bux.com,Bux.com,bux.com,Bux.com,False,1
+CAM,CAM,cam,CAM,False,1
+CBL Money Transfer,CBL Money Transfer,cbl money transfer,CBL Money Transfer,False,1
+CIBC,CIBC,cibc,CIBC,False,1
+CIMB Group (Cash Laju),CIMB Group (Cash Laju),cimb group (cash laju),CIMB Group (Cash Laju),False,1
+CRDB Bank,CRDB Bank,crdb bank,CRDB Bank,False,1
+CSOB,CSOB,csob,CSOB,False,1
+CTRemit,CTRemit,ctremit,CTRemit,False,1
+Cairo Amman Bank,Cairo Amman Bank,cairo amman bank,Cairo Amman Bank,False,1
+Caisse D'Epargne I'lle de France,Caisse D'Epargne I'lle de France,caisse d'epargne i'lle de france,Caisse D'Epargne I'lle de France,False,1
+Caisse D'Epargne I'lle de France via Wise,Caisse D'Epargne I'lle de France via Wise,caisse d'epargne i'lle de france via wise,Caisse D'Epargne I'lle de France via Wise,False,1
+Caja Madrid,Caja Madrid,caja madrid,Caja Madrid,False,1
+Caribe Express,Caribe Express,caribe express,Caribe Express,False,1
+Casa de Cambio Delgado,Casa de Cambio Delgado,casa de cambio delgado,Casa de cambio Delgado,True,2
+Casa de cambio Delgado,Casa de cambio Delgado,casa de cambio delgado,Casa de cambio Delgado,False,2
+Cash Express,Cash Express,cash express,Cash Express,False,1
+CashMinute,CashMinute,cashminute,CashMinute,False,1
+Cashome,Cashome,cashome,Cashome,False,1
+Cassava Remit,Cassava Remit,cassava remit,Cassava Remit,False,1
+Cathay Bank,Cathay Bank,cathay bank,Cathay Bank,False,1
+Ceska Sporitelna,Ceska Sporitelna,ceska sporitelna,Ceska Sporitelna,False,1
+Ceylon Exchange,Ceylon Exchange,ceylon exchange,Ceylon Exchange,False,1
+Chaabi Bank,Chaabi Bank,chaabi bank,Chaabi Bank,False,1
+Chase Bank,Chase Bank,chase bank,Chase Bank,False,1
+Chequepoint,Chequepoint,chequepoint,Chequepoint,False,1
+China Bank of Communications,China Bank of Communications,china bank of communications,China Bank of Communications,False,1
+China Construction Bank,China Construction Bank,china construction bank,China Construction Bank,False,1
+ChipperCash,ChipperCash,chippercash,ChipperCash,False,1
+Choice Money Transfer,Choice Money Transfer,choice money transfer,Choice Money Transfer,False,1
+Cibao,Cibao,cibao,Cibao,False,1
+CitiNRI (Citibank),CitiNRI (Citibank),citinri (citibank),CitiNRI (Citibank),False,1
+Citibank,Citibank,citibank,Citibank,False,1
+Citibank Global Transfers,Citibank Global Transfers,citibank global transfers,Citibank Global Transfers,False,1
+Citilink Finance,Citilink Finance,citilink finance,Citilink Finance,False,1
+City Exchange Company,City Exchange Company,city exchange company,City Exchange Company,False,1
+Coinstar,Coinstar,coinstar,Coinstar,False,1
+Com2u,Com2u,com2u,Com2u,False,1
+Commercial Bank,Commercial Bank,commercial bank,Commercial Bank,False,1
+Commerzbank AG,Commerzbank AG,commerzbank ag,Commerzbank AG,False,1
+Commonwealth Bank,Commonwealth Bank,commonwealth bank,Commonwealth Bank,False,1
+Compass Global,Compass Global,compass global,Compass Global,False,1
+Compass Global Markets,Compass Global Markets,compass global markets,Compass Global Markets,False,1
+Contact,Contact,contact,Contact,False,1
+Contact D,Contact D,contact d,Contact D,False,1
+Cooperative Rural Development Bank (CRDB),Cooperative Rural Development Bank (CRDB),cooperative rural development bank (crdb),Cooperative Rural Development Bank (CRDB),False,1
+Credit Agricole,Credit Agricole,credit agricole,Credit Agricole,False,1
+Credit Lyonnais,Credit Lyonnais,credit lyonnais,Credit Lyonnais,False,1
+Credit Suisse,Credit Suisse,credit suisse,Credit Suisse,False,1
+Crew Card,Crew Card,crew card,Crew Card,False,1
+DBS,DBS,dbs,DBS,False,1
+DBS Remit,DBS Remit,dbs remit,DBS Remit,False,1
+DCOM Money Express,DCOM Money Express,dcom money express,DCOM Money Express,False,1
+DNB Bank,DNB Bank,dnb bank,DNB Bank,False,1
+DNB Bank ASA,DNB Bank ASA,dnb bank asa,DNB Bank ASA,False,1
+DP International Finance Limited,DP International Finance Limited,dp international finance limited,DP International Finance Limited,False,1
+DTD Express,DTD Express,dtd express,DTD Express,False,1
+Dahabshiil,Dahabshiil,dahabshiil,Dahabshiil,False,1
+Dahabshil,Dahabshil,dahabshil,Dahabshil,False,1
+Dalil Exchange Company,Dalil Exchange Company,dalil exchange company,Dalil Exchange Company,False,1
+DeeMoney,DeeMoney,deemoney,DeeMoney,False,1
+Delgado Travel,Delgado Travel,delgado travel,Delgado Travel,False,1
+Denizbank,Denizbank,denizbank,Denizbank,False,1
+Denizbank AG,Denizbank AG,denizbank ag,Denizbank AG,False,1
+Deutsche Bank,Deutsche Bank,deutsche bank,Deutsche Bank,False,1
+Deutsche Postbank via Western Union,Deutsche Postbank via Western Union,deutsche postbank via western union,Deutsche Postbank via Western Union,False,1
+Development Bank of Kenya,Development Bank of Kenya,development bank of kenya,Development Bank of Kenya,False,1
+Digicel Mobile Money,Digicel Mobile Money,digicel mobile money,Digicel Mobile Money,False,1
+Dinero Express,Dinero Express,dinero express,Dinero Express,False,1
+DirectRemit (NBD),DirectRemit (NBD),directremit (nbd),DirectRemit (NBD),False,1
+Doha Bank,Doha Bank,doha bank,Doha Bank,False,1
+Dolex Dollar Express,Dolex Dollar Express,dolex dollar express,Dolex Dollar Express,False,1
+Dollar Links,Dollar Links,dollar links,Dollar Links,False,1
+Doowit,Doowit,doowit,Doowit,False,1
+Double Crown International,Double Crown International,double crown international,Double Crown International,False,1
+Duales,Duales,duales,Duales,False,1
+Dubai Islamic Bank,Dubai Islamic Bank,dubai islamic bank,Dubai Islamic Bank,False,1
+E-remit,E-remit,e-remit,E-remit,False,1
+EEC Int'l Express Ptd Ltd,EEC Int'l Express Ptd Ltd,eec int'l express ptd ltd,EEC Int'l Express Ptd Ltd,False,1
+EEC Int'l Express Pte Ltd,EEC Int'l Express Pte Ltd,eec int'l express pte ltd,EEC Int'l Express Pte Ltd,False,1
+EZ Money,EZ Money,ez money,EZ Money,False,1
+EZ Money Express,EZ Money Express,ez money express,EZ Money Express,False,1
+East Asia Forex,East Asia Forex,east asia forex,East Asia Forex,False,1
+East West Bank,East West Bank,east west bank,East West Bank,False,1
+Eastern Exchange Co,Eastern Exchange Co,eastern exchange co,Eastern Exchange Co,False,1
+Easy Exchange,Easy Exchange,easy exchange,Easy Exchange,False,1
+EcoBank Rapid Transfer,EcoBank Rapid Transfer,ecobank rapid transfer,EcoBank Rapid Transfer,False,1
+EcoCash Remit,EcoCash Remit,ecocash remit,EcoCash Remit,False,1
+EcoRemit,EcoRemit,ecoremit,EcoRemit,False,1
+Ecobank,Ecobank,ecobank,Ecobank,False,1
+Ecobank RapidCash,Ecobank RapidCash,ecobank rapidcash,Ecobank RapidCash,False,2
+Ecobank Rapidcash,Ecobank Rapidcash,ecobank rapidcash,Ecobank RapidCash,True,2
+Econet Wireless,Econet Wireless,econet wireless,Econet Wireless,False,1
+Emirates International Exchange,Emirates International Exchange,emirates international exchange,Emirates International Exchange,False,1
+Emirates NBD,Emirates NBD,emirates nbd,Emirates NBD,False,1
+Enjaz Bank,Enjaz Bank,enjaz bank,Enjaz Bank,False,1
+Enjaz Easy,Enjaz Easy,enjaz easy,Enjaz Easy,False,1
+Envios 22-24,Envios 22-24,envios 22-24,Envios 22-24,False,1
+Envios de Dinero G&T Continental,Envios de Dinero G&T Continental,envios de dinero g&t continental,Envios de Dinero G&T Continental,False,1
+Envios de Valores La Nacional,Envios de Valores La Nacional,envios de valores la nacional,Envios de Valores La Nacional,False,1
+Epokifo 'ou Money Transfer,Epokifo 'ou Money Transfer,epokifo 'ou money transfer,Epokifo 'ou Money Transfer,False,1
+Equatorial Commercial Bank,Equatorial Commercial Bank,equatorial commercial bank,Equatorial Commercial Bank,False,1
+Equity Direct,Equity Direct,equity direct,Equity Direct,False,1
+Erste Bank,Erste Bank,erste bank,Erste Bank,False,1
+"Esary Trading PTE, Ltd","Esary Trading PTE, Ltd","esary trading pte, ltd","Esary Trading PTE, Ltd",False,1
+Europhil,Europhil,europhil,Europhil,False,1
+EverSend,EverSend,eversend,EverSend,False,1
+Exact Change,Exact Change,exact change,Exact Change,False,1
+Exim Bank,Exim Bank,exim bank,Exim Bank,False,1
+Exim Bank Tanzania Ltd,Exim Bank Tanzania Ltd,exim bank tanzania ltd,Exim Bank Tanzania Ltd,False,1
+Expeed Global,Expeed Global,expeed global,Expeed Global,False,1
+Express Funds,Express Funds,express funds,Express Funds,False,1
+Express Global Finance,Express Global Finance,express global finance,Express Global Finance,False,1
+Express Global Finance (EGF),Express Global Finance (EGF),express global finance (egf),Express Global Finance (EGF),False,1
+Express Money,Express Money,express money,Express Money,False,1
+ExpressLinks UK,ExpressLinks UK,expresslinks uk,ExpressLinks UK,False,1
+Extrabanca,Extrabanca,extrabanca,Extrabanca,False,1
+EziSend,EziSend,ezisend,EziSend,False,1
+Ezremit,Ezremit,ezremit,Ezremit,False,1
+FLASHremit,FLASHremit,flashremit,FLASHremit,False,1
+Fadugu,Fadugu,fadugu,Fadugu,False,1
+Fast Mail,Fast Mail,fast mail,Fast Mail,False,1
+Fast Remit,Fast Remit,fast remit,Fast Remit,False,1
+FastCash,FastCash,fastcash,FastCash,False,1
+Faster Money Transfers,Faster Money Transfers,faster money transfers,Faster Money Transfers,False,1
+Fawri,Fawri,fawri,Fawri,False,1
+Faysal Bank,Faysal Bank,faysal bank,Faysal Bank,False,1
+Fetu'u - To - Financial Services,Fetu'u - To - Financial Services,fetu'u - to - financial services,Fetu'u - To - Financial Services,False,1
+Fetuu-To-Financial Services,Fetuu-To-Financial Services,fetuu-to-financial services,Fetuu-To-Financial Services,False,1
+Ficohsa Express,Ficohsa Express,ficohsa express,Ficohsa Express,False,1
+Fina Direct,Fina Direct,fina direct,Fina Direct,False,1
+First African Remittances,First African Remittances,first african remittances,First African Remittances,False,1
+First National Bank of South Africa,First National Bank of South Africa,first national bank of south africa,First National Bank of South Africa,False,1
+First National Bank of South Africa via MoneyGram,First National Bank of South Africa via MoneyGram,first national bank of south africa via moneygram,First National Bank of South Africa via MoneyGram,False,1
+First Security Islami Exchange,First Security Islami Exchange,first security islami exchange,First Security Islami Exchange,False,1
+Flouss,Flouss,flouss,Flouss,False,1
+FlyWorld Money,FlyWorld Money,flyworld money,FlyWorld Money,False,1
+Fokus Bank,Fokus Bank,fokus bank,Fokus Bank,False,1
+Foreign Exchange Central,Foreign Exchange Central,foreign exchange central,Foreign Exchange Central,False,1
+Foren Money,Foren Money,foren money,Foren Money,False,1
+Forex Australia,Forex Australia,forex australia,Forex Australia,False,1
+Forex Japan,Forex Japan,forex japan,Forex Japan,False,1
+Frank Money Transfer,Frank Money Transfer,frank money transfer,Frank Money Transfer,False,1
+Frankie Money Transfer,Frankie Money Transfer,frankie money transfer,Frankie Money Transfer,False,1
+GCC Exchange,GCC Exchange,gcc exchange,GCC Exchange,False,1
+GMT Money,GMT Money,gmt money,GMT Money,False,1
+GMT Money Transfer,GMT Money Transfer,gmt money transfer,GMT Money Transfer,False,1
+GPL,GPL,gpl,GPL,False,1
+GPL Remittance,GPL Remittance,gpl remittance,GPL Remittance,False,1
+GT Bank,GT Bank,gt bank,GT Bank,False,1
+GTL Money Transfer,GTL Money Transfer,gtl money transfer,GTL Money Transfer,False,1
+Ghana International Bank,Ghana International Bank,ghana international bank,Ghana International Bank,False,1
+Gift Connects (Money),Gift Connects (Money),gift connects (money),Gift Connects (Money),False,1
+Giros Hispanas,Giros Hispanas,giros hispanas,Giros Hispanas,False,1
+Girosol,Girosol,girosol,Girosol,False,1
+Giunazu Transfer,Giunazu Transfer,giunazu transfer,Giunazu Transfer,False,1
+Global Exchange Ltd,Global Exchange Ltd,global exchange ltd,Global Exchange Ltd,False,1
+Global Link,Global Link,global link,Global Link,False,1
+Global Money Remittance,Global Money Remittance,global money remittance,Global Money Remittance,False,1
+Globo Travel 'n' Tours,Globo Travel 'n' Tours,globo travel 'n' tours,Globo Travel 'n' Tours,False,1
+Go,Go,go,Go,False,1
+Go Vianex,Go Vianex,go vianex,Go Vianex,False,1
+GoRemit,GoRemit,goremit,GoRemit,False,1
+GoRemit (Shinsei Bank),GoRemit (Shinsei Bank),goremit (shinsei bank),GoRemit (Shinsei Bank),False,1
+Golden Dragon,Golden Dragon,golden dragon,Golden Dragon,False,1
+Golden Trust Finance Limited,Golden Trust Finance Limited,golden trust finance limited,Golden Trust Finance Limited,False,1
+Government Saving Bank,Government Saving Bank,government saving bank,Government Saving Bank,False,1
+Guaranty Trust Bank,Guaranty Trust Bank,guaranty trust bank,Guaranty Trust Bank,False,1
+Guinazu Transfer,Guinazu Transfer,guinazu transfer,Guinazu Transfer,False,1
+HBL,HBL,hbl,HBL,False,1
+HDFC Bank,HDFC Bank,hdfc bank,HDFC Bank,False,1
+HLB (Hong Leong Bank),HLB (Hong Leong Bank),hlb (hong leong bank),HLB (Hong Leong Bank),False,1
+HLB SuperRemit,HLB SuperRemit,hlb superremit,HLB SuperRemit,False,1
+HM Transfer,HM Transfer,hm transfer,HM Transfer,False,1
+HSBC,HSBC,hsbc,HSBC,False,1
+Habib Bank,Habib Bank,habib bank,Habib Bank,False,1
+Habib Express,Habib Express,habib express,Habib Express,False,1
+Habib Metropolitan Bank,Habib Metropolitan Bank,habib metropolitan bank,Habib Metropolitan Bank,False,1
+Habib Qatar International Exchange,Habib Qatar International Exchange,habib qatar international exchange,Habib Qatar International Exchange,False,1
+Hai Ha Money Transfer,Hai Ha Money Transfer,hai ha money transfer,Hai Ha Money Transfer,False,1
+Hamburger Sparkasse,Hamburger Sparkasse,hamburger sparkasse,Hamburger Sparkasse,False,1
+Hamza Office for Exchange,Hamza Office for Exchange,hamza office for exchange,Hamza Office for Exchange,False,1
+Hana Bank,Hana Bank,hana bank,Hana Bank,False,1
+Hanshan Money Express,Hanshan Money Express,hanshan money express,Hanshan Money Express,False,1
+Haratan Servicing,Haratan Servicing,haratan servicing,Haratan Servicing,False,1
+Hello-Paisa,Hello-Paisa,hello-paisa,Hello-Paisa,False,1
+Hong VINA,Hong VINA,hong vina,Hong VINA,False,1
+Horizon International Remittance,Horizon International Remittance,horizon international remittance,Horizon International Remittance,False,1
+HotPay,HotPay,hotpay,HotPay,False,1
+Housing Bank,Housing Bank,housing bank,Housing Bank,False,1
+HypoVereinsbank,HypoVereinsbank,hypovereinsbank,HypoVereinsbank,False,1
+I-Remit to the Philippines,I-Remit to the Philippines,i-remit to the philippines,I-Remit to the Philippines,False,1
+I-send,I-send,i-send,I-send,False,1
+I-transfer,I-transfer,i-transfer,I-transfer,False,1
+ICBC Korea,ICBC Korea,icbc korea,ICBC Korea,False,1
+ICICI Bank,ICICI Bank,icici bank,ICICI Bank,False,1
+ICICI Bank Money2India,ICICI Bank Money2India,icici bank money2india,ICICI Bank Money2India,False,1
+ICICI Bank Money2World,ICICI Bank Money2World,icici bank money2world,ICICI Bank Money2World,False,1
+IE Money Limited,IE Money Limited,ie money limited,IE Money Limited,False,1
+IFIC Money Transfer,IFIC Money Transfer,ific money transfer,IFIC Money Transfer,False,1
+IME (International Money Express),IME (International Money Express),ime (international money express),IME (International Money Express),False,1
+IME Remit,IME Remit,ime remit,IME Remit,False,1
+IMEX Money Transfer,IMEX Money Transfer,imex money transfer,IMEX Money Transfer,False,1
+ING Bank,ING Bank,ing bank,ING Bank,False,1
+ING Bank/Postbank,ING Bank/Postbank,ing bank/postbank,ING Bank/Postbank,False,1
+Iftin Express,Iftin Express,iftin express,Iftin Express,False,1
+Incentive Remit,Incentive Remit,incentive remit,Incentive Remit,False,1
+India International Bank,India International Bank,india international bank,India International Bank,False,1
+Indian Overseas Bank,Indian Overseas Bank,indian overseas bank,Indian Overseas Bank,False,1
+Industrial Bank of Korea,Industrial Bank of Korea,industrial bank of korea,Industrial Bank of Korea,False,1
+Industrial Bank of Korea via Western Union,Industrial Bank of Korea via Western Union,industrial bank of korea via western union,Industrial Bank of Korea via Western Union,False,1
+Industrial and Commercial Bank of China (ICBC),Industrial and Commercial Bank of China (ICBC),industrial and commercial bank of china (icbc),Industrial and Commercial Bank of China (ICBC),False,1
+InstaReM,InstaReM,instarem,InstaReM,False,1
+Intelexpress,Intelexpress,intelexpress,Intelexpress,False,1
+Interexpress,Interexpress,interexpress,Interexpress,False,1
+Intermex,Intermex,intermex,Intermex,False,1
+International Remittance (NZ),International Remittance (NZ),international remittance (nz),International Remittance (NZ),False,1
+Intertransfers,Intertransfers,intertransfers,Intertransfers,False,1
+Isbank,Isbank,isbank,Isbank,False,1
+Island Flexi Transfer,Island Flexi Transfer,island flexi transfer,Island Flexi Transfer,False,1
+Israel Discount Bank,Israel Discount Bank,israel discount bank,Israel Discount Bank,False,1
+J&J Express,J&J Express,j&j express,J&J Express,False,1
+J-Fin,J-Fin,j-fin,J-Fin,False,1
+JC Money Change,JC Money Change,jc money change,JC Money Change,False,1
+JEC Remittance and Cargo Service,JEC Remittance and Cargo Service,jec remittance and cargo service,JEC Remittance and Cargo Service,False,1
+JME,JME,jme,JME,False,1
+JN Money,JN Money,jn money,JN Money,False,1
+JNBS,JNBS,jnbs,JNBS,False,1
+JRF,JRF,jrf,JRF,False,1
+JS Bank,JS Bank,js bank,JS Bank,False,1
+Jalandoni Money Changer and Remittances,Jalandoni Money Changer and Remittances,jalandoni money changer and remittances,Jalandoni Money Changer and Remittances,False,1
+Jamaica National,Jamaica National,jamaica national,Jamaica National,False,1
+Jambo Global,Jambo Global,jambo global,Jambo Global,False,1
+Janata Exchange Company,Janata Exchange Company,janata exchange company,Janata Exchange Company,False,1
+Japan Post Bank,Japan Post Bank,japan post bank,Japan Post Bank,False,1
+Jet Peru,Jet Peru,jet peru,Jet Peru,False,1
+Jiaxin Finance Limited,Jiaxin Finance Limited,jiaxin finance limited,Jiaxin Finance Limited,False,1
+Johnny Air Cargo,Johnny Air Cargo,johnny air cargo,Johnny Air Cargo,False,1
+Joni Joni,Joni Joni,joni joni,Joni Joni,False,1
+Jordan Ahli Bank,Jordan Ahli Bank,jordan ahli bank,Jordan Ahli Bank,False,1
+Jordan Kuwait Bank,Jordan Kuwait Bank,jordan kuwait bank,Jordan Kuwait Bank,False,1
+Juba Express,Juba Express,juba express,Juba Express,False,1
+K-Bank,K-Bank,k-bank,K-Bank,False,1
+K-Mobile Banking Plus,K-Mobile Banking Plus,k-mobile banking plus,K-Mobile Banking Plus,False,1
+KCB (Kenya Commercial Bank),KCB (Kenya Commercial Bank),kcb (kenya commercial bank),KCB (Kenya Commercial Bank),False,1
+KCB Bank,KCB Bank,kcb bank,KCB Bank,False,1
+KEB Hana Bank,KEB Hana Bank,keb hana bank,KEB Hana Bank,False,1
+KL Remit Xchange,KL Remit Xchange,kl remit xchange,KL Remit Xchange,False,1
+Kaah Express,Kaah Express,kaah express,Kaah Express,False,1
+Kabayan Remittance,Kabayan Remittance,kabayan remittance,Kabayan Remittance,False,1
+Kangaroo Service,Kangaroo Service,kangaroo service,Kangaroo Service,False,1
+Kanson Services,Kanson Services,kanson services,Kanson Services,False,1
+Kantipur Services,Kantipur Services,kantipur services,Kantipur Services,False,1
+Kapook,Kapook,kapook,Kapook,False,1
+Kapruka,Kapruka,kapruka,Kapruka,False,1
+Kasikorn Bank,Kasikorn Bank,kasikorn bank,Kasikorn Bank,False,1
+Kasikorn Bank K Plus,Kasikorn Bank K Plus,kasikorn bank k plus,Kasikorn Bank K Plus,False,1
+Kenya Commercial Bank (KCB),Kenya Commercial Bank (KCB),kenya commercial bank (kcb),Kenya Commercial Bank (KCB),False,1
+Kiwibank,Kiwibank,kiwibank,Kiwibank,False,1
+KlickEx,KlickEx,klickex,KlickEx,False,1
+KlickEx Pacific,KlickEx Pacific,klickex pacific,KlickEx Pacific,False,1
+Klinnk,Klinnk,klinnk,Klinnk,False,1
+Komercijalna Banka,Komercijalna Banka,komercijalna banka,Komercijalna Banka,False,1
+Komercni Banka,Komercni Banka,komercni banka,Komercni Banka,False,1
+Kookmin Bank,Kookmin Bank,kookmin bank,Kookmin Bank,False,1
+Korea Exchange Bank,Korea Exchange Bank,korea exchange bank,Korea Exchange Bank,False,1
+Korea Post Office,Korea Post Office,korea post office,Korea Post Office,False,1
+Kotak Click2Remit,Kotak Click2Remit,kotak click2remit,Kotak Click2Remit,False,1
+Krung Thai Bank,Krung Thai Bank,krung thai bank,Krung Thai Bank,False,1
+Krungsri Bank,Krungsri Bank,krungsri bank,Krungsri Bank,False,1
+KrungsriQuick,KrungsriQuick,krungsriquick,KrungsriQuick,False,1
+Krungthai Bank,Krungthai Bank,krungthai bank,Krungthai Bank,False,1
+Krungthai Bank via Western Union,Krungthai Bank via Western Union,krungthai bank via western union,Krungthai Bank via Western Union,False,1
+Kushiara,Kushiara,kushiara,Kushiara,False,1
+Kuwait India International Exchange,Kuwait India International Exchange,kuwait india international exchange,Kuwait India International Exchange,False,1
+Kyodai,Kyodai,kyodai,Kyodai,False,1
+Kyodai via MoneyGram,Kyodai via MoneyGram,kyodai via moneygram,Kyodai via MoneyGram,False,1
+LBC Express,LBC Express,lbc express,LBC Express,False,1
+LBC Remit,LBC Remit,lbc remit,LBC Remit,False,1
+LCC,LCC,lcc,LCC,False,1
+LM Money Transfer,LM Money Transfer,lm money transfer,LM Money Transfer,False,1
+La Banque Postale,La Banque Postale,la banque postale,La Banque Postale,False,1
+La Banque Postale via Western Union,La Banque Postale via Western Union,la banque postale via western union,La Banque Postale via Western Union,False,1
+La Caixa,La Caixa,la caixa,La Caixa,False,1
+La Nacional,La Nacional,la nacional,La Nacional,False,1
+La Poste,La Poste,la poste,La Poste,False,1
+La Poste via Ria,La Poste via Ria,la poste via ria,La Poste via Ria,False,1
+La Poste via Western Union,La Poste via Western Union,la poste via western union,La Poste via Western Union,False,1
+Laparkan,Laparkan,laparkan,Laparkan,False,1
+Lari,Lari,lari,Lari,False,1
+LeGoiTienLe,LeGoiTienLe,legoitienle,LeGoiTienLe,False,1
+Leader,Leader,leader,Leader,False,1
+Leader Leomoney,Leader Leomoney,leader leomoney,Leader Leomoney,False,1
+Leader alfa-click,Leader alfa-click,leader alfa-click,Leader alfa-click,False,1
+Leader-Exclusive,Leader-Exclusive,leader-exclusive,Leader-Exclusive,False,1
+Lebara,Lebara,lebara,Lebara,False,1
+Lebara Money,Lebara Money,lebara money,Lebara Money,False,1
+Liberty Transfer,Liberty Transfer,liberty transfer,Liberty Transfer,False,1
+Lloyds Remittance Service (Go Lloyds),Lloyds Remittance Service (Go Lloyds),lloyds remittance service (go lloyds),Lloyds Remittance Service (Go Lloyds),False,1
+Lotus Foreign Exchange Ltd,Lotus Foreign Exchange Ltd,lotus foreign exchange ltd,Lotus Foreign Exchange Ltd,False,1
+Lucky Money,Lucky Money,lucky money,Lucky Money,False,1
+Lulu Exchange,Lulu Exchange,lulu exchange,Lulu Exchange,False,1
+Lulu Money,Lulu Money,lulu money,Lulu Money,False,1
+Lulu Now,Lulu Now,lulu now,Lulu Now,False,1
+Lyca,Lyca,lyca,Lyca,False,1
+Lyca Remit,Lyca Remit,lyca remit,Lyca Remit,False,1
+M-PAiSA,M-PAiSA,m-paisa,M-PAiSA,False,1
+M-Pesa,M-Pesa,m-pesa,M-Pesa,False,1
+M.Lhuillier Financial Services,M.Lhuillier Financial Services,m.lhuillier financial services,M.Lhuillier Financial Services,False,1
+M1 Remit,M1 Remit,m1 remit,M1 Remit,False,1
+MB Transfers,MB Transfers,mb transfers,MB Transfers,False,1
+MFF Remit,MFF Remit,mff remit,MFF Remit,False,1
+MITSUBISHI UFJ NICOS,MITSUBISHI UFJ NICOS,mitsubishi ufj nicos,MITSUBISHI UFJ NICOS,False,1
+MMBB Services,MMBB Services,mmbb services,MMBB Services,False,1
+MORE Money Transfer,MORE Money Transfer,more money transfer,MORE Money Transfer,False,1
+MTN,MTN,mtn,MTN,False,1
+MTN Mobile Money,MTN Mobile Money,mtn mobile money,MTN Mobile Money,False,1
+Maccorp Exact Change,Maccorp Exact Change,maccorp exact change,Maccorp Exact Change,False,1
+Magic Money,Magic Money,magic money,Magic Money,False,1
+Maico Money Transfer,Maico Money Transfer,maico money transfer,Maico Money Transfer,False,1
+Maka Mo'ui,Maka Mo'ui,maka mo'ui,Maka Mo'ui,False,1
+Malam Connection,Malam Connection,malam connection,Malam Connection,False,1
+Mama Money,Mama Money,mama money,Mama Money,False,1
+Manatu Ofa Ltd,Manatu Ofa Ltd,manatu ofa ltd,Manatu Ofa Ltd,False,1
+Mandiri International Remittance,Mandiri International Remittance,mandiri international remittance,Mandiri International Remittance,False,1
+Maniflo,Maniflo,maniflo,Maniflo,False,1
+Manila Freight,Manila Freight,manila freight,Manila Freight,False,1
+Mashreq Bank,Mashreq Bank,mashreq bank,Mashreq Bank,False,1
+Mass Express,Mass Express,mass express,Mass Express,False,1
+Master Envios Unidos,Master Envios Unidos,master envios unidos,Master Envios Unidos,False,1
+MasterLink,MasterLink,masterlink,MasterLink,False,1
+Mateaki Money Transfer,Mateaki Money Transfer,mateaki money transfer,Mateaki Money Transfer,False,1
+Max Money,Max Money,max money,Max Money,False,1
+Maybank,Maybank,maybank,Maybank,False,1
+Maybank Money Express,Maybank Money Express,maybank money express,Maybank Money Express,False,1
+Meezan Bank,Meezan Bank,meezan bank,Meezan Bank,False,1
+Melie Mei Langi Money Transfer,Melie Mei Langi Money Transfer,melie mei langi money transfer,Melie Mei Langi Money Transfer,False,1
+Merchantrade Money Transfer,Merchantrade Money Transfer,merchantrade money transfer,Merchantrade Money Transfer,False,1
+Metro Bank,Metro Bank,metro bank,Metro Bank,False,1
+Metro Remittance,Metro Remittance,metro remittance,Metro Remittance,False,1
+Metro Remittance Center,Metro Remittance Center,metro remittance center,Metro Remittance Center,False,1
+Migom,Migom,migom,Migom,False,1
+Migros Bank,Migros Bank,migros bank,Migros Bank,False,1
+MobiCash,MobiCash,mobicash,MobiCash,False,1
+Mobile Union,Mobile Union,mobile union,Mobile Union,False,1
+Modern Exchange Company,Modern Exchange Company,modern exchange company,Modern Exchange Company,False,1
+Moin,Moin,moin,Moin,False,1
+Mondial Bony Service,Mondial Bony Service,mondial bony service,Mondial Bony Service,False,1
+Money Chain Foreign Exchange,Money Chain Foreign Exchange,money chain foreign exchange,Money Chain Foreign Exchange,False,1
+Money Exchange,Money Exchange,money exchange,Money Exchange,False,1
+Money Exchange Italia,Money Exchange Italia,money exchange italia,Money Exchange Italia,False,1
+Money Express,Money Express,money express,Money Express,False,1
+Money Express NZ,Money Express NZ,money express nz,Money Express NZ,False,1
+Money Move IT,Money Move IT,money move it,Money Move IT,False,1
+Money Remittance Worldwide,Money Remittance Worldwide,money remittance worldwide,Money Remittance Worldwide,False,1
+Money Share Card,Money Share Card,money share card,Money Share Card,False,1
+Money X Press,Money X Press,money x press,Money X Press,False,1
+Money2anywhere,Money2anywhere,money2anywhere,Money2anywhere,False,1
+MoneyGram,MoneyGram,moneygram,MoneyGram,False,1
+MoneyMatch Transfer,MoneyMatch Transfer,moneymatch transfer,MoneyMatch Transfer,False,1
+MoneySwift,MoneySwift,moneyswift,MoneySwift,False,1
+MoneyTT,MoneyTT,moneytt,MoneyTT,False,1
+MoneyTrans,MoneyTrans,moneytrans,MoneyTrans,False,1
+MoneyWorld,MoneyWorld,moneyworld,MoneyWorld,False,1
+Moneybookers,Moneybookers,moneybookers,Moneybookers,False,1
+Moneyglobe,Moneyglobe,moneyglobe,Moneyglobe,False,1
+Moneyline UK,Moneyline UK,moneyline uk,Moneyline UK,False,1
+Moneypolo,Moneypolo,moneypolo,Moneypolo,False,1
+Mong Lee Enterprise,Mong Lee Enterprise,mong lee enterprise,Mong Lee Enterprise,False,1
+Monisnap,Monisnap,monisnap,Monisnap,False,1
+Moov Africa,Moov Africa,moov africa,Moov Africa,False,1
+Mukuru,Mukuru,mukuru,Mukuru,False,1
+Multi Money Transfer,Multi Money Transfer,multi money transfer,Multi Money Transfer,False,1
+Muncha,Muncha,muncha,Muncha,False,1
+Muncha Money Transfer Serivces,Muncha Money Transfer Serivces,muncha money transfer serivces,Muncha Money Transfer Serivces,False,1
+Musandam Exchange,Musandam Exchange,musandam exchange,Musandam Exchange,False,1
+Musharbash Exchange,Musharbash Exchange,musharbash exchange,Musharbash Exchange,False,1
+Musika,Musika,musika,Musika,False,1
+Mustafa Sultan Exchange Co,Mustafa Sultan Exchange Co,mustafa sultan exchange co,Mustafa Sultan Exchange Co,False,1
+Mustaqbal,Mustaqbal,mustaqbal,Mustaqbal,False,1
+Mustaqbal Express,Mustaqbal Express,mustaqbal express,Mustaqbal Express,False,1
+MyCash Money,MyCash Money,mycash money,MyCash Money,False,1
+Myanmar Remit Card,Myanmar Remit Card,myanmar remit card,Myanmar Remit Card,False,1
+NBC (National Bank of Commerce Ltd),NBC (National Bank of Commerce Ltd),nbc (national bank of commerce ltd),NBC (National Bank of Commerce Ltd),False,1
+NBL Money Transfer,NBL Money Transfer,nbl money transfer,NBL Money Transfer,False,1
+NBL Remit,NBL Remit,nbl remit,NBL Remit,False,1
+NCBJ,NCBJ,ncbj,NCBJ,False,1
+NEC,NEC,nec,NEC,False,1
+NEC Remit,NEC Remit,nec remit,NEC Remit,False,1
+NH Bank,NH Bank,nh bank,NH Bank,False,1
+NMB (National Microfinance Bank),NMB (National Microfinance Bank),nmb (national microfinance bank),NMB (National Microfinance Bank),False,1
+NTT Docomo,NTT Docomo,ntt docomo,NTT Docomo,False,1
+NYBay Remit,NYBay Remit,nybay remit,NYBay Remit,False,1
+NZ Forex,NZ Forex,nz forex,NZ Forex,False,1
+NZS Forex,NZS Forex,nzs forex,NZS Forex,False,1
+Nai Nguan Remittance Service,Nai Nguan Remittance Service,nai nguan remittance service,Nai Nguan Remittance Service,False,1
+NatWest,NatWest,natwest,NatWest,False,1
+National Australia Bank (NAB),National Australia Bank (NAB),national australia bank (nab),National Australia Bank (NAB),False,1
+National Bank,National Bank,national bank,National Bank,False,1
+National Bank of Commerce Ltd (NBC),National Bank of Commerce Ltd (NBC),national bank of commerce ltd (nbc),National Bank of Commerce Ltd (NBC),False,1
+National Bank of Pakistan,National Bank of Pakistan,national bank of pakistan,National Bank of Pakistan,False,1
+National Exchange Company,National Exchange Company,national exchange company,National Exchange Company,False,1
+National Finance and Exchange Co,National Finance and Exchange Co,national finance and exchange co,National Finance and Exchange Co,False,1
+Nedbank,Nedbank,nedbank,Nedbank,False,1
+NetFox Ltd,NetFox Ltd,netfox ltd,NetFox Ltd,False,1
+Netfox,Netfox,netfox,Netfox,False,1
+Nikua,Nikua,nikua,Nikua,False,1
+Noble Money,Noble Money,noble money,Noble Money,False,1
+Noor Bank,Noor Bank,noor bank,Noor Bank,False,1
+Nordea Bank,Nordea Bank,nordea bank,Nordea Bank,False,1
+Now Transfer,Now Transfer,now transfer,Now Transfer,False,1
+OFW Remittance,OFW Remittance,ofw remittance,OFW Remittance,False,1
+OFX,OFX,ofx,OFX,False,1
+OM Distribuidora de Titulos e valores Mobiliarios,OM Distribuidora de Titulos e valores Mobiliarios,om distribuidora de titulos e valores mobiliarios,OM Distribuidora de Titulos e valores Mobiliarios,False,1
+OMM,OMM,omm,OMM,False,1
+Opal Transfer,Opal Transfer,opal transfer,Opal Transfer,False,1
+Orange Money,Orange Money,orange money,Orange Money,False,1
+Orbit Remit,Orbit Remit,orbit remit,Orbit Remit,False,1
+Order Express,Order Express,order express,Order Express,False,1
+Orlandi Valuta,Orlandi Valuta,orlandi valuta,Orlandi Valuta,False,1
+OuroMinas,OuroMinas,ourominas,OuroMinas,False,1
+Oyak Anker Bank,Oyak Anker Bank,oyak anker bank,Oyak Anker Bank,False,1
+PFG Money,PFG Money,pfg money,PFG Money,False,1
+PFG Smart Credit,PFG Smart Credit,pfg smart credit,PFG Smart Credit,False,1
+PNB (Philippine National Bank),PNB (Philippine National Bank),pnb (philippine national bank),PNB (Philippine National Bank),False,1
+PNB (Philippines National Bank),PNB (Philippines National Bank),pnb (philippines national bank),PNB (Philippines National Bank),False,1
+PNB Global Remit,PNB Global Remit,pnb global remit,PNB Global Remit,False,1
+PTT,PTT,ptt,PTT,False,1
+PTT-UPT,PTT-UPT,ptt-upt,PTT-UPT,False,1
+PTT-Western Union,PTT-Western Union,ptt-western union,PTT-Western Union,False,1
+Pacific Ezy Money Transfer,Pacific Ezy Money Transfer,pacific ezy money transfer,Pacific Ezy Money Transfer,False,1
+Pacific Way,Pacific Way,pacific way,Pacific Way,False,1
+Pacific Way Money Transfer,Pacific Way Money Transfer,pacific way money transfer,Pacific Way Money Transfer,False,1
+Paco Money Transfer,Paco Money Transfer,paco money transfer,Paco Money Transfer,False,1
+PakRemit,PakRemit,pakremit,PakRemit,False,1
+PakRemit (National Bank of Pakistan),PakRemit (National Bank of Pakistan),pakremit (national bank of pakistan),PakRemit (National Bank of Pakistan),False,1
+Palestine Office for Exchange,Palestine Office for Exchange,palestine office for exchange,Palestine Office for Exchange,False,1
+Pangea,Pangea,pangea,Pangea,False,1
+Parwaz Money Exchange,Parwaz Money Exchange,parwaz money exchange,Parwaz Money Exchange,False,1
+Pay iZi!,Pay iZi!,pay izi!,Pay iZi!,False,1
+Pay2Home Remittance,Pay2Home Remittance,pay2home remittance,Pay2Home Remittance,False,1
+PayAfrique.com,PayAfrique.com,payafrique.com,PayAfrique.com,False,1
+PaySii,PaySii,paysii,PaySii,False,1
+PayTop,PayTop,paytop,PayTop,False,1
+Paysend,Paysend,paysend,Paysend,False,1
+Peramax,Peramax,peramax,Peramax,False,1
+Peso Express New Zealand,Peso Express New Zealand,peso express new zealand,Peso Express New Zealand,False,1
+PhilAustral.com,PhilAustral.com,philaustral.com,PhilAustral.com,False,1
+Philippine National Bank,Philippine National Bank,philippine national bank,Philippine National Bank,False,1
+Philippines Remittances Ltd,Philippines Remittances Ltd,philippines remittances ltd,Philippines Remittances Ltd,False,1
+Pinoy Express,Pinoy Express,pinoy express,Pinoy Express,False,1
+Pinoy First,Pinoy First,pinoy first,Pinoy First,False,1
+Pinoy Remit,Pinoy Remit,pinoy remit,Pinoy Remit,False,1
+Placid Express,Placid Express,placid express,Placid Express,False,1
+Pos Malaysia,Pos Malaysia,pos malaysia,Pos Malaysia,False,1
+Post Office UK via Western Union,Post Office UK via Western Union,post office uk via western union,Post Office UK via Western Union,False,1
+Posta Kenya,Posta Kenya,posta kenya,Posta Kenya,False,1
+Postbank,Postbank,postbank,Postbank,False,1
+Postbank via Western Union,Postbank via Western Union,postbank via western union,Postbank via Western Union,False,1
+Postbanken,Postbanken,postbanken,Postbanken,False,1
+Poste Italiane,Poste Italiane,poste italiane,Poste Italiane,False,1
+Poste Italiane via Eurogiro,Poste Italiane via Eurogiro,poste italiane via eurogiro,Poste Italiane via Eurogiro,False,1
+Poste Italiane via MoneyGram,Poste Italiane via MoneyGram,poste italiane via moneygram,Poste Italiane via MoneyGram,False,1
+Poste Italiane via Western Union,Poste Italiane via Western Union,poste italiane via western union,Poste Italiane via Western Union,False,1
+Prabhu Money Transfer,Prabhu Money Transfer,prabhu money transfer,Prabhu Money Transfer,False,1
+Prime Bank (Prime Exchange Co.),Prime Bank (Prime Exchange Co.),prime bank (prime exchange co.),Prime Bank (Prime Exchange Co.),False,1
+PrivatMoney,PrivatMoney,privatmoney,PrivatMoney,False,1
+Punjab & Sind Bank,Punjab & Sind Bank,punjab & sind bank,Punjab & Sind Bank,False,1
+Punjab National Bank,Punjab National Bank,punjab national bank,Punjab National Bank,False,1
+Punjabi National Bank,Punjabi National Bank,punjabi national bank,Punjabi National Bank,False,1
+Q Post,Q Post,q post,Q Post,False,1
+QNB,QNB,qnb,QNB,False,1
+Qaran Express,Qaran Express,qaran express,Qaran Express,False,1
+Queen Bee Capital,Queen Bee Capital,queen bee capital,Queen Bee Capital,False,1
+Quisqueyana,Quisqueyana,quisqueyana,Quisqueyana,False,1
+RBB Remit Online,RBB Remit Online,rbb remit online,RBB Remit Online,False,1
+RCBC Remittance Center,RCBC Remittance Center,rcbc remittance center,RCBC Remittance Center,False,1
+RCBC Telemoney Europe,RCBC Telemoney Europe,rcbc telemoney europe,RCBC Telemoney Europe,False,1
+RHB Bank,RHB Bank,rhb bank,RHB Bank,False,1
+Rabobank,Rabobank,rabobank,Rabobank,False,1
+Raffles Money Change,Raffles Money Change,raffles money change,Raffles Money Change,False,1
+Raiffeisen Bank,Raiffeisen Bank,raiffeisen bank,Raiffeisen Bank,False,1
+Raiffeisenbank,Raiffeisenbank,raiffeisenbank,Raiffeisenbank,False,1
+Rapid Remittance,Rapid Remittance,rapid remittance,Rapid Remittance,False,1
+Real Money Transfer,Real Money Transfer,real money transfer,Real Money Transfer,False,1
+Real Transfer,Real Transfer,real transfer,Real Transfer,False,1
+RediMoney Express,RediMoney Express,redimoney express,RediMoney Express,False,1
+Reliable Peso Remit,Reliable Peso Remit,reliable peso remit,Reliable Peso Remit,False,1
+Relianz Forex,Relianz Forex,relianz forex,Relianz Forex,False,1
+Remesas Instantaneas,Remesas Instantaneas,remesas instantaneas,Remesas Instantaneas,False,1
+Remesas Pujols,Remesas Pujols,remesas pujols,Remesas Pujols,False,1
+Remesas Quisqueyana,Remesas Quisqueyana,remesas quisqueyana,Remesas Quisqueyana,False,1
+"Remesas Quisqueyana, Inc.","Remesas Quisqueyana, Inc.","remesas quisqueyana, inc.","Remesas Quisqueyana, Inc.",False,1
+Remessa Online,Remessa Online,remessa online,Remessa Online,False,1
+Remit Home,Remit Home,remit home,Remit Home,False,1
+Remit Wisely,Remit Wisely,remit wisely,Remit Wisely,False,1
+Remit2India,Remit2India,remit2india,Remit2India,False,1
+Remit2India.com,Remit2India.com,remit2india.com,Remit2India.com,False,1
+RemitBee,RemitBee,remitbee,RemitBee,False,1
+RemitGuru,RemitGuru,remitguru,RemitGuru,False,1
+RemitMoney,RemitMoney,remitmoney,RemitMoney,False,1
+Remitco,Remitco,remitco,Remitco,False,1
+Remitlite,Remitlite,remitlite,Remitlite,False,1
+Remitly,Remitly,remitly,Remitly,False,1
+Remitly Money Transfer,Remitly Money Transfer,remitly money transfer,Remitly Money Transfer,False,1
+Remitty Money Transfer,Remitty Money Transfer,remitty money transfer,Remitty Money Transfer,False,1
+Resona Bank,Resona Bank,resona bank,Resona Bank,False,1
+Revolut,Revolut,revolut,Revolut,False,1
+Rewire,Rewire,rewire,Rewire,False,1
+Ria,Ria,ria,Ria,False,1
+Rocket Remit,Rocket Remit,rocket remit,Rocket Remit,False,1
+Royal Bank of Canada,Royal Bank of Canada,royal bank of canada,Royal Bank of Canada,False,1
+SAV Money Transfer,SAV Money Transfer,sav money transfer,SAV Money Transfer,False,1
+SBI Canada Bank,SBI Canada Bank,sbi canada bank,SBI Canada Bank,False,1
+SBI Express,SBI Express,sbi express,SBI Express,False,1
+SBI Remit via MoneyGram,SBI Remit via MoneyGram,sbi remit via moneygram,SBI Remit via MoneyGram,False,1
+SBI Rupee Instant Flash,SBI Rupee Instant Flash,sbi rupee instant flash,SBI Rupee Instant Flash,False,1
+SBI Remit,SBI Remit,sbi remit,SBI remit,True,2
+SBI remit,SBI remit,sbi remit,SBI remit,False,2
+SBI-Nepal Express Remit,SBI-Nepal Express Remit,sbi-nepal express remit,SBI-Nepal Express Remit,False,1
+SC Remit,SC Remit,sc remit,SC Remit,False,1
+SEB,SEB,seb,SEB,False,1
+SFX,SFX,sfx,SFX,False,1
+SMTJ,SMTJ,smtj,SMTJ,False,1
+STC Pay,STC Pay,stc pay,STC Pay,False,1
+SUNU BICIS,SUNU BICIS,sunu bicis,SUNU BICIS,False,1
+SUPAY,SUPAY,supay,SUPAY,False,1
+Saajan Worldwide Money Transfer,Saajan Worldwide Money Transfer,saajan worldwide money transfer,Saajan Worldwide Money Transfer,False,1
+Safe Money Transfer,Safe Money Transfer,safe money transfer,Safe Money Transfer,False,1
+Safe Money Transfer Spain,Safe Money Transfer Spain,safe money transfer spain,Safe Money Transfer Spain,False,1
+Safe Transfer,Safe Transfer,safe transfer,Safe Transfer,False,1
+Safeway Express Money Transfer,Safeway Express Money Transfer,safeway express money transfer,Safeway Express Money Transfer,False,1
+Sahamiye,Sahamiye,sahamiye,Sahamiye,False,1
+Sahloul Exchange,Sahloul Exchange,sahloul exchange,Sahloul Exchange,False,1
+Salazar Kwarta Padala,Salazar Kwarta Padala,salazar kwarta padala,Salazar Kwarta Padala,False,1
+Samba Money Transfers,Samba Money Transfers,samba money transfers,Samba Money Transfers,False,1
+Sami Swoi,Sami Swoi,sami swoi,Sami Swoi,False,1
+Samoa Finance Money Transfer,Samoa Finance Money Transfer,samoa finance money transfer,Samoa Finance Money Transfer,False,1
+Samoa Money Transfer Ltd,Samoa Money Transfer Ltd,samoa money transfer ltd,Samoa Money Transfer Ltd,False,1
+Samso's Express Money Transfer,Samso's Express Money Transfer,samso's express money transfer,Samso's Express Money Transfer,False,1
+Sangerwal Money Transfer,Sangerwal Money Transfer,sangerwal money transfer,Sangerwal Money Transfer,False,1
+Santander Envios,Santander Envios,santander envios,Santander Envios,False,1
+Santander Envíos,Santander Envíos,santander envíos,Santander Envíos,False,1
+Sasai Money Transfer,Sasai Money Transfer,sasai money transfer,Sasai Money Transfer,False,1
+Saudi American Bank (SAMBA),Saudi American Bank (SAMBA),saudi american bank (samba),Saudi American Bank (SAMBA),False,1
+Saudi British Bank,Saudi British Bank,saudi british bank,Saudi British Bank,False,1
+ScotiaBank,ScotiaBank,scotiabank,ScotiaBank,False,1
+Secure Cash Xpress,Secure Cash Xpress,secure cash xpress,Secure Cash Xpress,False,1
+Sendvalu,Sendvalu,sendvalu,Sendvalu,False,1
+Sendwave,Sendwave,sendwave,Sendwave,False,1
+Senvia,Senvia,senvia,Senvia,False,1
+ServiExpreso,ServiExpreso,serviexpreso,ServiExpreso,False,1
+Seven Bank,Seven Bank,seven bank,Seven Bank,False,1
+ShareMoney,ShareMoney,sharemoney,ShareMoney,False,1
+Shinhan Bank,Shinhan Bank,shinhan bank,Shinhan Bank,False,1
+Shinsei Bank,Shinsei Bank,shinsei bank,Shinsei Bank,False,1
+Shoprite Money Transfer,Shoprite Money Transfer,shoprite money transfer,Shoprite Money Transfer,False,1
+Siam Commercial Bank,Siam Commercial Bank,siam commercial bank,Siam Commercial Bank,False,1
+Sigue,Sigue,sigue,Sigue,False,1
+Sigue Money Transfers,Sigue Money Transfers,sigue money transfers,Sigue Money Transfers,False,1
+Sikhona Money Transfers,Sikhona Money Transfers,sikhona money transfers,Sikhona Money Transfers,False,1
+Singtel Dash,Singtel Dash,singtel dash,Singtel Dash,False,1
+Singtel mRemit,Singtel mRemit,singtel mremit,Singtel mRemit,False,1
+Sir Money Changer,Sir Money Changer,sir money changer,Sir Money Changer,False,1
+Skrill,Skrill,skrill,Skrill,False,1
+Skyeflitcash,Skyeflitcash,skyeflitcash,Skyeflitcash,False,1
+Small World,Small World,small world,Small World,False,1
+Small World FS-Choice,Small World FS-Choice,small world fs-choice,Small World FS-Choice,False,1
+Small World FS-Express Funds,Small World FS-Express Funds,small world fs-express funds,Small World FS-Express Funds,False,1
+Small World FS-Global Link,Small World FS-Global Link,small world fs-global link,Small World FS-Global Link,False,1
+Small World FS-LCC,Small World FS-LCC,small world fs-lcc,Small World FS-LCC,False,1
+Small World FS-SwissTransfers,Small World FS-SwissTransfers,small world fs-swisstransfers,Small World FS-SwissTransfers,False,1
+SmartSend,SmartSend,smartsend,SmartSend,False,1
+Smiles Mobile Remittance Singapore,Smiles Mobile Remittance Singapore,smiles mobile remittance singapore,Smiles Mobile Remittance Singapore,False,1
+Smith & Smith,Smith & Smith,smith & smith,Smith & Smith,False,1
+Smith & Smith via MoneyGram,Smith & Smith via MoneyGram,smith & smith via moneygram,Smith & Smith via MoneyGram,False,1
+Societe Generale,Societe Generale,societe generale,Societe Generale,False,1
+Softeller,Softeller,softeller,Softeller,False,1
+Soluciones Monetarias,Soluciones Monetarias,soluciones monetarias,Soluciones Monetarias,False,1
+Sonali Bank,Sonali Bank,sonali bank,Sonali Bank,False,1
+Sonali Exchange Company,Sonali Exchange Company,sonali exchange company,Sonali Exchange Company,False,1
+Soneri Bank,Soneri Bank,soneri bank,Soneri Bank,False,1
+South African Post Office (SAPO),South African Post Office (SAPO),south african post office (sapo),South African Post Office (SAPO),False,1
+South Exchange,South Exchange,south exchange,South Exchange,False,1
+Sparkasse KolnBonn,Sparkasse KolnBonn,sparkasse kolnbonn,Sparkasse KolnBonn,False,1
+Speed Remit,Speed Remit,speed remit,Speed Remit,False,1
+SpeedSend,SpeedSend,speedsend,SpeedSend,False,1
+Speedfast,Speedfast,speedfast,Speedfast,False,1
+Spire Bank,Spire Bank,spire bank,Spire Bank,False,1
+St. George,St. George,st. george,St. George,False,1
+St. George Bank,St. George Bank,st. george bank,St. George Bank,False,1
+Stadtsparkasse Munchen,Stadtsparkasse Munchen,stadtsparkasse munchen,Stadtsparkasse Munchen,False,1
+Stanbic Bank,Stanbic Bank,stanbic bank,Stanbic Bank,False,1
+Standard Bank,Standard Bank,standard bank,Standard Bank,False,1
+Standard Bank via MoneyGram,Standard Bank via MoneyGram,standard bank via moneygram,Standard Bank via MoneyGram,False,1
+Standard Charterd Bank Tanzania,Standard Charterd Bank Tanzania,standard charterd bank tanzania,Standard Charterd Bank Tanzania,False,1
+Standard Chartered Bank,Standard Chartered Bank,standard chartered bank,Standard Chartered Bank,False,1
+State Bank of India,State Bank of India,state bank of india,State Bank of India,False,1
+Steadfast Money Transfer,Steadfast Money Transfer,steadfast money transfer,Steadfast Money Transfer,False,1
+Sumitomo Mitsui Financial Group,Sumitomo Mitsui Financial Group,sumitomo mitsui financial group,Sumitomo Mitsui Financial Group,False,1
+Suncorp,Suncorp,suncorp,Suncorp,False,1
+Suri-Change,Suri-Change,suri-change,Suri-Change,False,1
+Suruga Bank,Suruga Bank,suruga bank,Suruga Bank,False,1
+SwiftCash,SwiftCash,swiftcash,SwiftCash,False,1
+Swiss Post,Swiss Post,swiss post,Swiss Post,False,1
+SwissTransfers,SwissTransfers,swisstransfers,SwissTransfers,False,1
+Sydney Forex Pty Ltd,Sydney Forex Pty Ltd,sydney forex pty ltd,Sydney Forex Pty Ltd,False,1
+TMB Bank,TMB Bank,tmb bank,TMB Bank,False,1
+TSB,TSB,tsb,TSB,False,1
+TSS Worldwide Money Transfer,TSS Worldwide Money Transfer,tss worldwide money transfer,TSS Worldwide Money Transfer,False,1
+Taaj Money Transfer,Taaj Money Transfer,taaj money transfer,Taaj Money Transfer,False,1
+TalkRemit,TalkRemit,talkremit,TalkRemit,False,1
+Tanzania Postal Corporation,Tanzania Postal Corporation,tanzania postal corporation,Tanzania Postal Corporation,False,1
+TapTap Send,TapTap Send,taptap send,TapTap Send,False,2
+Taptap Send,Taptap Send,taptap send,TapTap Send,True,2
+Tawakal Express,Tawakal Express,tawakal express,Tawakal Express,False,1
+TeleMoney,TeleMoney,telemoney,TeleMoney,False,1
+Teledolar,Teledolar,teledolar,Teledolar,False,1
+Telegiros,Telegiros,telegiros,Telegiros,False,1
+Tempo Money Transfer,Tempo Money Transfer,tempo money transfer,Tempo Money Transfer,False,1
+Thai Mail & Parcel Service,Thai Mail & Parcel Service,thai mail & parcel service,Thai Mail & Parcel Service,False,1
+Thaithanawat,Thaithanawat,thaithanawat,Thaithanawat,False,1
+Thamel Remit,Thamel Remit,thamel remit,Thamel Remit,False,1
+The Ink Patch Money Transfer,The Ink Patch Money Transfer,the ink patch money transfer,The Ink Patch Money Transfer,False,1
+Thisal Financial,Thisal Financial,thisal financial,Thisal Financial,False,1
+Tigo,Tigo,tigo,Tigo,False,1
+Tik FX,Tik FX,tik fx,Tik FX,False,1
+TindahanPnoy Money Transfer,TindahanPnoy Money Transfer,tindahanpnoy money transfer,TindahanPnoy Money Transfer,False,1
+Toast,Toast,toast,Toast,False,1
+Tonga Ma'ae Tonga,Tonga Ma'ae Tonga,tonga ma'ae tonga,Tonga Ma'ae Tonga,False,1
+Tonga Maae Tonga,Tonga Maae Tonga,tonga maae tonga,Tonga Maae Tonga,False,1
+Tonio,Tonio,tonio,Tonio,False,1
+Toronto Dominion Bank,Toronto Dominion Bank,toronto dominion bank,Toronto Dominion Bank,False,1
+Trans Fast,Trans Fast,trans fast,Trans Fast,False,1
+Trans-Fast,Trans-Fast,trans-fast,Trans-Fast,False,1
+Trans-Fast Worldwide Money Transfer,Trans-Fast Worldwide Money Transfer,trans-fast worldwide money transfer,Trans-Fast Worldwide Money Transfer,False,1
+Trans-fast (Imporium Brazil),Trans-fast (Imporium Brazil),trans-fast (imporium brazil),Trans-fast (Imporium Brazil),False,1
+Transfast,Transfast,transfast,Transfast,False,1
+Transfer Galaxy,Transfer Galaxy,transfer galaxy,Transfer Galaxy,False,1
+Transfer Rapid,Transfer Rapid,transfer rapid,Transfer Rapid,False,1
+TransferGo,TransferGo,transfergo,TransferGo,False,1
+Tranzfers.com,Tranzfers.com,tranzfers.com,Tranzfers.com,False,1
+Triple 8 Remittance Services,Triple 8 Remittance Services,triple 8 remittance services,Triple 8 Remittance Services,False,1
+TropiPay,TropiPay,tropipay,TropiPay,False,1
+True Money,True Money,true money,True Money,False,1
+Turkey IS Bank,Turkey IS Bank,turkey is bank,Turkey IS Bank,False,1
+Turkey IS Bank via Western Union,Turkey IS Bank via Western Union,turkey is bank via western union,Turkey IS Bank via Western Union,False,1
+Twiga Bancorp,Twiga Bancorp,twiga bancorp,Twiga Bancorp,False,1
+UAE Exchange,UAE Exchange,uae exchange,UAE Exchange,False,1
+UBA Africash,UBA Africash,uba africash,UBA Africash,False,1
+UBL,UBL,ubl,UBL,False,1
+UBL Tezraftaar Cash,UBL Tezraftaar Cash,ubl tezraftaar cash,UBL Tezraftaar Cash,False,1
+UNIStream (UK),UNIStream (UK),unistream (uk),UNIStream (UK),False,1
+UOB Bank,UOB Bank,uob bank,UOB Bank,False,1
+UPT,UPT,upt,UPT,False,1
+Uber Remit,Uber Remit,uber remit,Uber Remit,False,1
+Ulink,Ulink,ulink,Ulink,False,1
+Unicredit Banca,Unicredit Banca,unicredit banca,Unicredit Banca,False,1
+Unicredit Banca via Western Union,Unicredit Banca via Western Union,unicredit banca via western union,Unicredit Banca via Western Union,False,1
+Unimoni,Unimoni,unimoni,Unimoni,False,1
+Unique Exchange,Unique Exchange,unique exchange,Unique Exchange,False,1
+Unique Xchange,Unique Xchange,unique xchange,Unique Xchange,False,1
+Unistream,Unistream,unistream,Unistream,False,1
+United Bank for Africa (UBA),United Bank for Africa (UBA),united bank for africa (uba),United Bank for Africa (UBA),False,1
+United Overseas Bank,United Overseas Bank,united overseas bank,United Overseas Bank,False,1
+Uniteller,Uniteller,uniteller,Uniteller,False,1
+Unitransfer,Unitransfer,unitransfer,Unitransfer,False,1
+Unity Link,Unity Link,unity link,Unity Link,False,1
+Unity Monetary Services BV,Unity Monetary Services BV,unity monetary services bv,Unity Monetary Services BV,False,1
+Universal Money Transfer,Universal Money Transfer,universal money transfer,Universal Money Transfer,False,1
+Universal Money Transfer Gmbh,Universal Money Transfer Gmbh,universal money transfer gmbh,Universal Money Transfer Gmbh,False,1
+Universal de Envios,Universal de Envios,universal de envios,Universal de Envios,False,1
+Uno Money Transfer (Omnex Group),Uno Money Transfer (Omnex Group),uno money transfer (omnex group),Uno Money Transfer (Omnex Group),False,1
+Use Remit,Use Remit,use remit,Use Remit,False,1
+V Global Money Transfer,V Global Money Transfer,v global money transfer,V Global Money Transfer,False,1
+VMT,VMT,vmt,VMT,False,1
+Vakifbank,Vakifbank,vakifbank,Vakifbank,False,1
+Vakifbank International AG,Vakifbank International AG,vakifbank international ag,Vakifbank International AG,False,1
+Vakıfbank International AG,Vakıfbank International AG,vakıfbank international ag,Vakıfbank International AG,False,1
+ValYou,ValYou,valyou,ValYou,False,2
+Valyou,Valyou,valyou,ValYou,True,2
+Valutrans,Valutrans,valutrans,Valutrans,False,1
+Viamericas,Viamericas,viamericas,Viamericas,False,1
+Vianex,Vianex,vianex,Vianex,False,1
+Victoria Mutual,Victoria Mutual,victoria mutual,Victoria Mutual,False,1
+Vietinbank,Vietinbank,vietinbank,Vietinbank,False,1
+Vigo,Vigo,vigo,Vigo,False,1
+Vina Money Transfer,Vina Money Transfer,vina money transfer,Vina Money Transfer,False,1
+Voicecash,Voicecash,voicecash,Voicecash,False,1
+Volksbank Rhein-Ruhr,Volksbank Rhein-Ruhr,volksbank rhein-ruhr,Volksbank Rhein-Ruhr,False,1
+Volksbanken,Volksbanken,volksbanken,Volksbanken,False,1
+Wall St Exchange,Wall St Exchange,wall st exchange,Wall St Exchange,False,1
+Walmart2World,Walmart2World,walmart2world,Walmart2World,False,1
+Wari,Wari,wari,Wari,False,1
+Wave,Wave,wave,Wave,False,1
+Wealthgate Int'l,Wealthgate Int'l,wealthgate int'l,Wealthgate Int'l,False,1
+Wells Fargo,Wells Fargo,wells fargo,Wells Fargo,False,1
+Western Union,Western Union,western union,Western Union,False,1
+Westpac,Westpac,westpac,Westpac,False,1
+Westpac Express Visa Prepaid Card,Westpac Express Visa Prepaid Card,westpac express visa prepaid card,Westpac Express Visa Prepaid Card,False,1
+WireBarley,WireBarley,wirebarley,WireBarley,False,1
+Transferwise,Transferwise,wise,Wise,True,2
+Wise,Wise,wise,Wise,False,2
+Woori Bank,Woori Bank,woori bank,Woori Bank,False,1
+World Cash Transfers,World Cash Transfers,world cash transfers,World Cash Transfers,False,1
+WorldRemit,WorldRemit,worldremit,WorldRemit,False,1
+Worldwide Money Express,Worldwide Money Express,worldwide money express,Worldwide Money Express,False,1
+X Press Money,X Press Money,x press money,X Press Money,False,1
+XE Money Transfer,XE Money Transfer,xe money transfer,XE Money Transfer,False,1
+Xendpay,Xendpay,xendpay,Xendpay,False,1
+Xoom,Xoom,xoom,Xoom,False,1
+Xpress Money,Xpress Money,xpress money,Xpress Money,False,1
+YES Your Express Service,YES Your Express Service,yes your express service,YES Your Express Service,False,1
+YaYeh Instant Services,YaYeh Instant Services,yayeh instant services,YaYeh Instant Services,False,1
+Yapi ve Kredi Bankasi,Yapi ve Kredi Bankasi,yapi ve kredi bankasi,Yapi ve Kredi Bankasi,False,1
+Yapı ve Kredi Bankası,Yapı ve Kredi Bankası,yapı ve kredi bankası,Yapı ve Kredi Bankası,False,1
+Zenith Bank,Zenith Bank,zenith bank,Zenith Bank,False,1
+Zenj Exchange Co,Zenj Exchange Co,zenj exchange co,Zenj Exchange Co,False,1
+Zhongguo Remittance,Zhongguo Remittance,zhongguo remittance,Zhongguo Remittance,False,1
+ZipZap,ZipZap,zipzap,ZipZap,False,1
+Ziraat Bank,Ziraat Bank,ziraat bank,Ziraat Bank,False,1
+Ziraat Bank International,Ziraat Bank International,ziraat bank international,Ziraat Bank International,False,1
+"Zoha, Inc.","Zoha, Inc.","zoha, inc.","Zoha, Inc.",False,1
+Zolotaya Korona,Zolotaya Korona,zolotaya korona,Zolotaya Korona,False,1
+Zolotaya Korona (retail),Zolotaya Korona (retail),zolotaya korona (retail),Zolotaya Korona (retail),False,1
+cash2cuban.com,cash2cuban.com,cash2cuban.com,cash2cuban.com,False,1
+efastacash,efastacash,efastacash,efastacash,False,1
+exchange4free.com,exchange4free.com,exchange4free.com,exchange4free.com,False,1
+hyperREMIT,hyperREMIT,hyperremit,hyperREMIT,False,1
+iKobo,iKobo,ikobo,iKobo,False,1
+iPadala,iPadala,ipadala,iPadala,False,1
+iPay Remit,iPay Remit,ipay remit,iPay Remit,False,1
+iRemit,iRemit,iremit,iRemit,False,1
+mHITs Remit,mHITs Remit,mhits remit,mHITs Remit,False,1
+maybank2U,maybank2U,maybank2u,maybank2U,False,1
+money2India (ICICI Bank),money2India (ICICI Bank),money2india (icici bank),money2India (ICICI Bank),False,1
+moneytransfer.co.nz,moneytransfer.co.nz,moneytransfer.co.nz,moneytransfer.co.nz,False,1
+mtnmmo.com,mtnmmo.com,mtnmmo.com,mtnmmo.com,False,1
