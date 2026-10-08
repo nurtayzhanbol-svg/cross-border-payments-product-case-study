@@ -56,7 +56,7 @@ True Cost (exists), route repricing (business as usual), wallet expansion (partl
 For a sender of USD 200/month: standard fee ≈ 2.23 + 1.29% × 200 ≈ USD 4.81 (RPW-implied medians, not Wise's tariff). The −50% arm gives up ≈ USD 1.12 per transfer. If C is Wise's unknown variable cost per transfer and R the fee revenue, the arm breaks even when retained transfers rise by at least ΔF / (R − ΔF − C). With C = USD 2.00 (assumption), that is 1.12 / (4.81 − 1.12 − 2.00) ≈ 66%, which is implausible. With C = USD 0.50 it is ≈ 35%. **So a reduced fixed fee only pays off if per-transfer costs of scheduled sends are low or if retention gains are large.** This is the central business risk; the prototype's break-even calculator lets an interviewer change these assumptions.
 
 ## 10. Operational and regulatory dependencies
-- Price-change notice periods and fee-disclosure rules per market (Wise publishes notice periods of 7–62 days for some price increases).
+- Price-change notice and fee-disclosure rules per market (to be confirmed with legal; not researched here).
 - Fair treatment: eligibility rules must be clear and non-discriminatory.
 - Fraud/AML monitoring for scheduled transfers and amount splitting.
 - Treasury/liquidity for predictable flows (possible cost benefit, unverified).

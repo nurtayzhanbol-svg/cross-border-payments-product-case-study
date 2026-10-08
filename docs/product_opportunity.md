@@ -1,5 +1,7 @@
 # Product Opportunity Assessment
 
+> **Superseded (Phase 5).** This is the original True Cost version, kept for comparison (tag `v1-true-cost-case-study`). The current case study is [`case_study_v2.md`](case_study_v2.md); see [`phase5_reframing_decision_log.md`](phase5_reframing_decision_log.md).
+
 The evidence comes from `docs/eda_findings.md` (findings F1–F9). Throughout, **demonstrated** means shown by the RPW survey data, and **hypothesis** means a customer need or behaviour that the dataset cannot observe. No customer interviews, internal metrics or market shares were used, and none are implied.
 
 ## Problem space (demonstrated)

@@ -1,5 +1,7 @@
 # Exploratory Analysis — Findings
 
+> **Phase 5 corrections.** Numbers below are unchanged from the original EDA. F1 (panel), F2 (≤3% share) and F4 (zero-fee framing) are revised in [`phase5_analysis.md`](phase5_analysis.md): the "no-fee trap" framing is retracted, the fixed panel is replaced by a pair-level panel, and the ≤3% share is reported same-quarter.
+
 Reproduce with `PYTHONPATH=src .venv/bin/python -m rpw.analysis`, or run `notebooks/02_exploratory_analysis.ipynb`. Every number below is in `outputs/tables/eda/eda_key_figures.json` or in the CSVs next to it.
 
 ## How to read these numbers

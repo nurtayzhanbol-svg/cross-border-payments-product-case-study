@@ -4,6 +4,8 @@ title: True Cost — remittance cost clarity
 paginate: true
 ---
 
+> Superseded (Phase 5): original True Cost deck, kept for comparison. Current deck: presentation_v2.md.
+
 # True Cost
 ### Making the real cost of small international transfers visible
 

@@ -9,25 +9,29 @@ World Bank — Remittance Prices Worldwide (RPW): https://remittanceprices.world
 Attribution: "The World Bank, Remittance Prices Worldwide, available at http://remittanceprices.worldbank.org". See [`docs/dataset_notes.md`](docs/dataset_notes.md) for file metadata and terms of use.
 
 ## Purpose
-Use the World Bank survey data to find where the cost of sending money abroad hides a product problem. Then develop, prototype and design a test for one product hypothesis.
+Use the World Bank survey data, plus public Wise and customer sources, to find where a remittance provider like Wise could credibly improve outcomes, then turn one hypothesis into a PRD, prototype and experiment design.
 
 ## Current status
-**End-to-end case study complete (pending review).**
+**Phase 5 (evidence-driven reframing) — in review.** The original "True Cost" concept duplicated features Wise already has and was replaced. It is kept under tag `v1-true-cost-case-study`.
 
-- **Start here:** [`docs/case_study.md`](docs/case_study.md)
-- **Slides:** [`docs/presentation.md`](docs/presentation.md), written in Marp markdown
+- **Start here:** [`docs/case_study_v2.md`](docs/case_study_v2.md) (two pages)
+- **Slides:** [`docs/presentation_v2.md`](docs/presentation_v2.md) (six slides, Marp markdown)
+- **Everything else:** [`docs/appendix.md`](docs/appendix.md)
+
+**Selected hypothesis (for validation, not proven):** Wise's fixed per-transfer fee makes small remittances relatively expensive (Wise above 3% in 42.5% of its surveyed corridors at USD 200 vs 23.6% at USD 500), and its price benefits reward monthly volume, not regularity. Proposal: test a reduced fixed fee for recurring small sends in pilot corridors.
 
 ## Deliverables
 | Step | Output |
 |---|---|
 | Dataset understanding + audit | `notebooks/01_dataset_understanding.ipynb`, `docs/data_dictionary.md`, `docs/schema_comparison.md`, `docs/dataset_quality_report.md`, `docs/phase3_audit_report.md`, `docs/data_dictionary_audit.md` |
-| Reproducible pipeline | `src/rpw/` and [`docs/pipeline.md`](docs/pipeline.md). Writes `data/processed/` (wide + long Parquet, provider map, flag summary, manifest) |
-| Exploratory analysis | `notebooks/02_exploratory_analysis.ipynb`, [`docs/eda_findings.md`](docs/eda_findings.md), `outputs/charts/`, `outputs/tables/eda/` |
-| Opportunity assessment | [`docs/product_opportunity.md`](docs/product_opportunity.md) |
-| Product requirements | [`docs/prd.md`](docs/prd.md) |
-| Prototype | `prototype/` (React + Vite); screenshots in `outputs/prototype/` |
-| Metrics & experiment | [`docs/measurement_plan.md`](docs/measurement_plan.md) |
-| Case study | [`docs/case_study.md`](docs/case_study.md), [`docs/presentation.md`](docs/presentation.md) |
+| Reproducible pipeline | `src/rpw/` and [`docs/pipeline.md`](docs/pipeline.md) |
+| Original EDA | `notebooks/02_exploratory_analysis.ipynb`, [`docs/eda_findings.md`](docs/eda_findings.md) |
+| Corrected analysis + Wise position | `src/rpw/phase5.py`, [`docs/phase5_analysis.md`](docs/phase5_analysis.md) |
+| Wise landscape, customer evidence | [`docs/wise_product_landscape.md`](docs/wise_product_landscape.md), [`docs/customer_evidence.md`](docs/customer_evidence.md) |
+| Opportunity comparison | [`docs/opportunity_assessment_v2.md`](docs/opportunity_assessment_v2.md) |
+| PRD, measurement | [`docs/prd_v2.md`](docs/prd_v2.md), [`docs/measurement_plan_v2.md`](docs/measurement_plan_v2.md) |
+| Prototype | `prototype/` (React + Vite): Regular Send flow, evidence explorer, break-even calculator |
+| Decision log | [`docs/phase5_reframing_decision_log.md`](docs/phase5_reframing_decision_log.md) |
 
 ## Repository structure
 ```
@@ -48,7 +52,8 @@ pip install -r requirements.txt
 
 PYTHONPATH=src python -m rpw.build            # raw workbook -> data/processed/ (~2 min)
 PYTHONPATH=src python -m rpw.analysis         # EDA tables + charts
-PYTHONPATH=src python -m rpw.prototype_data   # survey benchmarks for the prototype
+PYTHONPATH=src python -m rpw.phase5           # Phase 5 analysis (Wise position, corrections)
+PYTHONPATH=src python -m rpw.prototype_data   # Wise-position data for the prototype
 python -m pytest -q                           # data + reported-statistics tests
 
 # Notebooks
@@ -70,7 +75,8 @@ cd prototype && npm ci && npm run dev         # also: npm test, npm run build
 - RPW is a price survey. It has no transaction volumes, market shares or customer behaviour, and all statistics are unweighted across surveyed quotes.
 - Quotes with an undisclosed FX margin are excluded from cost analysis, never treated as zero.
 - FX-rate levels are not compared, because the payout currency is unrecorded.
-- Customer needs, the persona and product impact are hypotheses that still need validation (see `docs/measurement_plan.md`).
+- Prototype prices are illustrative (implied from RPW survey quotes), not live or official Wise prices.
+- Customer needs, the persona and product impact are hypotheses that still need validation (see `docs/measurement_plan_v2.md`).
 
 ## Disclaimer
 This is an independent portfolio project using publicly available data. It is not affiliated with, endorsed by, or based on internal data from Wise or the World Bank.

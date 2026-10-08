@@ -1,5 +1,7 @@
 # PRD — "True Cost" transfer breakdown (portfolio concept)
 
+> **Superseded (Phase 5).** This is the original True Cost version, kept for comparison (tag `v1-true-cost-case-study`). The current case study is [`case_study_v2.md`](case_study_v2.md); see [`phase5_reframing_decision_log.md`](phase5_reframing_decision_log.md).
+
 *Independent portfolio concept. Not affiliated with, endorsed by, or based on internal data from Wise or the World Bank.*
 
 ## Problem statement

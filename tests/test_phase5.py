@@ -66,3 +66,13 @@ def test_sensitivity_specs_present(F):
     assert set(specs) == {"baseline_keep_negatives", "drop_negative_total", "drop_negative_total_or_fx",
                           "drop_zero_margin_non_wise_post_2021Q3"}
     assert specs["baseline_keep_negatives"]["median_of_corridor_medians"] == 4.5
+
+
+def test_docs_cite_current_figures(F):
+    text = "\n".join((config.ROOT / "docs" / d).read_text() for d in ["phase5_analysis.md", "case_study_v2.md", "presentation_v2.md"])
+    w2, w5 = F["wise"]["by_amount"]["usd200"], F["wise"]["by_amount"]["usd500"]
+    cited = [w2["median_wise_total"], w5["median_wise_total"], w2["median_share_cheaper_all"], w2["share_corridors_wise_above_3pct"],
+             w5["share_corridors_wise_above_3pct"], F["zero_fee"]["usd200"]["within_corridor"]["share_zero_fee_cheaper"],
+             F["panel"]["survival_share_pct"], F["panel"]["pair_change_median_pp"], F["wise"]["implied_fixed_fee_usd_median"]]
+    for v in cited:
+        assert f"{abs(v):.2f}".rstrip("0").rstrip(".") in text or f"{abs(v):.1f}" in text, v
