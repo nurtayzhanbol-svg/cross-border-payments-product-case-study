@@ -64,6 +64,7 @@ cd prototype && npm ci && npm run dev         # also: npm test, npm run build
 - [`docs/data_dictionary.md`](docs/data_dictionary.md) — field definitions and unit of observation, with Phase 3.5 corrections applied
 - [`docs/schema_comparison.md`](docs/schema_comparison.md) — schema before vs from Q2 2016
 - [`docs/dataset_quality_report.md`](docs/dataset_quality_report.md) — structural profile, workbook issues, cost-field validation
+- [`docs/end_to_end_work_log.md`](docs/end_to_end_work_log.md) — what was done in the end-to-end phase (pipeline, EDA, product work, prototype, QA)
 - [`docs/phase3_work_log.md`](docs/phase3_work_log.md), [`docs/phase3_audit_report.md`](docs/phase3_audit_report.md), [`docs/data_dictionary_audit.md`](docs/data_dictionary_audit.md) — Phase 3 work log and the independent audit
 
 ## Key limitations
