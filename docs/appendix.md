@@ -3,6 +3,7 @@
 ## Phase 5 (current)
 | Topic | Document |
 |---|---|
+| Phase 5 report (summary of everything in this phase) | [`phase5_report.md`](phase5_report.md) |
 | Decision log (baseline, method changes, product decision) | [`phase5_reframing_decision_log.md`](phase5_reframing_decision_log.md) |
 | Corrected analysis A1–A6 (Wise position, zero-fee, panel, sensitivity) | [`phase5_analysis.md`](phase5_analysis.md) |
 | Wise public product landscape | [`wise_product_landscape.md`](wise_product_landscape.md) |
