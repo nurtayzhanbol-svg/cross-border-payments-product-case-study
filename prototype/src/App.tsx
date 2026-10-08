@@ -1,165 +1,215 @@
-import { useEffect, useMemo, useState } from "react";
-import { BENCHMARK_META, CORRIDORS, MAX_AMOUNT, MIN_AMOUNT, benchmarkFor, position, quote } from "./pricing";
+import { useMemo, useState } from "react";
+import {
+  ARMS, CORRIDORS, CAP_USD, META, PILOT, PER_YEAR, breakEvenUplift, isPilot, limits, parseAmount, quote,
+  type Arm, type Corridor, type Frequency,
+} from "./pricing";
 
-const fmt = (v: number, cur: string, d = 2) =>
-  new Intl.NumberFormat("en-GB", { style: "currency", currency: cur, maximumFractionDigits: d }).format(v);
+const money = (v: number, cur: string) =>
+  new Intl.NumberFormat("en-GB", { style: "currency", currency: cur, minimumFractionDigits: 2, maximumFractionDigits: 2 }).format(v);
 const pct = (v: number) => `${v.toFixed(2)}%`;
+const label = (c: Corridor) => `${c.source} → ${c.destination} (${c.sendCurrency})`;
+const FREQ: Record<Frequency, string> = { once: "One-off", weekly: "Every week", fortnightly: "Every 2 weeks", monthly: "Every month" };
 
-const POSITION_TEXT = {
-  "below-p10": "Lower than 90% of surveyed quotes for this corridor",
-  "below-median": "Below the median surveyed quote for this corridor",
-  "above-median": "Above the median surveyed quote for this corridor",
-  "above-p90": "Higher than 90% of surveyed quotes for this corridor",
-} as const;
-
+type Tab = "flow" | "evidence" | "economics";
 type Step = "quote" | "review" | "done";
 
+function Banner() {
+  return (
+    <p className="banner" role="note">
+      <strong>Independent portfolio prototype.</strong> Not affiliated with or endorsed by Wise or the World Bank. Prices are
+      <strong> illustrative</strong> (derived from 2024–25 survey quotes), not live or official Wise prices. No money moves.
+    </p>
+  );
+}
+
 export default function App() {
-  const [corridor, setCorridor] = useState(CORRIDORS.find((c) => c.corridor === "GBRNGA")?.corridor ?? CORRIDORS[0].corridor);
-  const [raw, setRaw] = useState("200");
-  const [loading, setLoading] = useState(false);
-  const [step, setStep] = useState<Step>("quote");
-  const [showFxHelp, setShowFxHelp] = useState(false);
-  const [expired, setExpired] = useState(false);
-
-  const c = CORRIDORS.find((x) => x.corridor === corridor)!;
-  const amount = Number(raw);
-  const invalid = !Number.isFinite(amount) || amount < MIN_AMOUNT || amount > MAX_AMOUNT;
-
-  useEffect(() => {
-    setLoading(true); setExpired(false);
-    const t = setTimeout(() => setLoading(false), 350);
-    return () => clearTimeout(t);
-  }, [corridor, raw]);
-
-  const q = useMemo(() => (invalid ? null : quote(corridor, amount)), [corridor, amount, invalid]);
-  const big = useMemo(() => (invalid ? null : quote(corridor, Math.max(amount * 2.5, 500))), [corridor, amount, invalid]);
-  const bm = invalid ? null : benchmarkFor(c, amount);
-  const cur = c.sendCurrency;
-
-  if (step === "done" && q) {
-    return (
-      <main className="shell">
-        <Banner />
-        <section className="card" aria-live="polite">
-          <h1>Transfer scheduled (demo)</h1>
-          <p className="big">{fmt(q.recipientGets, q.receive, 0)}</p>
-          <p>will arrive for your recipient in {c.destination}. You paid {fmt(q.amount, cur)}, of which {fmt(q.totalCost, cur)} ({pct(q.totalPct)}) was the total cost.</p>
-          <button className="primary" onClick={() => setStep("quote")}>Start a new transfer</button>
-        </section>
-      </main>
-    );
-  }
-
+  const [tab, setTab] = useState<Tab>("flow");
+  const tabs: [Tab, string][] = [["flow", "Regular Send flow"], ["evidence", "Evidence: Wise vs corridor"], ["economics", "Break-even"]];
   return (
     <main className="shell">
       <Banner />
       <header>
-        <h1>Send money — True Cost</h1>
-        <p className="muted">See everything a transfer costs — fee <em>and</em> exchange-rate margin — before you pay.</p>
+        <h1>Regular Send pricing — prototype</h1>
+        <p className="muted">Hypothesis: a lower fixed fee for recurring small transfers keeps regular remittance senders. To be validated.</p>
       </header>
-
-      <section className="card" aria-labelledby="send-h">
-        <h2 id="send-h">1. Amount and destination</h2>
-        <div className="row">
-          <label>Corridor
-            <select value={corridor} onChange={(e) => { setCorridor(e.target.value); setStep("quote"); }}>
-              {CORRIDORS.map((x) => <option key={x.corridor} value={x.corridor}>{x.source} → {x.destination} ({x.sendCurrency})</option>)}
-            </select>
-          </label>
-          <label>You send ({cur})
-            <input inputMode="decimal" value={raw} aria-invalid={invalid} aria-describedby="amt-help"
-                   onChange={(e) => { setRaw(e.target.value.replace(/[^0-9.]/g, "")); setStep("quote"); }} />
-          </label>
-        </div>
-        <p id="amt-help" className={invalid ? "error" : "muted"} role={invalid ? "alert" : undefined}>
-          {invalid ? `Enter an amount between ${fmt(MIN_AMOUNT, cur, 0)} and ${fmt(MAX_AMOUNT, cur, 0)}.` : "Illustrative quote — prices refresh as you type."}
-        </p>
+      <div role="tablist" aria-label="Prototype views" className="tabs">
+        {tabs.map(([id, name]) => (
+          <button key={id} role="tab" id={`tab-${id}`} aria-selected={tab === id} aria-controls={`panel-${id}`}
+            className={tab === id ? "tab active" : "tab"} onClick={() => setTab(id)}>{name}</button>
+        ))}
+      </div>
+      <section role="tabpanel" id={`panel-${tab}`} aria-labelledby={`tab-${tab}`}>
+        {tab === "flow" && <Flow />}
+        {tab === "evidence" && <Evidence />}
+        {tab === "economics" && <Economics />}
       </section>
-
-      {loading && !invalid && <section className="card skeleton" aria-busy="true" aria-label="Loading quote"><div /><div /><div /></section>}
-
-      {!loading && q && (
-        <section className="card" aria-labelledby="cost-h" aria-live="polite">
-          <h2 id="cost-h">2. What this transfer really costs</h2>
-          <div className="total">
-            <span>Total cost</span>
-            <strong>{fmt(q.totalCost, cur)}</strong>
-            <span className="pill">{pct(q.totalPct)} of amount</span>
-          </div>
-          <dl className="breakdown">
-            <div><dt>Transfer fee</dt><dd>{fmt(q.fee, cur)}</dd></div>
-            <div>
-              <dt>Exchange-rate margin{" "}
-                <button className="link" aria-expanded={showFxHelp} aria-controls="fx-help" onClick={() => setShowFxHelp((s) => !s)}>What is this?</button>
-              </dt>
-              <dd>{fmt(q.fxCost, cur)}</dd>
-            </div>
-            <div className="sub"><dt>Our rate vs mid-market</dt><dd>1 {cur} = {q.appliedRate.toFixed(2)} {q.receive} (mid-market {q.midRate.toFixed(2)})</dd></div>
-            <div className="gets"><dt>Recipient gets</dt><dd>{fmt(q.recipientGets, q.receive, 0)}</dd></div>
-          </dl>
-          {showFxHelp && (
-            <p id="fx-help" className="help">
-              The <strong>mid-market rate</strong> is the midpoint between buy and sell prices on currency markets. Providers often apply a less favourable rate and keep the difference — the <strong>exchange-rate margin</strong>. A "no fee" transfer can still cost you through this margin, so we show it as an amount.
-            </p>
-          )}
-
-          <h3>How this compares</h3>
-          {bm ? (
-            <div className="bench">
-              <Range p10={bm.b.p10} median={bm.b.median} p90={bm.b.p90} value={q.totalPct} />
-              <p><strong>{POSITION_TEXT[position(q.totalPct, bm.b)]}</strong> (World Bank survey, {bm.label} transfers, {bm.b.quotes} quotes from {c.providers} providers, {c.periods[0]}–{c.periods[c.periods.length - 1]}).</p>
-              <p className="muted small">Survey benchmark, not live prices. Median surveyed fee {pct(bm.b.medianFee)}, FX margin {pct(bm.b.medianFx)}.</p>
-            </div>
-          ) : <p className="muted">No survey benchmark is available for this corridor and amount.</p>}
-
-          {big && (
-            <>
-              <h3>Sending more at once</h3>
-              <p>Sending {fmt(big.amount, cur, 0)} would cost <strong>{pct(big.totalPct)}</strong> instead of {pct(q.totalPct)}, because part of the fee is fixed.</p>
-            </>
-          )}
-
-          {step === "quote" && <button className="primary" onClick={() => setStep("review")}>Continue to review</button>}
-        </section>
-      )}
-
-      {!loading && q && step === "review" && (
-        <section className="card" aria-labelledby="rev-h">
-          <h2 id="rev-h">3. Review</h2>
-          {expired ? (
-            <p className="error" role="alert">This quote expired. <button className="link" onClick={() => setExpired(false)}>Get a fresh quote</button></p>
-          ) : (
-            <>
-              <p>You pay <strong>{fmt(q.amount, cur)}</strong> · total cost <strong>{fmt(q.totalCost, cur)}</strong> · recipient gets <strong>{fmt(q.recipientGets, q.receive, 0)}</strong></p>
-              <div className="row">
-                <button className="primary" onClick={() => setStep("done")}>Confirm transfer (demo)</button>
-                <button className="secondary" onClick={() => setExpired(true)}>Simulate expired quote</button>
-              </div>
-            </>
-          )}
-        </section>
-      )}
-
       <footer className="muted small">
-        Benchmarks: {BENCHMARK_META.source}. {BENCHMARK_META.note} Fees, rates and the provider in this demo are illustrative.
+        Data: {META.source}; survey window {META.window.join(", ")}. {META.note}
       </footer>
     </main>
   );
 }
 
-function Banner() {
-  return <p className="banner" role="note">Portfolio prototype with illustrative pricing. Not a real product; not affiliated with Wise or the World Bank. No real money moves.</p>;
+function Flow() {
+  const [showAll, setShowAll] = useState(false);
+  const list = showAll ? CORRIDORS : PILOT;
+  const [key, setKey] = useState(PILOT[0].corridor);
+  const c = CORRIDORS.find((x) => x.corridor === key) ?? PILOT[0];
+  const [raw, setRaw] = useState(String(Math.round(200 * c.lcuPerUsd)));
+  const [freq, setFreq] = useState<Frequency>("monthly");
+  const [arm, setArm] = useState<Arm>("A");
+  const [step, setStep] = useState<Step>("quote");
+  const parsed = parseAmount(raw, c);
+  const q = parsed.ok ? quote(c, parsed.value, freq, arm) : null;
+  const cur = c.sendCurrency;
+  const { cap } = limits(c);
+
+  const changeCorridor = (k: string) => {
+    const n = CORRIDORS.find((x) => x.corridor === k)!;
+    setKey(k); setRaw(String(Math.round(200 * n.lcuPerUsd))); setStep("quote");
+  };
+
+  if (step === "done" && q) {
+    return (
+      <div className="card" aria-live="polite">
+        <h2>Schedule created (demo)</h2>
+        <p>{FREQ[freq]}: {money(q.amount, cur)} to your recipient in {c.destination}. Fee per transfer {money(q.fee, cur)}.</p>
+        {q.saving > 0 && <p className="big">{money(q.annualSaving, cur)} saved a year</p>}
+        <button className="primary" onClick={() => setStep("quote")}>Start again</button>
+      </div>
+    );
+  }
+
+  return (
+    <>
+      <div className="card">
+        <div className="row">
+          <label>Corridor
+            <select value={c.corridor} onChange={(e) => changeCorridor(e.target.value)}>
+              {list.map((x) => <option key={x.corridor} value={x.corridor}>{label(x)}</option>)}
+            </select>
+          </label>
+          <label>You send ({cur})
+            <input inputMode="decimal" value={raw} aria-invalid={!parsed.ok} aria-describedby="amount-msg"
+              onChange={(e) => { setRaw(e.target.value); setStep("quote"); }} />
+          </label>
+        </div>
+        <label className="check"><input type="checkbox" checked={showAll}
+          onChange={(e) => { setShowAll(e.target.checked); if (!e.target.checked && !isPilot(c)) changeCorridor(PILOT[0].corridor); }} />
+          Show all 127 surveyed Wise corridors (default: 11 pilot corridors)</label>
+        <p id="amount-msg" className={parsed.ok ? "muted small" : "error"} role={parsed.ok ? undefined : "alert"}>
+          {parsed.ok ? `Regular Send pricing applies up to ${cap} ${cur} (USD ${CAP_USD} equivalent).` : parsed.error}
+        </p>
+        <div className="row">
+          <label>How often
+            <select value={freq} onChange={(e) => { setFreq(e.target.value as Frequency); setStep("quote"); }}>
+              {(Object.keys(FREQ) as Frequency[]).map((f) => <option key={f} value={f}>{FREQ[f]}</option>)}
+            </select>
+          </label>
+          <label>Experiment arm (demo control)
+            <select value={arm} onChange={(e) => { setArm(e.target.value as Arm); setStep("quote"); }}>
+              {(Object.keys(ARMS) as Arm[]).map((a) => <option key={a} value={a}>{ARMS[a].label}</option>)}
+            </select>
+          </label>
+        </div>
+      </div>
+
+      {q && (
+        <div className="card" aria-live="polite">
+          <h2>{step === "review" ? "Review your schedule" : "Your quote"} <span className="tag">Illustrative</span></h2>
+          <dl className="breakdown">
+            <div><dt>Standard fee</dt><dd>{money(q.standardFee, cur)}</dd></div>
+            <div><dt>Regular Send fee</dt><dd>{q.eligible ? money(q.fee, cur) : "Not applied"}</dd></div>
+            {!q.eligible && <div className="sub"><dt>Why</dt><dd>{q.reason}</dd></div>}
+            <div><dt>Fee as % of amount</dt><dd>{pct(q.totalPct)}</dd></div>
+            <div><dt>Exchange rate</dt><dd>Mid-market, no markup (rate not simulated)</dd></div>
+            <div className="gets"><dt>Converted for your recipient</dt><dd>{money(q.converted, cur)}</dd></div>
+            {q.saving > 0 && <div><dt>Saving</dt><dd>{money(q.saving, cur)} per transfer · {money(q.annualSaving, cur)} a year ({PER_YEAR[freq]} transfers)</dd></div>}
+            {step === "review" && <div><dt>Schedule</dt><dd>{FREQ[freq]}</dd></div>}
+          </dl>
+          <p className="muted small">
+            Survey context (2024–25, unweighted): {c.usd200.shareCheaper}% of other surveyed quotes in this corridor were cheaper
+            than Wise at USD 200, {c.usd500.shareCheaper}% at USD 500.
+          </p>
+          {step === "quote"
+            ? <button className="primary" onClick={() => setStep("review")}>Continue</button>
+            : <div className="row">
+                <button className="secondary" onClick={() => setStep("quote")}>Back</button>
+                <button className="primary" onClick={() => setStep("done")}>{freq === "once" ? "Confirm transfer (demo)" : "Confirm schedule (demo)"}</button>
+              </div>}
+        </div>
+      )}
+    </>
+  );
 }
 
-function Range({ p10, median, p90, value }: { p10: number; median: number; p90: number; value: number }) {
-  const max = Math.max(p90 * 1.25, value * 1.1, 1);
-  const x = (v: number) => `${Math.min(Math.max(v / max, 0), 1) * 100}%`;
+type Filter = "all" | "pilot" | "above200" | "competitive";
+const FILTERS: Record<Filter, [string, (c: Corridor) => boolean]> = {
+  all: ["All surveyed Wise corridors", () => true],
+  pilot: ["Uncompetitive at USD 200 only (pilot)", isPilot],
+  above200: ["Majority of quotes cheaper at USD 200", (c) => c.usd200.shareCheaper > 50],
+  competitive: ["Wise cheaper than most at both amounts", (c) => c.usd200.shareCheaper <= 50 && c.usd500.shareCheaper <= 50],
+};
+
+function Evidence() {
+  const [f, setF] = useState<Filter>("above200");
+  const rows = useMemo(() => CORRIDORS.filter(FILTERS[f][1]).sort((a, b) => b.usd200.shareCheaper - a.usd200.shareCheaper), [f]);
   return (
-    <div className="range" role="img" aria-label={`Your cost ${value.toFixed(2)}%. Survey 10th percentile ${p10}%, median ${median}%, 90th percentile ${p90}%.`}>
-      <div className="band" style={{ left: x(p10), width: `calc(${x(p90)} - ${x(p10)})` }} />
-      <div className="tick" style={{ left: x(median) }}><span>median {median}%</span></div>
-      <div className="you" style={{ left: x(value) }}><span>you {value.toFixed(2)}%</span></div>
+    <div className="card">
+      <h2>Wise's position in the RPW survey</h2>
+      <p className="muted small">Same corridor and quarter; other credible quotes only; median across up to four quarters. Shares are of survey quotes, not customers or volume.</p>
+      <label>Show
+        <select value={f} onChange={(e) => setF(e.target.value as Filter)}>
+          {(Object.keys(FILTERS) as Filter[]).map((k) => <option key={k} value={k}>{FILTERS[k][0]}</option>)}
+        </select>
+      </label>
+      <p aria-live="polite"><strong>{rows.length}</strong> of {CORRIDORS.length} corridors</p>
+      <div className="tablewrap" tabIndex={0} aria-label="Corridor table, scrollable">
+        <table>
+          <thead><tr><th scope="col">Corridor</th><th scope="col">Wise @200</th><th scope="col">Median @200</th>
+            <th scope="col">% cheaper @200</th><th scope="col">Wise @500</th><th scope="col">% cheaper @500</th></tr></thead>
+          <tbody>{rows.map((c) => (
+            <tr key={c.corridor}><th scope="row">{c.source} → {c.destination}</th>
+              <td>{pct(c.usd200.wiseTotal)}</td><td>{pct(c.usd200.otherMedian)}</td><td>{c.usd200.shareCheaper}%</td>
+              <td>{pct(c.usd500.wiseTotal)}</td><td>{c.usd500.shareCheaper}%</td></tr>))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+function Num({ id, labelText, value, set }: { id: string; labelText: string; value: string; set: (v: string) => void }) {
+  const bad = !/^\d+(\.\d{1,2})?$/.test(value.trim());
+  return (
+    <label htmlFor={id}>{labelText}
+      <input id={id} inputMode="decimal" value={value} aria-invalid={bad} onChange={(e) => set(e.target.value)} />
+    </label>
+  );
+}
+
+function Economics() {
+  const [r, setR] = useState("4.81");
+  const [d, setD] = useState("1.12");
+  const [cost, setCost] = useState("2.00");
+  const vals = [r, d, cost].map((v) => (/^\d+(\.\d{1,2})?$/.test(v.trim()) ? Number(v) : NaN));
+  const ok = vals.every(Number.isFinite);
+  const u = ok ? breakEvenUplift(vals[0], vals[1], vals[2]) : NaN;
+  return (
+    <div className="card">
+      <h2>How much must retention rise to pay for the discount?</h2>
+      <p className="muted small">All inputs are assumptions in USD per transfer. Defaults: RPW-implied Wise fee at USD 200 (USD 2.23 fixed + 1.29%), arm A discount, a guessed variable cost.</p>
+      <div className="row">
+        <Num id="rev" labelText="Fee revenue per transfer" value={r} set={setR} />
+        <Num id="disc" labelText="Discount per transfer" value={d} set={setD} />
+        <Num id="cost" labelText="Variable cost per transfer (unknown)" value={cost} set={setCost} />
+      </div>
+      <p aria-live="polite" className={ok ? "big" : "error"}>
+        {!ok ? "Enter non-negative numbers with up to two decimals."
+          : u === Infinity ? "Never: the discount leaves no margin."
+          : `+${(u * 100).toFixed(0)}% more retained transfers needed`}
+      </p>
+      <p className="muted small">Formula: discount ÷ (revenue − discount − cost). The pilot ships only if the measured lift beats this (see measurement plan).</p>
     </div>
   );
 }

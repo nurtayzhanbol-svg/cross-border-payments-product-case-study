@@ -1,5 +1,7 @@
 # Measurement & Validation Plan
 
+> **Superseded (Phase 5).** This is the original True Cost version, kept for comparison (tag `v1-true-cost-case-study`). The current case study is [`case_study_v2.md`](case_study_v2.md); see [`phase5_reframing_decision_log.md`](phase5_reframing_decision_log.md).
+
 ## North Star
 
 **Share of quoted transfers where the sender sees the all-in cost and completes the transfer** ("informed completions" ÷ quotes shown). It captures both the clarity goal and the business outcome.

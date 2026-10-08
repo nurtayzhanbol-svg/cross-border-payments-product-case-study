@@ -1,5 +1,7 @@
 # Case Study — Making the true cost of small international transfers visible
 
+> **Superseded (Phase 5).** This is the original True Cost version, kept for comparison (tag `v1-true-cost-case-study`). The current case study is [`case_study_v2.md`](case_study_v2.md); see [`phase5_reframing_decision_log.md`](phase5_reframing_decision_log.md).
+
 *An independent Product Management portfolio project. It uses only publicly available data and is not affiliated with, endorsed by, or based on internal data from Wise or the World Bank.*
 
 ## 1. Context

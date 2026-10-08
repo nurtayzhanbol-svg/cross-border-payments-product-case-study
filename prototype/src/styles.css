@@ -32,3 +32,12 @@ button { font: inherit; cursor: pointer; border-radius: 8px; padding: 10px 16px;
 @media (prefers-reduced-motion: reduce) { .skeleton div { animation: none; } }
 .big { font-size: 2rem; font-weight: 700; color: var(--accent); }
 footer { margin: 24px 0; }
+.tabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 1px solid var(--line); margin-top: 12px; }
+.tab { background: none; border: 1px solid transparent; border-bottom: none; border-radius: 8px 8px 0 0; }
+.tab.active { background: #fff; border-color: var(--line); font-weight: 700; }
+.tag { font-size: .75rem; background: #fff4d6; border: 1px solid #e8c766; padding: 1px 6px; border-radius: 99px; vertical-align: middle; }
+.check { flex-direction: row; align-items: center; font-weight: 400; margin-top: 8px; }
+.tablewrap { overflow-x: auto; max-height: 420px; }
+table { border-collapse: collapse; width: 100%; font-size: .85rem; }
+th, td { text-align: left; padding: 6px; border-top: 1px solid var(--line); white-space: nowrap; }
+thead th { position: sticky; top: 0; background: #fff; }

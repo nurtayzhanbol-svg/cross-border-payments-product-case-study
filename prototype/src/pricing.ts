@@ -1,55 +1,75 @@
-import data from "./data/benchmarks.json";
+import data from "./data/wise_position.json";
 
-export type Benchmark = { quotes: number; p10: number; median: number; p90: number; medianFee: number; medianFx: number };
-export type Corridor = {
-  corridor: string; source: string; destination: string; sendCurrency: string;
-  periods: string[]; providers: number; usd200: Benchmark; usd500: Benchmark;
-};
+export type Arm = "control" | "A" | "B";
+export type Frequency = "once" | "weekly" | "fortnightly" | "monthly";
+export interface Position { wiseTotal: number; otherMedian: number; shareCheaper: number; gapVsMedian: number; otherProviders: number; quarters: number }
+export interface Corridor {
+  corridor: string; source: string; destination: string; region: string; sendCurrency: string; lcuPerUsd: number;
+  illustrativeFee: { fixed: number; variablePct: number }; usd200: Position; usd500: Position;
+}
 
-export const BENCHMARK_META = data.meta;
+export const META = data.meta;
 export const CORRIDORS = data.corridors as Corridor[];
-
-/** ILLUSTRATIVE values used to generate a demo quote. Not real prices or live rates. */
-export const ILLUSTRATIVE: Record<string, { receive: string; midRate: number; fixedFee: number; pctFee: number; fxMarginPct: number }> = {
-  GBRNGA: { receive: "NGN", midRate: 2000, fixedFee: 0.99, pctFee: 0.004, fxMarginPct: 0.6 },
-  GBRIND: { receive: "INR", midRate: 112, fixedFee: 0.99, pctFee: 0.004, fxMarginPct: 0.5 },
-  GBRKEN: { receive: "KES", midRate: 172, fixedFee: 0.99, pctFee: 0.005, fxMarginPct: 0.8 },
-  USAMEX: { receive: "MXN", midRate: 18.5, fixedFee: 2.99, pctFee: 0.0, fxMarginPct: 1.2 },
-  USAPHL: { receive: "PHP", midRate: 57, fixedFee: 1.99, pctFee: 0.003, fxMarginPct: 1.0 },
-  DEUTUR: { receive: "TRY", midRate: 47, fixedFee: 1.49, pctFee: 0.004, fxMarginPct: 0.9 },
+export const ARMS: Record<Arm, { label: string; fixedDiscount: number }> = {
+  control: { label: "Control: standard price", fixedDiscount: 0 },
+  A: { label: "Arm A: fixed fee −50%", fixedDiscount: 0.5 },
+  B: { label: "Arm B: fixed fee −100%", fixedDiscount: 1 },
 };
+export const PER_YEAR: Record<Frequency, number> = { once: 1, weekly: 52, fortnightly: 26, monthly: 12 };
+export const CAP_USD = 500;
+export const MIN_USD = 10;
+export const MAX_USD = 5000;
 
-export type Quote = {
-  amount: number; fee: number; fxCost: number; totalCost: number; totalPct: number;
-  midRate: number; appliedRate: number; recipientGets: number; receive: string;
-};
+/** Wise above the corridor median at USD 200 but not at USD 500: the small-amount-only gap. */
+export const isPilot = (c: Corridor) => c.usd200.shareCheaper > 50 && c.usd500.shareCheaper <= 50;
+export const PILOT = CORRIDORS.filter(isPilot);
 
-export const MIN_AMOUNT = 20;
-export const MAX_AMOUNT = 5000;
+const toLcu = (c: Corridor, usd: number) => Math.round(usd * c.lcuPerUsd);
+export const limits = (c: Corridor) => ({ min: toLcu(c, MIN_USD), max: toLcu(c, MAX_USD), cap: toLcu(c, CAP_USD) });
+export const round2 = (v: number) => Math.round((v + Number.EPSILON) * 100) / 100;
 
-export function quote(corridor: string, amount: number): Quote {
-  const p = ILLUSTRATIVE[corridor];
-  if (!p) throw new Error(`No illustrative pricing for ${corridor}`);
-  const fee = p.fixedFee + amount * p.pctFee;
-  const converted = amount - fee;
-  const appliedRate = p.midRate * (1 - p.fxMarginPct / 100);
-  const recipientGets = converted * appliedRate;
-  const fxCost = converted * (p.fxMarginPct / 100);
-  const totalCost = fee + fxCost;
-  return { amount, fee, fxCost, totalCost, totalPct: (totalCost / amount) * 100, midRate: p.midRate,
-           appliedRate, recipientGets, receive: p.receive };
+export type Parsed = { ok: true; value: number } | { ok: false; error: string };
+/** Strict parse: digits with at most two decimals, within the corridor limits. Never rewrites the input. */
+export function parseAmount(raw: string, c: Corridor): Parsed {
+  const s = raw.trim();
+  const { min, max } = limits(c);
+  if (s === "") return { ok: false, error: "Enter an amount." };
+  if (!/^\d+(\.\d{1,2})?$/.test(s)) {
+    if (/^-/.test(s)) return { ok: false, error: "Amount must be positive." };
+    if (/^\d+\.\d{3,}$/.test(s)) return { ok: false, error: "Use at most two decimal places." };
+    return { ok: false, error: "Use numbers only, for example 200 or 200.50." };
+  }
+  const value = Number(s);
+  if (value < min || value > max) return { ok: false, error: `Enter between ${min} and ${max} ${c.sendCurrency}.` };
+  return { ok: true, value };
 }
 
-/** Position of a cost % within the survey benchmark for the nearest surveyed amount (USD 200 or 500). */
-export function benchmarkFor(c: Corridor, amount: number): { b: Benchmark; label: string } | null {
-  const b = amount >= 350 ? c.usd500 : c.usd200;
-  if (b.quotes < 10) return null;
-  return { b, label: amount >= 350 ? "~USD 500" : "~USD 200" };
+export interface Quote {
+  amount: number; standardFee: number; fee: number; saving: number; eligible: boolean; reason: string;
+  converted: number; totalPct: number; annualSaving: number; transfersPerYear: number;
 }
 
-export function position(totalPct: number, b: Benchmark): "below-p10" | "below-median" | "above-median" | "above-p90" {
-  if (totalPct <= b.p10) return "below-p10";
-  if (totalPct <= b.median) return "below-median";
-  if (totalPct <= b.p90) return "above-median";
-  return "above-p90";
+/** Illustrative quote: fee implied by Wise's two RPW survey points, mid-market rate with no FX margin. */
+export function quote(c: Corridor, amount: number, freq: Frequency, arm: Arm): Quote {
+  const { fixed, variablePct } = c.illustrativeFee;
+  const standardFee = round2(fixed + (variablePct / 100) * amount);
+  const { cap } = limits(c);
+  let reason = "";
+  if (freq === "once") reason = "Regular Send pricing applies to recurring schedules only.";
+  else if (amount > cap) reason = `Regular Send pricing applies to transfers up to ${cap} ${c.sendCurrency} (USD ${CAP_USD} equivalent).`;
+  else if (arm === "control") reason = "You are in the control group: standard price.";
+  const eligible = reason === "";
+  const fee = eligible ? round2(standardFee - fixed * ARMS[arm].fixedDiscount) : standardFee;
+  const saving = round2(standardFee - fee);
+  const n = PER_YEAR[freq];
+  return {
+    amount, standardFee, fee, saving, eligible, reason, converted: round2(amount - fee),
+    totalPct: (fee / amount) * 100, transfersPerYear: n, annualSaving: round2(saving * n),
+  };
+}
+
+/** Relative rise in retained transfers needed for a fee cut to keep contribution unchanged. */
+export function breakEvenUplift(revenue: number, discount: number, cost: number): number {
+  const margin = revenue - discount - cost;
+  return margin <= 0 ? Infinity : discount / margin;
 }
