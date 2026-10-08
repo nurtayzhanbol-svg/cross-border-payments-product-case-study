@@ -33,3 +33,6 @@ desktop.ini
 *.bak
 *.log
 ~$*
+
+# Pipeline cache (rebuilt from data/raw)
+data/interim/

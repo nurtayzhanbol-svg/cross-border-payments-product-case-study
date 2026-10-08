@@ -1,5 +1,7 @@
 # Dataset Quality Report — Phase 3 (Dataset Understanding)
 
+> **Phase 3.5 corrections applied.** This document was revised after the independent audit (`docs/phase3_audit_report.md`, `docs/data_dictionary_audit.md`). Corrected statements are tagged **[3.5-Mx]** / **[3.5-mx]** with the audit finding ID.
+
 Generated from `notebooks/01_dataset_understanding.ipynb`. Supporting tables are in `outputs/tables/`.
 
 This is **structural profiling only**. The counts describe the workbook, not the remittance market. No data was cleaned, merged or corrected. The raw workbook's SHA-256 (`f1d7265b…a2d8`) is verified before and after every notebook run.
@@ -95,7 +97,7 @@ Source: `outputs/tables/post2016_xml_column_scan.csv`, from a streaming read of 
 | K | `destination_region` | 2 | `=VLOOKUP(I…,[1]Countries!A$3:F$217,3,FALSE)` | yes | 2023_1Q |
 | AP | `corridor` | 6,651 | `=C…&I…` (shared formula) | no | 2024_4Q |
 
-- **External link.** `[1]` resolves to `xl/externalLinks/externalLink1.xml`. It points to a file on the original author's machine: `/Users/schen/Documents/WeChat Files/…/rpw_dataset_2011_2023_q1_with formula.xlsx`. That workbook has sheets `Countriesold`, `CountriesQ320`, `CountriesQ321`, `CountriesQ322` and `HistoricalCountryCat`, which are not in this file. The link part also contains a cached copy of the linked Countries table.
+- **External link.** `[1]` resolves to `xl/externalLinks/externalLink1.xml`. It points to a file on the original author's machine: `/Users/schen/Documents/WeChat Files/…/rpw_dataset_2011_2023_q1_with formula.xlsx`. That workbook lists the six sheets present here **plus** `Countriesold`, `CountriesQ320`, `CountriesQ321`, `CountriesQ322` and `HistoricalCountryCat`, which are not in this file **[3.5-m11]**. The link part also contains a cached copy of the linked Countries table.
 - **Cached values.** All 6,690 formula cells have a cached `<v>` value.
 - **pandas/openpyxl read the cached values reliably.** The value pandas loads equals the cached XML value for **6,690 / 6,690** cells.
 - **Cached values are consistent with the formulas' inputs:**
@@ -133,7 +135,7 @@ Full counts: `outputs/tables/placeholder_counts.csv` and `label_variants.csv`.
 | `source_G8G20` / `destination_G8G20` | 13,748 / 39,216 | 71,450 / 164,393 | non-members | category "not G8/G20" |
 | `destination_income` | 121 | 0 | ANT (Netherlands Antilles) only | missing |
 
-- The workbook does not define `..`. These readings are **inferred** from co-occurrence and from the Countries sheet, where `..` fills the same columns.
+- The workbook does not define `..`. These readings are **inferred** from co-occurrence and from the Countries sheet, where `..` fills the same columns. **[3.5-m1]** The region/lending readings are overstated: GNQ, CUB, PRK, PSE and ANT are counterexamples. Treat `..` as "not provided by the source".
 - Proposal: keep `..` as an explicit category in classification fields, never silently drop it, and convert it to missing only where no category makes sense (ANT income).
 
 **Other placeholders and variants**
@@ -205,12 +207,14 @@ Tables: `outputs/tables/cost_relationship_checks.csv` and `transparency_margin_c
 | POST | no | 3,361 | 3,351 (99.7%) | 3,352 | 3,352 | 3,315 |
 | POST | yes/Yes | 201,108 | 25,885 (12.9%) | 25,261 | 21,169 | 282 |
 
-- For `transparent = no`, the FX margin is almost always 0, with both rates set to 1 (placeholder rates). The standard note on these rows says: *"The 0% in the exchange rate margin does NOT necessarily mean that there is no exchange rate cost, but rather that this cost is not disclosed to the sender at the time of sending."* So **the zero is not a measured zero**. For these rows, `total cost %` covers **the fee only** and understates the full cost. The Methodology sheet confirms that the World Bank excludes such RSPs from its averages.
-- Many `transparent = yes` rows also have margin 0 with rate 1. **Inferred**: most are same-currency services, e.g. notes "USD service" or "This RSP sends and pays out in EUR…", where no conversion happens at send time. The notes warn that recipients "may incur an additional cost (not shown here)".
-- 282 POST `yes` rows carry a "not transparent"-type note. **Inconsistent**; kept as recorded.
+- For `transparent = no`, the FX margin is almost always 0, with both rates set to 1 (placeholder rates). The standard note on these rows says: *"The 0% in the exchange rate margin does NOT necessarily mean that there is no exchange rate cost, but rather that this cost is not disclosed to the sender at the time of sending."* So **the zero is not a measured zero**. For these rows, `total cost %` covers **the fee only** and understates the full cost. **[3.5-M3]** The same disclaimer also appears on 1,011 PRE `transparent = yes` rows, and 21 PRE / 10 POST `no` rows have non-zero margins, so the rule holds in most rows but not all. The Methodology sheet confirms that the World Bank excludes such RSPs from its averages.
+- Many `transparent = yes` rows also have margin 0 with rate 1. **Inferred [3.5-m14]**: 1,621 PRE / 11,395 POST such rows have no note supporting this. Some are same-currency services, e.g. notes "USD service" or "This RSP sends and pays out in EUR…", where no conversion happens at send time. The notes warn that recipients "may incur an additional cost (not shown here)".
+- 282 POST `yes` rows carry a "not transparent"-type note; 272 of them fall in 2021_3Q–2022_1Q, as `no` fades out (133 → 0). Only 11% have margin 0. **[3.5-M3]** This is evidence that the flag's operational meaning shifted around 2021. Kept as recorded and flagged in Phase 4.
 - **No `transparent = no` rows exist after 2021_4Q**, but zero margins continue. The workbook does not say whether non-transparent services stopped being collected, stopped being flagged, or were removed. **Unclear.**
 
 ## 7. Unit of observation
+
+> **[3.5-M4]** Restated: one row = one survey record (`period + id`) with USD 200/500 quotes for a firm × corridor. "One row = one service" is a working hypothesis. The 133/189 figures are **surplus** duplicate rows (duplicate groups: 266 PRE / 372 POST rows).
 
 One row = one service (firm × corridor × service configuration) observed in one period, with USD 200 (`cc1`) and USD 500 (`cc2`) quotes in wide form.
 

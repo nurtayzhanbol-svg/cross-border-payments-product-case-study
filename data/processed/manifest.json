@@ -1,0 +1,17 @@
+{
+  "raw_file": "rpw_dataset_2011_2025_q3.xlsx",
+  "raw_sha256": "f1d7265b1856d61812c158d3d03fae686dbff58735deabe016a6bfe23482d2a8",
+  "rows": {
+    "records_wide": 253960,
+    "quotes_long": 507920,
+    "PRE": 49491,
+    "POST": 204469
+  },
+  "columns": {
+    "records_wide": 84,
+    "quotes_long": 94
+  },
+  "python": "3.10.12",
+  "pandas": "2.3.3",
+  "platform": "Linux-6.8.0-1061-aws-x86_64-with-glibc2.35"
+}

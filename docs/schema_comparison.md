@@ -1,5 +1,7 @@
 # Schema Comparison — `Dataset (up to Q1 2016)` vs `Dataset (from Q2 2016)`
 
+> **Phase 3.5 corrections applied.** This document was revised after the independent audit (`docs/phase3_audit_report.md`, `docs/data_dictionary_audit.md`). Corrected statements are tagged **[3.5-Mx]** / **[3.5-mx]** with the audit finding ID.
+
 This document records the discrepancies between the two sheets. It does not resolve any of them.
 
 - **PRE** = `Dataset (up to Q1 2016)`: 41 headed columns (A–AO).
@@ -60,7 +62,7 @@ Same name does not guarantee same content. See section 5.
 | `sending location` | `access point` | Legend rename | Concept yes, vocabulary no. PRE: `at Branch`, `On-line`, `Call Center`, `Not available`, `on mobile phone`. POST: `Agent`, `Internet`, `Bank branch`, `Post Office branch`, `Mobile phone`, … No mapping is documented. |
 | `coverage` | `receiving network coverage` | Legend rename | Concept yes, **scale no**. PRE is geographic (`Nationwide`, `Major cities`, `Main city`, `Urban only`, `Rural only`). POST is ordinal (`High`, `Medium`, `Low`). No mapping is documented. |
 | `note1` | `Standard Note` | Legend `standard note`; same position (column 36) | Yes, largely: the same standard sentences occur in both. |
-| `pick-up method` | `pickup method` (+ `pickup location`) | Legend `pickup method` | Partly. PRE mixes channel and place (`Cash`, `Bank Account`, `Home Delivery`, `ATM Network`, `Mobile`). POST moves place-type values into the new `pickup location`, and adds `Mobile wallet`. |
+| `pick-up method` | `pickup method` (+ `pickup location`) | Legend `pickup method` | Partly. PRE mixes channel and place (`Cash`, `Bank Account`, `Home Delivery`, `ATM Network`, `Mobile`). POST moves some place-type values into the new `pickup location`, and adds `Mobile wallet`. **[3.5-m10]** The overlap runs in both directions (`Agent` appears in `pickup location` on Bank-account and Mobile-wallet rows), so any mapping has to be many-to-many. PRE `pick-up method` was also not collected in 2011_1Q–2013_4Q **[3.5-M2]**. |
 
 ## 5. Potentially incompatible fields (same name, different content)
 
@@ -78,7 +80,8 @@ Same name does not guarantee same content. See section 5.
 
 - `coverage` → `receiving network coverage`: the measurement scale changed (geographic reach → High/Medium/Low rank). The Legend describes both as "ranks the extensiveness of the network in the receiving country", but the categories are not the same.
 - `sending location` → `access point`: renamed, and the category vocabulary was redesigned.
-- `product` was dropped. Its information (e.g. "Cash to account") is split in POST across `payment instrument` (sender side) and `pickup method` (receiver side). No 1:1 mapping exists.
+- `product` was dropped. Its information (e.g. "Cash to account") is split in POST across `payment instrument` (sender side) and `pickup method` (receiver side). **[3.5-m9]** `product` labels also encode channel and currency, so this split is not exhaustive. No 1:1 mapping exists.
+- `sending location` → `access point`: the Legend calls this a rename, but PRE `Not available` reflects non-collection in 2011_3Q–2013_2Q **[3.5-M2]**. Mapping is valid only for 2013_3Q–2016_1Q.
 - Pick-up: one PRE field became two POST fields (`pickup method`, `pickup location`). `pickup location` is undefined in the Legend.
 
 ## 7. Missing expected fields — `sending network coverage`
