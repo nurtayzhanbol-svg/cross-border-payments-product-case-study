@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "source": "World Bank, Remittance Prices Worldwide (rpw_dataset_2011_2025_q3.xlsx)",
+    "window": [
+      "2024_3Q",
+      "2024_4Q",
+      "2025_1Q",
+      "2025_3Q"
+    ],
+    "population": "complete_cost_eligible survey quotes (see docs/pipeline.md)",
+    "note": "Survey benchmarks, not live prices. Unweighted across surveyed quotes."
+  },
+  "corridors": [
+    {
+      "corridor": "DEUTUR",
+      "source": "Germany",
+      "destination": "Türkiye",
+      "sendCurrency": "EUR",
+      "periods": [
+        "2024_3Q",
+        "2024_4Q",
+        "2025_1Q",
+        "2025_3Q"
+      ],
+      "providers": 8,
+      "usd200": {
+        "quotes": 107,
+        "p10": 2.52,
+        "median": 3.17,
+        "p90": 6.22,
+        "medianFee": 2.86,
+        "medianFx": 1.1
+      },
+      "usd500": {
+        "quotes": 107,
+        "p10": 1.66,
+        "median": 2.23,
+        "p90": 3.64,
+        "medianFee": 1.93,
+        "medianFx": 1.1
+      }
+    },
+    {
+      "corridor": "GBRIND",
+      "source": "United Kingdom",
+      "destination": "India",
+      "sendCurrency": "GBP",
+      "periods": [
+        "2024_3Q",
+        "2024_4Q",
+        "2025_1Q",
+        "2025_3Q"
+      ],
+      "providers": 13,
+      "usd200": {
+        "quotes": 117,
+        "p10": 1.21,
+        "median": 2.46,
+        "p90": 4.85,
+        "medianFee": 1.66,
+        "medianFx": 0.63
+      },
+      "usd500": {
+        "quotes": 117,
+        "p10": 0.71,
+        "median": 1.43,
+        "p90": 2.79,
+        "medianFee": 0.66,
+        "medianFx": 0.61
+      }
+    },
+    {
+      "corridor": "GBRKEN",
+      "source": "United Kingdom",
+      "destination": "Kenya",
+      "sendCurrency": "GBP",
+      "periods": [
+        "2024_3Q",
+        "2024_4Q",
+        "2025_1Q",
+        "2025_3Q"
+      ],
+      "providers": 10,
+      "usd200": {
+        "quotes": 127,
+        "p10": 1.69,
+        "median": 3.36,
+        "p90": 8.74,
+        "medianFee": 1.66,
+        "medianFx": 2.18
+      },
+      "usd500": {
+        "quotes": 127,
+        "p10": 1.18,
+        "median": 3.01,
+        "p90": 5.58,
+        "medianFee": 0.66,
+        "medianFx": 2.18
+      }
+    },
+    {
+      "corridor": "GBRNGA",
+      "source": "United Kingdom",
+      "destination": "Nigeria",
+      "sendCurrency": "GBP",
+      "periods": [
+        "2024_3Q",
+        "2024_4Q",
+        "2025_1Q",
+        "2025_3Q"
+      ],
+      "providers": 9,
+      "usd200": {
+        "quotes": 88,
+        "p10": 0.11,
+        "median": 2.12,
+        "p90": 6.06,
+        "medianFee": 1.66,
+        "medianFx": 0.32
+      },
+      "usd500": {
+        "quotes": 88,
+        "p10": 0.09,
+        "median": 1.37,
+        "p90": 3.5,
+        "medianFee": 1.33,
+        "medianFx": 0.32
+      }
+    },
+    {
+      "corridor": "USAMEX",
+      "source": "United States",
+      "destination": "Mexico",
+      "sendCurrency": "USD",
+      "periods": [
+        "2024_3Q",
+        "2024_4Q",
+        "2025_1Q",
+        "2025_3Q"
+      ],
+      "providers": 15,
+      "usd200": {
+        "quotes": 184,
+        "p10": 2.36,
+        "median": 4.61,
+        "p90": 7.2,
+        "medianFee": 3.0,
+        "medianFx": 1.27
+      },
+      "usd500": {
+        "quotes": 180,
+        "p10": 1.18,
+        "median": 2.72,
+        "p90": 5.5,
+        "medianFee": 1.6,
+        "medianFx": 1.34
+      }
+    },
+    {
+      "corridor": "USAPHL",
+      "source": "United States",
+      "destination": "Philippines",
+      "sendCurrency": "USD",
+      "periods": [
+        "2024_3Q",
+        "2024_4Q",
+        "2025_1Q",
+        "2025_3Q"
+      ],
+      "providers": 14,
+      "usd200": {
+        "quotes": 229,
+        "p10": 2.15,
+        "median": 4.5,
+        "p90": 8.0,
+        "medianFee": 3.0,
+        "medianFx": 1.58
+      },
+      "usd500": {
+        "quotes": 225,
+        "p10": 1.6,
+        "median": 2.95,
+        "p90": 6.38,
+        "medianFee": 1.6,
+        "medianFx": 1.42
+      }
+    }
+  ]
+}
