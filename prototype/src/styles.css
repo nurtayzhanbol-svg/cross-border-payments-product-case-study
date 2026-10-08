@@ -15,7 +15,7 @@ input[aria-invalid="true"] { border-color: var(--warn); }
 .error { color: var(--warn); font-weight: 600; }
 .total { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 .total strong { font-size: 2rem; } .pill { background: #e3f2ec; color: var(--accent); padding: 2px 8px; border-radius: 99px; font-weight: 600; }
-.breakdown { margin: 12px 0 0; } .breakdown div { display: flex; justify-content: space-between; gap: 8px; padding: 8px 0; border-top: 1px solid var(--line); }
+.breakdown { margin: 12px 0 0; } .breakdown div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 8px; padding: 8px 0; border-top: 1px solid var(--line); }
 .breakdown dt { color: var(--muted); } .breakdown dd { margin: 0; font-weight: 600; text-align: right; }
 .breakdown .sub dd { font-weight: 400; font-size: .85rem; } .breakdown .gets dd { font-size: 1.2rem; color: var(--accent); }
 .help { background: #eef4ff; padding: 10px; border-radius: 8px; font-size: .9rem; }
