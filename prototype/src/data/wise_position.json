@@ -1,0 +1,3571 @@
+{
+ "meta": {
+  "source": "World Bank, Remittance Prices Worldwide (rpw_dataset_2011_2025_q3.xlsx)",
+  "window": [
+   "2024_3Q",
+   "2024_4Q",
+   "2025_1Q",
+   "2025_3Q"
+  ],
+  "note": "Survey statistics, unweighted; not live or official Wise prices. Quote counts are not volumes.",
+  "method": "docs/phase5_analysis.md (A1)"
+ },
+ "corridors": [
+  {
+   "corridor": "AREBGD",
+   "source": "United Arab Emirates",
+   "destination": "Bangladesh",
+   "region": "South Asia",
+   "sendCurrency": "AED",
+   "lcuPerUsd": 3.675,
+   "illustrativeFee": {
+    "fixed": 19.02,
+    "variablePct": 4.571
+   },
+   "usd200": {
+    "wiseTotal": 10.7,
+    "otherMedian": 6.59,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 4.42,
+    "otherProviders": 6,
+    "quarters": 3
+   },
+   "usd500": {
+    "wiseTotal": 9.72,
+    "otherMedian": 5.03,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 4.18,
+    "otherProviders": 6,
+    "quarters": 3
+   }
+  },
+  {
+   "corridor": "AREEGY",
+   "source": "United Arab Emirates",
+   "destination": "Egypt, Arab Rep.",
+   "region": "Middle East & North Africa",
+   "sendCurrency": "AED",
+   "lcuPerUsd": 3.675,
+   "illustrativeFee": {
+    "fixed": 37.79,
+    "variablePct": 4.433
+   },
+   "usd200": {
+    "wiseTotal": 9.62,
+    "otherMedian": 3.06,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 6.48,
+    "otherProviders": 8,
+    "quarters": 3
+   },
+   "usd500": {
+    "wiseTotal": 6.54,
+    "otherMedian": 1.59,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 4.78,
+    "otherProviders": 8,
+    "quarters": 3
+   }
+  },
+  {
+   "corridor": "AREIDN",
+   "source": "United Arab Emirates",
+   "destination": "Indonesia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "AED",
+   "lcuPerUsd": 3.675,
+   "illustrativeFee": {
+    "fixed": 7.58,
+    "variablePct": 4.092
+   },
+   "usd200": {
+    "wiseTotal": 5.22,
+    "otherMedian": 4.63,
+    "shareCheaper": 66.7,
+    "gapVsMedian": 0.72,
+    "otherProviders": 5,
+    "quarters": 3
+   },
+   "usd500": {
+    "wiseTotal": 4.61,
+    "otherMedian": 2.57,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 2.04,
+    "otherProviders": 5,
+    "quarters": 3
+   }
+  },
+  {
+   "corridor": "ARELKA",
+   "source": "United Arab Emirates",
+   "destination": "Sri Lanka",
+   "region": "South Asia",
+   "sendCurrency": "AED",
+   "lcuPerUsd": 3.675,
+   "illustrativeFee": {
+    "fixed": 12.85,
+    "variablePct": 4.091
+   },
+   "usd200": {
+    "wiseTotal": 6.04,
+    "otherMedian": 2.5,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 3.54,
+    "otherProviders": 6,
+    "quarters": 3
+   },
+   "usd500": {
+    "wiseTotal": 4.98,
+    "otherMedian": 1.31,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 3.62,
+    "otherProviders": 6,
+    "quarters": 3
+   }
+  },
+  {
+   "corridor": "ARENPL",
+   "source": "United Arab Emirates",
+   "destination": "Nepal",
+   "region": "South Asia",
+   "sendCurrency": "AED",
+   "lcuPerUsd": 3.675,
+   "illustrativeFee": {
+    "fixed": 10.47,
+    "variablePct": 4.379
+   },
+   "usd200": {
+    "wiseTotal": 5.88,
+    "otherMedian": 2.95,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 2.94,
+    "otherProviders": 9,
+    "quarters": 3
+   },
+   "usd500": {
+    "wiseTotal": 5.03,
+    "otherMedian": 1.71,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 3.32,
+    "otherProviders": 9,
+    "quarters": 3
+   }
+  },
+  {
+   "corridor": "AREPAK",
+   "source": "United Arab Emirates",
+   "destination": "Pakistan",
+   "region": "South Asia",
+   "sendCurrency": "AED",
+   "lcuPerUsd": 3.675,
+   "illustrativeFee": {
+    "fixed": 8.93,
+    "variablePct": 4.141
+   },
+   "usd200": {
+    "wiseTotal": 5.3,
+    "otherMedian": 0.63,
+    "shareCheaper": 80.0,
+    "gapVsMedian": 4.68,
+    "otherProviders": 7,
+    "quarters": 3
+   },
+   "usd500": {
+    "wiseTotal": 4.61,
+    "otherMedian": 0.63,
+    "shareCheaper": 90.0,
+    "gapVsMedian": 3.98,
+    "otherProviders": 7,
+    "quarters": 3
+   }
+  },
+  {
+   "corridor": "AREPHL",
+   "source": "United Arab Emirates",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "AED",
+   "lcuPerUsd": 3.675,
+   "illustrativeFee": {
+    "fixed": 8.52,
+    "variablePct": 4.199
+   },
+   "usd200": {
+    "wiseTotal": 5.64,
+    "otherMedian": 3.43,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 1.98,
+    "otherProviders": 8,
+    "quarters": 3
+   },
+   "usd500": {
+    "wiseTotal": 4.96,
+    "otherMedian": 1.47,
+    "shareCheaper": 100.0,
+    "gapVsMedian": 3.02,
+    "otherProviders": 8,
+    "quarters": 3
+   }
+  },
+  {
+   "corridor": "AUSCHN",
+   "source": "Australia",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 6.05,
+    "variablePct": 0.755
+   },
+   "usd200": {
+    "wiseTotal": 3.76,
+    "otherMedian": 3.27,
+    "shareCheaper": 63.1,
+    "gapVsMedian": 0.5,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.97,
+    "otherMedian": 2.66,
+    "shareCheaper": 37.6,
+    "gapVsMedian": -0.7,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUSIDN",
+   "source": "Australia",
+   "destination": "Indonesia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.37,
+    "variablePct": 0.537
+   },
+   "usd200": {
+    "wiseTotal": 1.24,
+    "otherMedian": 3.26,
+    "shareCheaper": 8.2,
+    "gapVsMedian": -2.05,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.82,
+    "otherMedian": 2.35,
+    "shareCheaper": 8.2,
+    "gapVsMedian": -1.54,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUSIND",
+   "source": "Australia",
+   "destination": "India",
+   "region": "South Asia",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.38,
+    "variablePct": 0.537
+   },
+   "usd200": {
+    "wiseTotal": 1.25,
+    "otherMedian": 3.61,
+    "shareCheaper": 14.7,
+    "gapVsMedian": -2.36,
+    "otherProviders": 18,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.84,
+    "otherMedian": 2.27,
+    "shareCheaper": 11.8,
+    "gapVsMedian": -1.42,
+    "otherProviders": 18,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUSLKA",
+   "source": "Australia",
+   "destination": "Sri Lanka",
+   "region": "South Asia",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 3.65,
+    "variablePct": 0.538
+   },
+   "usd200": {
+    "wiseTotal": 2.41,
+    "otherMedian": 3.88,
+    "shareCheaper": 9.6,
+    "gapVsMedian": -1.38,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.31,
+    "otherMedian": 2.27,
+    "shareCheaper": 7.3,
+    "gapVsMedian": -0.88,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUSMYS",
+   "source": "Australia",
+   "destination": "Malaysia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.15,
+    "variablePct": 0.817
+   },
+   "usd200": {
+    "wiseTotal": 1.36,
+    "otherMedian": 4.24,
+    "shareCheaper": 5.1,
+    "gapVsMedian": -2.87,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.0,
+    "otherMedian": 3.06,
+    "shareCheaper": 2.6,
+    "gapVsMedian": -2.04,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUSPAK",
+   "source": "Australia",
+   "destination": "Pakistan",
+   "region": "South Asia",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.93,
+    "variablePct": 0.62
+   },
+   "usd200": {
+    "wiseTotal": 1.52,
+    "otherMedian": 1.82,
+    "shareCheaper": 23.6,
+    "gapVsMedian": -0.24,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.06,
+    "otherMedian": 1.15,
+    "shareCheaper": 46.5,
+    "gapVsMedian": -0.07,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUSPHL",
+   "source": "Australia",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.46,
+    "variablePct": 0.647
+   },
+   "usd200": {
+    "wiseTotal": 1.4,
+    "otherMedian": 3.54,
+    "shareCheaper": 6.9,
+    "gapVsMedian": -2.02,
+    "otherProviders": 13,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.96,
+    "otherMedian": 2.72,
+    "shareCheaper": 5.1,
+    "gapVsMedian": -1.72,
+    "otherProviders": 13,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUSTHA",
+   "source": "Australia",
+   "destination": "Thailand",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 2.23,
+    "variablePct": 0.617
+   },
+   "usd200": {
+    "wiseTotal": 1.68,
+    "otherMedian": 4.57,
+    "shareCheaper": 16.2,
+    "gapVsMedian": -2.87,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.04,
+    "otherMedian": 3.1,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.03,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUSVNM",
+   "source": "Australia",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "AUD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 2.45,
+    "variablePct": 0.715
+   },
+   "usd200": {
+    "wiseTotal": 1.96,
+    "otherMedian": 4.17,
+    "shareCheaper": 5.8,
+    "gapVsMedian": -2.33,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.22,
+    "otherMedian": 3.08,
+    "shareCheaper": 8.4,
+    "gapVsMedian": -1.91,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUTHRV",
+   "source": "Austria",
+   "destination": "Croatia",
+   "region": "..",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 0.95,
+    "variablePct": 0.0
+   },
+   "usd200": {
+    "wiseTotal": 0.68,
+    "otherMedian": 2.85,
+    "shareCheaper": 10.1,
+    "gapVsMedian": -2.15,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.28,
+    "otherMedian": 1.59,
+    "shareCheaper": 12.5,
+    "gapVsMedian": -1.08,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUTHUN",
+   "source": "Austria",
+   "destination": "Hungary",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.07,
+    "variablePct": 0.773
+   },
+   "usd200": {
+    "wiseTotal": 1.66,
+    "otherMedian": 4.13,
+    "shareCheaper": 25.0,
+    "gapVsMedian": -2.74,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.14,
+    "otherMedian": 2.54,
+    "shareCheaper": 21.9,
+    "gapVsMedian": -1.48,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUTKSV",
+   "source": "Austria",
+   "destination": "Kosovo",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 6.23,
+    "variablePct": 0.0
+   },
+   "usd200": {
+    "wiseTotal": 4.45,
+    "otherMedian": 3.92,
+    "shareCheaper": 50.0,
+    "gapVsMedian": 0.53,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.81,
+    "otherMedian": 1.97,
+    "shareCheaper": 44.4,
+    "gapVsMedian": -0.19,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "AUTTUR",
+   "source": "Austria",
+   "destination": "Türkiye",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 6.62,
+    "variablePct": 1.068
+   },
+   "usd200": {
+    "wiseTotal": 5.8,
+    "otherMedian": 3.76,
+    "shareCheaper": 82.0,
+    "gapVsMedian": 2.06,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.0,
+    "otherMedian": 2.31,
+    "shareCheaper": 67.5,
+    "gapVsMedian": 0.73,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "BELMAR",
+   "source": "Belgium",
+   "destination": "Morocco",
+   "region": "Middle East & North Africa",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 3.98,
+    "variablePct": 2.134
+   },
+   "usd200": {
+    "wiseTotal": 4.98,
+    "otherMedian": 3.96,
+    "shareCheaper": 75.6,
+    "gapVsMedian": 1.12,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.34,
+    "otherMedian": 2.96,
+    "shareCheaper": 67.0,
+    "gapVsMedian": 0.32,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "BELTUR",
+   "source": "Belgium",
+   "destination": "Türkiye",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 6.6,
+    "variablePct": 0.439
+   },
+   "usd200": {
+    "wiseTotal": 5.17,
+    "otherMedian": 4.18,
+    "shareCheaper": 64.3,
+    "gapVsMedian": 1.1,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.37,
+    "otherMedian": 3.36,
+    "shareCheaper": 39.6,
+    "gapVsMedian": -0.78,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CANGHA",
+   "source": "Canada",
+   "destination": "Ghana",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "CAD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 3.15,
+    "variablePct": 1.427
+   },
+   "usd200": {
+    "wiseTotal": 3.2,
+    "otherMedian": 6.02,
+    "shareCheaper": 12.5,
+    "gapVsMedian": -2.81,
+    "otherProviders": 6,
+    "quarters": 1
+   },
+   "usd500": {
+    "wiseTotal": 2.25,
+    "otherMedian": 4.72,
+    "shareCheaper": 6.2,
+    "gapVsMedian": -2.48,
+    "otherProviders": 6,
+    "quarters": 1
+   }
+  },
+  {
+   "corridor": "CANKEN",
+   "source": "Canada",
+   "destination": "Kenya",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "CAD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 3.1,
+    "variablePct": 1.163
+   },
+   "usd200": {
+    "wiseTotal": 2.81,
+    "otherMedian": 7.33,
+    "shareCheaper": 4.0,
+    "gapVsMedian": -4.52,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.88,
+    "otherMedian": 5.12,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -3.31,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CANLKA",
+   "source": "Canada",
+   "destination": "Sri Lanka",
+   "region": "South Asia",
+   "sendCurrency": "CAD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 4.06,
+    "variablePct": 0.767
+   },
+   "usd200": {
+    "wiseTotal": 2.81,
+    "otherMedian": 5.68,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.86,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.59,
+    "otherMedian": 4.2,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.72,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CANPAK",
+   "source": "Canada",
+   "destination": "Pakistan",
+   "region": "South Asia",
+   "sendCurrency": "CAD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 2.35,
+    "variablePct": 0.858
+   },
+   "usd200": {
+    "wiseTotal": 2.12,
+    "otherMedian": 4.3,
+    "shareCheaper": 14.3,
+    "gapVsMedian": -2.17,
+    "otherProviders": 5,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.42,
+    "otherMedian": 4.14,
+    "shareCheaper": 5.0,
+    "gapVsMedian": -2.57,
+    "otherProviders": 5,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CANPHL",
+   "source": "Canada",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "CAD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.82,
+    "variablePct": 0.992
+   },
+   "usd200": {
+    "wiseTotal": 1.92,
+    "otherMedian": 4.24,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.37,
+    "otherProviders": 12,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.34,
+    "otherMedian": 2.53,
+    "shareCheaper": 5.6,
+    "gapVsMedian": -1.22,
+    "otherProviders": 12,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CANVNM",
+   "source": "Canada",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "CAD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 2.72,
+    "variablePct": 1.007
+   },
+   "usd200": {
+    "wiseTotal": 2.42,
+    "otherMedian": 5.77,
+    "shareCheaper": 5.4,
+    "gapVsMedian": -3.38,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.56,
+    "otherMedian": 4.38,
+    "shareCheaper": 5.1,
+    "gapVsMedian": -2.8,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CHEHUN",
+   "source": "Switzerland",
+   "destination": "Hungary",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "CHF",
+   "lcuPerUsd": 0.8,
+   "illustrativeFee": {
+    "fixed": 1.12,
+    "variablePct": 3.425
+   },
+   "usd200": {
+    "wiseTotal": 4.12,
+    "otherMedian": 3.56,
+    "shareCheaper": 55.8,
+    "gapVsMedian": 0.09,
+    "otherProviders": 3,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.7,
+    "otherMedian": 1.95,
+    "shareCheaper": 72.5,
+    "gapVsMedian": 1.3,
+    "otherProviders": 3,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CHELKA",
+   "source": "Switzerland",
+   "destination": "Sri Lanka",
+   "region": "South Asia",
+   "sendCurrency": "CHF",
+   "lcuPerUsd": 0.8,
+   "illustrativeFee": {
+    "fixed": 3.01,
+    "variablePct": 3.158
+   },
+   "usd200": {
+    "wiseTotal": 5.07,
+    "otherMedian": 5.01,
+    "shareCheaper": 39.7,
+    "gapVsMedian": -0.32,
+    "otherProviders": 3,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.94,
+    "otherMedian": 3.94,
+    "shareCheaper": 39.7,
+    "gapVsMedian": -0.28,
+    "otherProviders": 3,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CZEUKR",
+   "source": "Czechia",
+   "destination": "Ukraine",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "CZK",
+   "lcuPerUsd": 19.0,
+   "illustrativeFee": {
+    "fixed": 9.11,
+    "variablePct": 0.958
+   },
+   "usd200": {
+    "wiseTotal": 2.06,
+    "otherMedian": 7.06,
+    "shareCheaper": 11.5,
+    "gapVsMedian": -4.93,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.92,
+    "otherMedian": 5.29,
+    "shareCheaper": 11.5,
+    "gapVsMedian": -3.3,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "CZEVNM",
+   "source": "Czechia",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "CZK",
+   "lcuPerUsd": 19.0,
+   "illustrativeFee": {
+    "fixed": 33.73,
+    "variablePct": 1.373
+   },
+   "usd200": {
+    "wiseTotal": 2.28,
+    "otherMedian": 8.8,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -6.63,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.75,
+    "otherMedian": 5.08,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -3.42,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "DEUBGR",
+   "source": "Germany",
+   "destination": "Bulgaria",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.57,
+    "variablePct": 1.339
+   },
+   "usd200": {
+    "wiseTotal": 2.46,
+    "otherMedian": 3.72,
+    "shareCheaper": 10.0,
+    "gapVsMedian": -1.39,
+    "otherProviders": 5,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.8,
+    "otherMedian": 2.5,
+    "shareCheaper": 10.0,
+    "gapVsMedian": -0.85,
+    "otherProviders": 5,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "DEUHUN",
+   "source": "Germany",
+   "destination": "Hungary",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 0.86,
+    "variablePct": 1.737
+   },
+   "usd200": {
+    "wiseTotal": 2.5,
+    "otherMedian": 7.84,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -5.62,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.14,
+    "otherMedian": 5.86,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -4.03,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "DEUKSV",
+   "source": "Germany",
+   "destination": "Kosovo",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 0.95,
+    "variablePct": 0.795
+   },
+   "usd200": {
+    "wiseTotal": 1.47,
+    "otherMedian": 4.99,
+    "shareCheaper": 9.1,
+    "gapVsMedian": -3.52,
+    "otherProviders": 6,
+    "quarters": 1
+   },
+   "usd500": {
+    "wiseTotal": 1.07,
+    "otherMedian": 2.61,
+    "shareCheaper": 9.1,
+    "gapVsMedian": -1.54,
+    "otherProviders": 6,
+    "quarters": 1
+   }
+  },
+  {
+   "corridor": "DEUMAR",
+   "source": "Germany",
+   "destination": "Morocco",
+   "region": "Middle East, North Africa, Afghanistan & Pakistan",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 4.01,
+    "variablePct": 2.815
+   },
+   "usd200": {
+    "wiseTotal": 5.7,
+    "otherMedian": 3.82,
+    "shareCheaper": 90.0,
+    "gapVsMedian": 1.88,
+    "otherProviders": 9,
+    "quarters": 1
+   },
+   "usd500": {
+    "wiseTotal": 4.0,
+    "otherMedian": 2.58,
+    "shareCheaper": 90.0,
+    "gapVsMedian": 1.42,
+    "otherProviders": 9,
+    "quarters": 1
+   }
+  },
+  {
+   "corridor": "DEUTUR",
+   "source": "Germany",
+   "destination": "Türkiye",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 6.62,
+    "variablePct": 1.398
+   },
+   "usd200": {
+    "wiseTotal": 6.12,
+    "otherMedian": 3.02,
+    "shareCheaper": 86.6,
+    "gapVsMedian": 3.1,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.31,
+    "otherMedian": 2.21,
+    "shareCheaper": 78.0,
+    "gapVsMedian": 1.11,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "DEUUKR",
+   "source": "Germany",
+   "destination": "Ukraine",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 0.77,
+    "variablePct": 1.522
+   },
+   "usd200": {
+    "wiseTotal": 2.74,
+    "otherMedian": 2.8,
+    "shareCheaper": 42.3,
+    "gapVsMedian": -0.08,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.42,
+    "otherMedian": 2.63,
+    "shareCheaper": 34.6,
+    "gapVsMedian": -0.34,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ESPBGR",
+   "source": "Spain",
+   "destination": "Bulgaria",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.57,
+    "variablePct": 1.49
+   },
+   "usd200": {
+    "wiseTotal": 2.72,
+    "otherMedian": 4.4,
+    "shareCheaper": 8.4,
+    "gapVsMedian": -1.82,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.06,
+    "otherMedian": 2.76,
+    "shareCheaper": 12.9,
+    "gapVsMedian": -0.8,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ESPBRA",
+   "source": "Spain",
+   "destination": "Brazil",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 0.91,
+    "variablePct": 1.907
+   },
+   "usd200": {
+    "wiseTotal": 2.49,
+    "otherMedian": 4.76,
+    "shareCheaper": 9.8,
+    "gapVsMedian": -2.25,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.11,
+    "otherMedian": 2.92,
+    "shareCheaper": 23.3,
+    "gapVsMedian": -0.65,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ESPCHN",
+   "source": "Spain",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 3.88,
+    "variablePct": 1.646
+   },
+   "usd200": {
+    "wiseTotal": 4.34,
+    "otherMedian": 5.76,
+    "shareCheaper": 18.2,
+    "gapVsMedian": -1.51,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.83,
+    "otherMedian": 4.69,
+    "shareCheaper": 29.1,
+    "gapVsMedian": -2.04,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ESPPHL",
+   "source": "Spain",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.16,
+    "variablePct": 1.676
+   },
+   "usd200": {
+    "wiseTotal": 2.49,
+    "otherMedian": 3.12,
+    "shareCheaper": 25.0,
+    "gapVsMedian": -0.64,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.0,
+    "otherMedian": 1.86,
+    "shareCheaper": 70.3,
+    "gapVsMedian": 0.17,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ESPROU",
+   "source": "Spain",
+   "destination": "Romania",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.38,
+    "variablePct": 1.115
+   },
+   "usd200": {
+    "wiseTotal": 2.11,
+    "otherMedian": 3.02,
+    "shareCheaper": 12.5,
+    "gapVsMedian": -1.0,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.52,
+    "otherMedian": 2.31,
+    "shareCheaper": 29.2,
+    "gapVsMedian": -0.66,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "FRACHN",
+   "source": "France",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 4.61,
+    "variablePct": 1.324
+   },
+   "usd200": {
+    "wiseTotal": 4.57,
+    "otherMedian": 5.0,
+    "shareCheaper": 43.8,
+    "gapVsMedian": -0.8,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.58,
+    "otherMedian": 3.77,
+    "shareCheaper": 44.1,
+    "gapVsMedian": -0.93,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "FRAIND",
+   "source": "France",
+   "destination": "India",
+   "region": "South Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.1,
+    "variablePct": 1.234
+   },
+   "usd200": {
+    "wiseTotal": 2.08,
+    "otherMedian": 5.06,
+    "shareCheaper": 26.8,
+    "gapVsMedian": -2.96,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.6,
+    "otherMedian": 3.25,
+    "shareCheaper": 35.7,
+    "gapVsMedian": -1.71,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "FRAMAR",
+   "source": "France",
+   "destination": "Morocco",
+   "region": "Middle East & North Africa",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 4.01,
+    "variablePct": 2.656
+   },
+   "usd200": {
+    "wiseTotal": 5.6,
+    "otherMedian": 3.82,
+    "shareCheaper": 87.5,
+    "gapVsMedian": 1.78,
+    "otherProviders": 11,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.9,
+    "otherMedian": 2.6,
+    "shareCheaper": 87.5,
+    "gapVsMedian": 1.3,
+    "otherProviders": 11,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "FRAVNM",
+   "source": "France",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.79,
+    "variablePct": 1.641
+   },
+   "usd200": {
+    "wiseTotal": 2.9,
+    "otherMedian": 2.92,
+    "shareCheaper": 26.7,
+    "gapVsMedian": -0.13,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.1,
+    "otherMedian": 1.55,
+    "shareCheaper": 57.4,
+    "gapVsMedian": 0.39,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRBGD",
+   "source": "United Kingdom",
+   "destination": "Bangladesh",
+   "region": "South Asia",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 2.42,
+    "variablePct": 1.225
+   },
+   "usd200": {
+    "wiseTotal": 5.69,
+    "otherMedian": 4.87,
+    "shareCheaper": 60.8,
+    "gapVsMedian": 1.18,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 4.56,
+    "otherMedian": 4.13,
+    "shareCheaper": 65.1,
+    "gapVsMedian": 0.68,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRBGR",
+   "source": "United Kingdom",
+   "destination": "Bulgaria",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.13,
+    "variablePct": 1.078
+   },
+   "usd200": {
+    "wiseTotal": 2.04,
+    "otherMedian": 6.48,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -4.46,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.46,
+    "otherMedian": 4.1,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.65,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRBRA",
+   "source": "United Kingdom",
+   "destination": "Brazil",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 0.55,
+    "variablePct": 1.456
+   },
+   "usd200": {
+    "wiseTotal": 1.9,
+    "otherMedian": 3.76,
+    "shareCheaper": 2.4,
+    "gapVsMedian": -1.88,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.64,
+    "otherMedian": 2.78,
+    "shareCheaper": 21.4,
+    "gapVsMedian": -1.18,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRCHN",
+   "source": "United Kingdom",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 3.6,
+    "variablePct": 1.225
+   },
+   "usd200": {
+    "wiseTotal": 3.94,
+    "otherMedian": 5.18,
+    "shareCheaper": 44.7,
+    "gapVsMedian": -1.21,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.24,
+    "otherMedian": 3.22,
+    "shareCheaper": 17.2,
+    "gapVsMedian": -0.99,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRGHA",
+   "source": "United Kingdom",
+   "destination": "Ghana",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.56,
+    "variablePct": 2.467
+   },
+   "usd200": {
+    "wiseTotal": 3.8,
+    "otherMedian": 1.34,
+    "shareCheaper": 71.9,
+    "gapVsMedian": 2.46,
+    "otherProviders": 11,
+    "quarters": 1
+   },
+   "usd500": {
+    "wiseTotal": 3.01,
+    "otherMedian": 1.34,
+    "shareCheaper": 71.9,
+    "gapVsMedian": 1.67,
+    "otherProviders": 11,
+    "quarters": 1
+   }
+  },
+  {
+   "corridor": "GBRIND",
+   "source": "United Kingdom",
+   "destination": "India",
+   "region": "South Asia",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 0.71,
+    "variablePct": 1.008
+   },
+   "usd200": {
+    "wiseTotal": 1.6,
+    "otherMedian": 2.49,
+    "shareCheaper": 20.7,
+    "gapVsMedian": -0.87,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.25,
+    "otherMedian": 1.45,
+    "shareCheaper": 33.8,
+    "gapVsMedian": -0.19,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRKEN",
+   "source": "United Kingdom",
+   "destination": "Kenya",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.35,
+    "variablePct": 1.55
+   },
+   "usd200": {
+    "wiseTotal": 2.79,
+    "otherMedian": 3.6,
+    "shareCheaper": 37.0,
+    "gapVsMedian": -0.93,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.1,
+    "otherMedian": 3.4,
+    "shareCheaper": 15.2,
+    "gapVsMedian": -1.31,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRLKA",
+   "source": "United Kingdom",
+   "destination": "Sri Lanka",
+   "region": "South Asia",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.93,
+    "variablePct": 1.008
+   },
+   "usd200": {
+    "wiseTotal": 2.65,
+    "otherMedian": 3.33,
+    "shareCheaper": 17.3,
+    "gapVsMedian": -0.68,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.68,
+    "otherMedian": 2.48,
+    "shareCheaper": 28.0,
+    "gapVsMedian": -0.8,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRNPL",
+   "source": "United Kingdom",
+   "destination": "Nepal",
+   "region": "South Asia",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.34,
+    "variablePct": 1.419
+   },
+   "usd200": {
+    "wiseTotal": 2.53,
+    "otherMedian": 2.49,
+    "shareCheaper": 43.9,
+    "gapVsMedian": -0.33,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.86,
+    "otherMedian": 1.94,
+    "shareCheaper": 32.3,
+    "gapVsMedian": -0.13,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRPAK",
+   "source": "United Kingdom",
+   "destination": "Pakistan",
+   "region": "South Asia",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.0,
+    "variablePct": 1.097
+   },
+   "usd200": {
+    "wiseTotal": 1.96,
+    "otherMedian": 1.34,
+    "shareCheaper": 53.8,
+    "gapVsMedian": 0.44,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.46,
+    "otherMedian": 0.97,
+    "shareCheaper": 71.6,
+    "gapVsMedian": 0.46,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRPHL",
+   "source": "United Kingdom",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 0.76,
+    "variablePct": 1.117
+   },
+   "usd200": {
+    "wiseTotal": 1.76,
+    "otherMedian": 3.7,
+    "shareCheaper": 18.0,
+    "gapVsMedian": -1.93,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.39,
+    "otherMedian": 1.99,
+    "shareCheaper": 16.4,
+    "gapVsMedian": -0.6,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRPOL",
+   "source": "United Kingdom",
+   "destination": "Poland",
+   "region": "..",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 0.82,
+    "variablePct": 0.897
+   },
+   "usd200": {
+    "wiseTotal": 1.62,
+    "otherMedian": 2.49,
+    "shareCheaper": 27.5,
+    "gapVsMedian": -0.88,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.2,
+    "otherMedian": 1.99,
+    "shareCheaper": 24.6,
+    "gapVsMedian": -0.8,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRROU",
+   "source": "United Kingdom",
+   "destination": "Romania",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 0.95,
+    "variablePct": 0.892
+   },
+   "usd200": {
+    "wiseTotal": 1.7,
+    "otherMedian": 3.22,
+    "shareCheaper": 23.3,
+    "gapVsMedian": -1.53,
+    "otherProviders": 5,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.22,
+    "otherMedian": 2.05,
+    "shareCheaper": 21.4,
+    "gapVsMedian": -0.84,
+    "otherProviders": 5,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRTHA",
+   "source": "United Kingdom",
+   "destination": "Thailand",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.18,
+    "variablePct": 1.097
+   },
+   "usd200": {
+    "wiseTotal": 2.1,
+    "otherMedian": 4.35,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.2,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.5,
+    "otherMedian": 3.38,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -1.86,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRTZA",
+   "source": "United Kingdom",
+   "destination": "Tanzania",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.18,
+    "variablePct": 2.067
+   },
+   "usd200": {
+    "wiseTotal": 3.13,
+    "otherMedian": 5.3,
+    "shareCheaper": 34.8,
+    "gapVsMedian": -1.62,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.54,
+    "otherMedian": 4.24,
+    "shareCheaper": 20.2,
+    "gapVsMedian": -1.44,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRUGA",
+   "source": "United Kingdom",
+   "destination": "Uganda",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.13,
+    "variablePct": 1.153
+   },
+   "usd200": {
+    "wiseTotal": 2.04,
+    "otherMedian": 4.42,
+    "shareCheaper": 17.8,
+    "gapVsMedian": -2.38,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.48,
+    "otherMedian": 3.92,
+    "shareCheaper": 10.0,
+    "gapVsMedian": -2.45,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRVNM",
+   "source": "United Kingdom",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 1.33,
+    "variablePct": 1.231
+   },
+   "usd200": {
+    "wiseTotal": 2.34,
+    "otherMedian": 5.08,
+    "shareCheaper": 12.5,
+    "gapVsMedian": -2.76,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.67,
+    "otherMedian": 2.75,
+    "shareCheaper": 12.5,
+    "gapVsMedian": -1.12,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "GBRZAF",
+   "source": "United Kingdom",
+   "destination": "South Africa",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "GBP",
+   "lcuPerUsd": 0.6,
+   "illustrativeFee": {
+    "fixed": 6.27,
+    "variablePct": 1.094
+   },
+   "usd200": {
+    "wiseTotal": 6.34,
+    "otherMedian": 5.98,
+    "shareCheaper": 52.3,
+    "gapVsMedian": 0.36,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.2,
+    "otherMedian": 4.43,
+    "shareCheaper": 31.8,
+    "gapVsMedian": -1.36,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITABGD",
+   "source": "Italy",
+   "destination": "Bangladesh",
+   "region": "South Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 3.76,
+    "variablePct": 1.485
+   },
+   "usd200": {
+    "wiseTotal": 7.57,
+    "otherMedian": 6.13,
+    "shareCheaper": 69.0,
+    "gapVsMedian": 1.46,
+    "otherProviders": 13,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 6.1,
+    "otherMedian": 5.06,
+    "shareCheaper": 68.2,
+    "gapVsMedian": 0.9,
+    "otherProviders": 13,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITABRA",
+   "source": "Italy",
+   "destination": "Brazil",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 0.91,
+    "variablePct": 1.678
+   },
+   "usd200": {
+    "wiseTotal": 2.37,
+    "otherMedian": 5.62,
+    "shareCheaper": 7.5,
+    "gapVsMedian": -3.22,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.96,
+    "otherMedian": 4.59,
+    "shareCheaper": 12.5,
+    "gapVsMedian": -2.59,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITACHN",
+   "source": "Italy",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 4.61,
+    "variablePct": 1.324
+   },
+   "usd200": {
+    "wiseTotal": 4.47,
+    "otherMedian": 4.96,
+    "shareCheaper": 45.5,
+    "gapVsMedian": -0.53,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.58,
+    "otherMedian": 3.76,
+    "shareCheaper": 27.3,
+    "gapVsMedian": -1.07,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITAEGY",
+   "source": "Italy",
+   "destination": "Egypt, Arab Rep.",
+   "region": "Middle East & North Africa",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 7.26,
+    "variablePct": 1.576
+   },
+   "usd200": {
+    "wiseTotal": 6.94,
+    "otherMedian": 7.75,
+    "shareCheaper": 46.3,
+    "gapVsMedian": -0.95,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.87,
+    "otherMedian": 6.59,
+    "shareCheaper": 38.6,
+    "gapVsMedian": -2.91,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITALKA",
+   "source": "Italy",
+   "destination": "Sri Lanka",
+   "region": "South Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 2.5,
+    "variablePct": 1.234
+   },
+   "usd200": {
+    "wiseTotal": 3.08,
+    "otherMedian": 4.38,
+    "shareCheaper": 36.6,
+    "gapVsMedian": -1.26,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.0,
+    "otherMedian": 3.22,
+    "shareCheaper": 23.0,
+    "gapVsMedian": -1.18,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITAMAR",
+   "source": "Italy",
+   "destination": "Morocco",
+   "region": "Middle East & North Africa",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 4.01,
+    "variablePct": 2.656
+   },
+   "usd200": {
+    "wiseTotal": 5.6,
+    "otherMedian": 4.45,
+    "shareCheaper": 65.1,
+    "gapVsMedian": 1.17,
+    "otherProviders": 13,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.9,
+    "otherMedian": 3.06,
+    "shareCheaper": 60.2,
+    "gapVsMedian": 0.86,
+    "otherProviders": 13,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITAPHL",
+   "source": "Italy",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.16,
+    "variablePct": 1.341
+   },
+   "usd200": {
+    "wiseTotal": 2.22,
+    "otherMedian": 3.39,
+    "shareCheaper": 20.5,
+    "gapVsMedian": -1.12,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.7,
+    "otherMedian": 1.84,
+    "shareCheaper": 49.1,
+    "gapVsMedian": -0.08,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITAROU",
+   "source": "Italy",
+   "destination": "Romania",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.38,
+    "variablePct": 1.115
+   },
+   "usd200": {
+    "wiseTotal": 2.13,
+    "otherMedian": 4.41,
+    "shareCheaper": 19.6,
+    "gapVsMedian": -2.44,
+    "otherProviders": 12,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.52,
+    "otherMedian": 2.37,
+    "shareCheaper": 27.6,
+    "gapVsMedian": -0.99,
+    "otherProviders": 12,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "ITAUKR",
+   "source": "Italy",
+   "destination": "Ukraine",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 0.77,
+    "variablePct": 1.129
+   },
+   "usd200": {
+    "wiseTotal": 2.46,
+    "otherMedian": 6.04,
+    "shareCheaper": 10.5,
+    "gapVsMedian": -3.36,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.13,
+    "otherMedian": 4.35,
+    "shareCheaper": 22.9,
+    "gapVsMedian": -2.32,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "JPNBRA",
+   "source": "Japan",
+   "destination": "Brazil",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "JPY",
+   "lcuPerUsd": 85.0,
+   "illustrativeFee": {
+    "fixed": 177.87,
+    "variablePct": 1.188
+   },
+   "usd200": {
+    "wiseTotal": 2.22,
+    "otherMedian": 7.48,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -5.17,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.6,
+    "otherMedian": 4.95,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -3.01,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "JPNIDN",
+   "source": "Japan",
+   "destination": "Indonesia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "JPY",
+   "lcuPerUsd": 85.0,
+   "illustrativeFee": {
+    "fixed": 207.78,
+    "variablePct": 0.736
+   },
+   "usd200": {
+    "wiseTotal": 1.96,
+    "otherMedian": 5.32,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -3.28,
+    "otherProviders": 11,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.25,
+    "otherMedian": 2.53,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -1.21,
+    "otherProviders": 11,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "JPNIND",
+   "source": "Japan",
+   "destination": "India",
+   "region": "South Asia",
+   "sendCurrency": "JPY",
+   "lcuPerUsd": 85.0,
+   "illustrativeFee": {
+    "fixed": 200.94,
+    "variablePct": 3.91
+   },
+   "usd200": {
+    "wiseTotal": 5.1,
+    "otherMedian": 6.22,
+    "shareCheaper": 27.5,
+    "gapVsMedian": -1.14,
+    "otherProviders": 11,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 4.39,
+    "otherMedian": 4.2,
+    "shareCheaper": 51.1,
+    "gapVsMedian": 0.17,
+    "otherProviders": 11,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "JPNPHL",
+   "source": "Japan",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "JPY",
+   "lcuPerUsd": 85.0,
+   "illustrativeFee": {
+    "fixed": 238.01,
+    "variablePct": 0.843
+   },
+   "usd200": {
+    "wiseTotal": 2.15,
+    "otherMedian": 5.98,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -3.81,
+    "otherProviders": 14,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.41,
+    "otherMedian": 4.06,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.62,
+    "otherProviders": 14,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "JPNTHA",
+   "source": "Japan",
+   "destination": "Thailand",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "JPY",
+   "lcuPerUsd": 85.0,
+   "illustrativeFee": {
+    "fixed": 281.0,
+    "variablePct": 0.825
+   },
+   "usd200": {
+    "wiseTotal": 2.46,
+    "otherMedian": 6.61,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -4.15,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.48,
+    "otherMedian": 3.92,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.4,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "JPNVNM",
+   "source": "Japan",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "JPY",
+   "lcuPerUsd": 85.0,
+   "illustrativeFee": {
+    "fixed": 301.37,
+    "variablePct": 0.977
+   },
+   "usd200": {
+    "wiseTotal": 2.76,
+    "otherMedian": 2.96,
+    "shareCheaper": 26.5,
+    "gapVsMedian": -0.29,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.7,
+    "otherMedian": 1.91,
+    "shareCheaper": 23.5,
+    "gapVsMedian": -0.24,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "MYSBGD",
+   "source": "Malaysia",
+   "destination": "Bangladesh",
+   "region": "South Asia",
+   "sendCurrency": "MYR",
+   "lcuPerUsd": 3.05,
+   "illustrativeFee": {
+    "fixed": 18.55,
+    "variablePct": 0.922
+   },
+   "usd200": {
+    "wiseTotal": 7.44,
+    "otherMedian": 6.13,
+    "shareCheaper": 70.9,
+    "gapVsMedian": 1.57,
+    "otherProviders": 17,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 5.74,
+    "otherMedian": 5.19,
+    "shareCheaper": 65.4,
+    "gapVsMedian": 0.68,
+    "otherProviders": 17,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "MYSCHN",
+   "source": "Malaysia",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "MYR",
+   "lcuPerUsd": 3.05,
+   "illustrativeFee": {
+    "fixed": 19.31,
+    "variablePct": 0.953
+   },
+   "usd200": {
+    "wiseTotal": 4.2,
+    "otherMedian": 4.2,
+    "shareCheaper": 52.3,
+    "gapVsMedian": 0.32,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.28,
+    "otherMedian": 2.82,
+    "shareCheaper": 38.2,
+    "gapVsMedian": -0.42,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "MYSIDN",
+   "source": "Malaysia",
+   "destination": "Indonesia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "MYR",
+   "lcuPerUsd": 3.05,
+   "illustrativeFee": {
+    "fixed": 5.13,
+    "variablePct": 0.705
+   },
+   "usd200": {
+    "wiseTotal": 1.56,
+    "otherMedian": 3.88,
+    "shareCheaper": 1.2,
+    "gapVsMedian": -2.32,
+    "otherProviders": 22,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.06,
+    "otherMedian": 2.49,
+    "shareCheaper": 2.3,
+    "gapVsMedian": -1.44,
+    "otherProviders": 22,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "MYSIND",
+   "source": "Malaysia",
+   "destination": "India",
+   "region": "South Asia",
+   "sendCurrency": "MYR",
+   "lcuPerUsd": 3.05,
+   "illustrativeFee": {
+    "fixed": 4.96,
+    "variablePct": 0.706
+   },
+   "usd200": {
+    "wiseTotal": 1.53,
+    "otherMedian": 2.41,
+    "shareCheaper": 5.0,
+    "gapVsMedian": -0.86,
+    "otherProviders": 12,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.04,
+    "otherMedian": 1.28,
+    "shareCheaper": 36.5,
+    "gapVsMedian": -0.22,
+    "otherProviders": 12,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "MYSNPL",
+   "source": "Malaysia",
+   "destination": "Nepal",
+   "region": "South Asia",
+   "sendCurrency": "MYR",
+   "lcuPerUsd": 3.05,
+   "illustrativeFee": {
+    "fixed": 8.71,
+    "variablePct": 1.227
+   },
+   "usd200": {
+    "wiseTotal": 2.66,
+    "otherMedian": 2.45,
+    "shareCheaper": 61.3,
+    "gapVsMedian": 0.29,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.81,
+    "otherMedian": 1.6,
+    "shareCheaper": 54.7,
+    "gapVsMedian": 0.29,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "MYSPHL",
+   "source": "Malaysia",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "MYR",
+   "lcuPerUsd": 3.05,
+   "illustrativeFee": {
+    "fixed": 6.27,
+    "variablePct": 0.814
+   },
+   "usd200": {
+    "wiseTotal": 1.78,
+    "otherMedian": 2.76,
+    "shareCheaper": 11.7,
+    "gapVsMedian": -0.98,
+    "otherProviders": 18,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.2,
+    "otherMedian": 1.62,
+    "shareCheaper": 24.3,
+    "gapVsMedian": -0.46,
+    "otherProviders": 18,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "MYSTHA",
+   "source": "Malaysia",
+   "destination": "Thailand",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "MYR",
+   "lcuPerUsd": 3.05,
+   "illustrativeFee": {
+    "fixed": 7.83,
+    "variablePct": 0.795
+   },
+   "usd200": {
+    "wiseTotal": 2.08,
+    "otherMedian": 3.95,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -1.85,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.31,
+    "otherMedian": 2.62,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -1.39,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "MYSVNM",
+   "source": "Malaysia",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "MYR",
+   "lcuPerUsd": 3.05,
+   "illustrativeFee": {
+    "fixed": 8.66,
+    "variablePct": 0.915
+   },
+   "usd200": {
+    "wiseTotal": 2.33,
+    "otherMedian": 2.96,
+    "shareCheaper": 6.5,
+    "gapVsMedian": -0.66,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.48,
+    "otherMedian": 2.2,
+    "shareCheaper": 21.9,
+    "gapVsMedian": -0.73,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "NLDIDN",
+   "source": "Netherlands",
+   "destination": "Indonesia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 1.11,
+    "variablePct": 1.566
+   },
+   "usd200": {
+    "wiseTotal": 2.38,
+    "otherMedian": 9.2,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -6.84,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.9,
+    "otherMedian": 6.08,
+    "shareCheaper": 5.6,
+    "gapVsMedian": -4.19,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "NLDMAR",
+   "source": "Netherlands",
+   "destination": "Morocco",
+   "region": "Middle East & North Africa",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 4.01,
+    "variablePct": 2.983
+   },
+   "usd200": {
+    "wiseTotal": 5.89,
+    "otherMedian": 4.32,
+    "shareCheaper": 80.4,
+    "gapVsMedian": 1.58,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 4.19,
+    "otherMedian": 3.42,
+    "shareCheaper": 86.3,
+    "gapVsMedian": 0.77,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "NLDTUR",
+   "source": "Netherlands",
+   "destination": "Türkiye",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 6.62,
+    "variablePct": 1.112
+   },
+   "usd200": {
+    "wiseTotal": 5.8,
+    "otherMedian": 4.46,
+    "shareCheaper": 58.6,
+    "gapVsMedian": 1.53,
+    "otherProviders": 5,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.0,
+    "otherMedian": 3.48,
+    "shareCheaper": 32.1,
+    "gapVsMedian": -0.44,
+    "otherProviders": 5,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "NORPAK",
+   "source": "Norway",
+   "destination": "Pakistan",
+   "region": "South Asia",
+   "sendCurrency": "NOK",
+   "lcuPerUsd": 6.2,
+   "illustrativeFee": {
+    "fixed": 9.39,
+    "variablePct": 0.675
+   },
+   "usd200": {
+    "wiseTotal": 1.46,
+    "otherMedian": 1.84,
+    "shareCheaper": 39.9,
+    "gapVsMedian": -0.42,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.0,
+    "otherMedian": 1.87,
+    "shareCheaper": 15.9,
+    "gapVsMedian": -0.78,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "NORPOL",
+   "source": "Norway",
+   "destination": "Poland",
+   "region": "..",
+   "sendCurrency": "NOK",
+   "lcuPerUsd": 6.2,
+   "illustrativeFee": {
+    "fixed": 7.15,
+    "variablePct": 0.478
+   },
+   "usd200": {
+    "wiseTotal": 1.06,
+    "otherMedian": 3.86,
+    "shareCheaper": 5.2,
+    "gapVsMedian": -2.82,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.72,
+    "otherMedian": 2.88,
+    "shareCheaper": 5.3,
+    "gapVsMedian": -2.18,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "NZLCHN",
+   "source": "New Zealand",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "NZD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 7.42,
+    "variablePct": 1.946
+   },
+   "usd200": {
+    "wiseTotal": 4.82,
+    "otherMedian": 4.63,
+    "shareCheaper": 51.6,
+    "gapVsMedian": 0.14,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.1,
+    "otherMedian": 3.3,
+    "shareCheaper": 45.0,
+    "gapVsMedian": -0.19,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "NZLPHL",
+   "source": "New Zealand",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "NZD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 1.42,
+    "variablePct": 0.518
+   },
+   "usd200": {
+    "wiseTotal": 1.14,
+    "otherMedian": 3.68,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.58,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.8,
+    "otherMedian": 2.35,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -1.63,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "NZLVNM",
+   "source": "New Zealand",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "NZD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 2.27,
+    "variablePct": 0.595
+   },
+   "usd200": {
+    "wiseTotal": 1.48,
+    "otherMedian": 6.67,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -4.89,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.96,
+    "otherMedian": 5.34,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -4.15,
+    "otherProviders": 10,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "POLUKR",
+   "source": "Poland",
+   "destination": "Ukraine",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "PLN",
+   "lcuPerUsd": 4.3,
+   "illustrativeFee": {
+    "fixed": 1.94,
+    "variablePct": 1.403
+   },
+   "usd200": {
+    "wiseTotal": 2.48,
+    "otherMedian": 3.24,
+    "shareCheaper": 24.6,
+    "gapVsMedian": -1.0,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.34,
+    "otherMedian": 2.59,
+    "shareCheaper": 37.5,
+    "gapVsMedian": -0.46,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "PRTBRA",
+   "source": "Portugal",
+   "destination": "Brazil",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "EUR",
+   "lcuPerUsd": 0.7,
+   "illustrativeFee": {
+    "fixed": 0.92,
+    "variablePct": 1.051
+   },
+   "usd200": {
+    "wiseTotal": 1.7,
+    "otherMedian": 7.02,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -5.05,
+    "otherProviders": 2,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.32,
+    "otherMedian": 5.08,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -3.76,
+    "otherProviders": 2,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPBGD",
+   "source": "Singapore",
+   "destination": "Bangladesh",
+   "region": "South Asia",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 4.16,
+    "variablePct": 0.617
+   },
+   "usd200": {
+    "wiseTotal": 5.62,
+    "otherMedian": 5.54,
+    "shareCheaper": 57.7,
+    "gapVsMedian": 0.15,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 4.67,
+    "otherMedian": 4.63,
+    "shareCheaper": 50.0,
+    "gapVsMedian": 0.02,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPCHN",
+   "source": "Singapore",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 5.07,
+    "variablePct": 0.617
+   },
+   "usd200": {
+    "wiseTotal": 2.64,
+    "otherMedian": 3.98,
+    "shareCheaper": 31.0,
+    "gapVsMedian": -1.34,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.47,
+    "otherMedian": 3.57,
+    "shareCheaper": 25.8,
+    "gapVsMedian": -2.18,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPIDN",
+   "source": "Singapore",
+   "destination": "Indonesia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 1.11,
+    "variablePct": 0.4
+   },
+   "usd200": {
+    "wiseTotal": 0.81,
+    "otherMedian": 2.92,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -2.32,
+    "otherProviders": 17,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.56,
+    "otherMedian": 2.07,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -1.51,
+    "otherProviders": 17,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPIND",
+   "source": "Singapore",
+   "destination": "India",
+   "region": "South Asia",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 1.11,
+    "variablePct": 0.399
+   },
+   "usd200": {
+    "wiseTotal": 0.83,
+    "otherMedian": 2.67,
+    "shareCheaper": 12.6,
+    "gapVsMedian": -1.85,
+    "otherProviders": 14,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.57,
+    "otherMedian": 1.7,
+    "shareCheaper": 5.6,
+    "gapVsMedian": -1.14,
+    "otherProviders": 14,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPLKA",
+   "source": "Singapore",
+   "destination": "Sri Lanka",
+   "region": "South Asia",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 3.31,
+    "variablePct": 0.4
+   },
+   "usd200": {
+    "wiseTotal": 1.69,
+    "otherMedian": 3.66,
+    "shareCheaper": 13.6,
+    "gapVsMedian": -1.94,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.94,
+    "otherMedian": 2.72,
+    "shareCheaper": 10.2,
+    "gapVsMedian": -1.76,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPMYS",
+   "source": "Singapore",
+   "destination": "Malaysia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 0.87,
+    "variablePct": 0.309
+   },
+   "usd200": {
+    "wiseTotal": 0.7,
+    "otherMedian": 3.44,
+    "shareCheaper": 1.7,
+    "gapVsMedian": -2.68,
+    "otherProviders": 18,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.48,
+    "otherMedian": 2.33,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -1.86,
+    "otherProviders": 18,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPPAK",
+   "source": "Singapore",
+   "destination": "Pakistan",
+   "region": "South Asia",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 1.64,
+    "variablePct": 0.488
+   },
+   "usd200": {
+    "wiseTotal": 1.0,
+    "otherMedian": 1.44,
+    "shareCheaper": 20.8,
+    "gapVsMedian": -0.44,
+    "otherProviders": 3,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.64,
+    "otherMedian": 1.44,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -0.8,
+    "otherProviders": 3,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPPHL",
+   "source": "Singapore",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 1.17,
+    "variablePct": 0.508
+   },
+   "usd200": {
+    "wiseTotal": 0.94,
+    "otherMedian": 2.67,
+    "shareCheaper": 2.8,
+    "gapVsMedian": -1.72,
+    "otherProviders": 18,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.7,
+    "otherMedian": 1.61,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -0.93,
+    "otherProviders": 18,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SGPTHA",
+   "source": "Singapore",
+   "destination": "Thailand",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "SGD",
+   "lcuPerUsd": 1.3,
+   "illustrativeFee": {
+    "fixed": 1.94,
+    "variablePct": 0.488
+   },
+   "usd200": {
+    "wiseTotal": 1.14,
+    "otherMedian": 4.34,
+    "shareCheaper": 2.8,
+    "gapVsMedian": -3.22,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 0.7,
+    "otherMedian": 3.83,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -3.04,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "SWECHN",
+   "source": "Sweden",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "SEK",
+   "lcuPerUsd": 8.5,
+   "illustrativeFee": {
+    "fixed": 30.2,
+    "variablePct": 1.902
+   },
+   "usd200": {
+    "wiseTotal": 3.69,
+    "otherMedian": 6.73,
+    "shareCheaper": 28.6,
+    "gapVsMedian": -3.04,
+    "otherProviders": 6,
+    "quarters": 1
+   },
+   "usd500": {
+    "wiseTotal": 2.61,
+    "otherMedian": 5.31,
+    "shareCheaper": 28.6,
+    "gapVsMedian": -2.7,
+    "otherProviders": 6,
+    "quarters": 1
+   }
+  },
+  {
+   "corridor": "SWEIND",
+   "source": "Sweden",
+   "destination": "India",
+   "region": "South Asia",
+   "sendCurrency": "SEK",
+   "lcuPerUsd": 8.5,
+   "illustrativeFee": {
+    "fixed": 8.76,
+    "variablePct": 1.688
+   },
+   "usd200": {
+    "wiseTotal": 2.2,
+    "otherMedian": 2.96,
+    "shareCheaper": 9.1,
+    "gapVsMedian": -0.76,
+    "otherProviders": 8,
+    "quarters": 1
+   },
+   "usd500": {
+    "wiseTotal": 1.89,
+    "otherMedian": 2.17,
+    "shareCheaper": 36.4,
+    "gapVsMedian": -0.28,
+    "otherProviders": 8,
+    "quarters": 1
+   }
+  },
+  {
+   "corridor": "TURBGR",
+   "source": "Türkiye",
+   "destination": "Bulgaria",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "TRY",
+   "lcuPerUsd": 2.85,
+   "illustrativeFee": {
+    "fixed": 146.7,
+    "variablePct": 0.557
+   },
+   "usd200": {
+    "wiseTotal": 26.38,
+    "otherMedian": 66.24,
+    "shareCheaper": 35.8,
+    "gapVsMedian": -39.87,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 11.12,
+    "otherMedian": 27.83,
+    "shareCheaper": 30.8,
+    "gapVsMedian": -16.71,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USABGD",
+   "source": "United States",
+   "destination": "Bangladesh",
+   "region": "South Asia",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 3.91,
+    "variablePct": 1.96
+   },
+   "usd200": {
+    "wiseTotal": 7.66,
+    "otherMedian": 7.5,
+    "shareCheaper": 61.1,
+    "gapVsMedian": 1.19,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 6.62,
+    "otherMedian": 6.14,
+    "shareCheaper": 61.1,
+    "gapVsMedian": 0.5,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USABRA",
+   "source": "United States",
+   "destination": "Brazil",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 3.88,
+    "variablePct": 0.988
+   },
+   "usd200": {
+    "wiseTotal": 2.94,
+    "otherMedian": 5.99,
+    "shareCheaper": 9.0,
+    "gapVsMedian": -2.85,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.76,
+    "otherMedian": 4.5,
+    "shareCheaper": 3.5,
+    "gapVsMedian": -2.79,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USACHN",
+   "source": "United States",
+   "destination": "China",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 4.79,
+    "variablePct": 1.93
+   },
+   "usd200": {
+    "wiseTotal": 3.92,
+    "otherMedian": 5.32,
+    "shareCheaper": 34.2,
+    "gapVsMedian": -0.49,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.7,
+    "otherMedian": 3.22,
+    "shareCheaper": 36.8,
+    "gapVsMedian": -0.53,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USACOL",
+   "source": "United States",
+   "destination": "Colombia",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 2.5,
+    "variablePct": 3.243
+   },
+   "usd200": {
+    "wiseTotal": 5.5,
+    "otherMedian": 5.3,
+    "shareCheaper": 60.4,
+    "gapVsMedian": 0.56,
+    "otherProviders": 14,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.88,
+    "otherMedian": 4.13,
+    "shareCheaper": 44.4,
+    "gapVsMedian": -0.21,
+    "otherProviders": 14,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USACRI",
+   "source": "United States",
+   "destination": "Costa Rica",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 5.93,
+    "variablePct": 2.585
+   },
+   "usd200": {
+    "wiseTotal": 6.42,
+    "otherMedian": 6.38,
+    "shareCheaper": 66.7,
+    "gapVsMedian": 0.37,
+    "otherProviders": 7,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.85,
+    "otherMedian": 4.46,
+    "shareCheaper": 42.3,
+    "gapVsMedian": -0.75,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAEGY",
+   "source": "United States",
+   "destination": "Egypt, Arab Rep.",
+   "region": "Middle East & North Africa",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 7.67,
+    "variablePct": 2.057
+   },
+   "usd200": {
+    "wiseTotal": 6.82,
+    "otherMedian": 4.6,
+    "shareCheaper": 85.6,
+    "gapVsMedian": 2.31,
+    "otherProviders": 4,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.62,
+    "otherMedian": 3.24,
+    "shareCheaper": 53.6,
+    "gapVsMedian": 0.4,
+    "otherProviders": 4,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAIDN",
+   "source": "United States",
+   "destination": "Indonesia",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 4.18,
+    "variablePct": 0.543
+   },
+   "usd200": {
+    "wiseTotal": 2.45,
+    "otherMedian": 5.85,
+    "shareCheaper": 2.1,
+    "gapVsMedian": -3.3,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.16,
+    "otherMedian": 4.6,
+    "shareCheaper": 0.0,
+    "gapVsMedian": -3.1,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAIND",
+   "source": "United States",
+   "destination": "India",
+   "region": "South Asia",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.06,
+    "variablePct": 1.747
+   },
+   "usd200": {
+    "wiseTotal": 3.15,
+    "otherMedian": 3.64,
+    "shareCheaper": 39.3,
+    "gapVsMedian": -0.25,
+    "otherProviders": 12,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 1.96,
+    "otherMedian": 2.54,
+    "shareCheaper": 39.8,
+    "gapVsMedian": -0.58,
+    "otherProviders": 12,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAKEN",
+   "source": "United States",
+   "destination": "Kenya",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 5.19,
+    "variablePct": 1.088
+   },
+   "usd200": {
+    "wiseTotal": 3.7,
+    "otherMedian": 5.61,
+    "shareCheaper": 34.3,
+    "gapVsMedian": -1.63,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.14,
+    "otherMedian": 4.58,
+    "shareCheaper": 16.3,
+    "gapVsMedian": -2.36,
+    "otherProviders": 8,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAMEX",
+   "source": "United States",
+   "destination": "Mexico",
+   "region": "Latin America & Caribbean",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.02,
+    "variablePct": 1.838
+   },
+   "usd200": {
+    "wiseTotal": 3.22,
+    "otherMedian": 4.83,
+    "shareCheaper": 19.9,
+    "gapVsMedian": -1.59,
+    "otherProviders": 13,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.06,
+    "otherMedian": 2.93,
+    "shareCheaper": 15.7,
+    "gapVsMedian": -0.87,
+    "otherProviders": 13,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USANPL",
+   "source": "United States",
+   "destination": "Nepal",
+   "region": "South Asia",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.78,
+    "variablePct": 2.203
+   },
+   "usd200": {
+    "wiseTotal": 3.82,
+    "otherMedian": 5.22,
+    "shareCheaper": 28.4,
+    "gapVsMedian": -1.34,
+    "otherProviders": 9,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.48,
+    "otherMedian": 3.86,
+    "shareCheaper": 26.7,
+    "gapVsMedian": -1.64,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAPAK",
+   "source": "United States",
+   "destination": "Pakistan",
+   "region": "South Asia",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.43,
+    "variablePct": 1.828
+   },
+   "usd200": {
+    "wiseTotal": 3.44,
+    "otherMedian": 3.82,
+    "shareCheaper": 46.3,
+    "gapVsMedian": -0.47,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.19,
+    "otherMedian": 2.83,
+    "shareCheaper": 38.9,
+    "gapVsMedian": -0.64,
+    "otherProviders": 5,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAPHL",
+   "source": "United States",
+   "destination": "Philippines",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 7.18,
+    "variablePct": 0.567
+   },
+   "usd200": {
+    "wiseTotal": 4.16,
+    "otherMedian": 4.81,
+    "shareCheaper": 36.7,
+    "gapVsMedian": -0.89,
+    "otherProviders": 13,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.0,
+    "otherMedian": 3.24,
+    "shareCheaper": 21.5,
+    "gapVsMedian": -1.39,
+    "otherProviders": 13,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USATHA",
+   "source": "United States",
+   "destination": "Thailand",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.64,
+    "variablePct": 1.828
+   },
+   "usd200": {
+    "wiseTotal": 3.56,
+    "otherMedian": 6.9,
+    "shareCheaper": 15.6,
+    "gapVsMedian": -3.48,
+    "otherProviders": 10,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.16,
+    "otherMedian": 5.96,
+    "shareCheaper": 22.7,
+    "gapVsMedian": -3.82,
+    "otherProviders": 9,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAUKR",
+   "source": "United States",
+   "destination": "Ukraine",
+   "region": "Europe & Central Asia",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 0.69,
+    "variablePct": 1.7
+   },
+   "usd200": {
+    "wiseTotal": 3.75,
+    "otherMedian": 3.96,
+    "shareCheaper": 54.8,
+    "gapVsMedian": -0.12,
+    "otherProviders": 6,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.43,
+    "otherMedian": 3.96,
+    "shareCheaper": 16.7,
+    "gapVsMedian": -1.58,
+    "otherProviders": 6,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAVNM",
+   "source": "United States",
+   "destination": "Vietnam",
+   "region": "East Asia & Pacific",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 1.81,
+    "variablePct": 1.92
+   },
+   "usd200": {
+    "wiseTotal": 3.7,
+    "otherMedian": 5.97,
+    "shareCheaper": 22.1,
+    "gapVsMedian": -2.27,
+    "otherProviders": 8,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 2.28,
+    "otherMedian": 3.3,
+    "shareCheaper": 25.6,
+    "gapVsMedian": -1.0,
+    "otherProviders": 7,
+    "quarters": 4
+   }
+  },
+  {
+   "corridor": "USAZAF",
+   "source": "United States",
+   "destination": "South Africa",
+   "region": "Sub-Saharan Africa",
+   "sendCurrency": "USD",
+   "lcuPerUsd": 1.0,
+   "illustrativeFee": {
+    "fixed": 8.42,
+    "variablePct": 1.805
+   },
+   "usd200": {
+    "wiseTotal": 6.92,
+    "otherMedian": 7.2,
+    "shareCheaper": 56.7,
+    "gapVsMedian": 0.45,
+    "otherProviders": 5,
+    "quarters": 4
+   },
+   "usd500": {
+    "wiseTotal": 3.49,
+    "otherMedian": 6.46,
+    "shareCheaper": 16.9,
+    "gapVsMedian": -2.93,
+    "otherProviders": 5,
+    "quarters": 4
+   }
+  }
+ ]
+}
